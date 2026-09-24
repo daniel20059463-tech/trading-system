@@ -74,17 +74,22 @@ def promotion_decision(pairs):
     frame = pd.DataFrame(pairs)
     days = sorted(frame["date"].unique())[-REVIEW_GATE["lookback_days"]:]
     frame = frame[frame["date"].isin(days)]
+    complete = frame.groupby("date")["ticker"].nunique()
+    complete_days = set(complete[complete >= REVIEW_GATE["min_tickers_per_day"]].index)
+    frame = frame[frame["date"].isin(complete_days)]
+    if frame.empty:
+        return {"approved": False, "n": 0, "days": 0, "complete_days": 0,
+                "reason": "尚無完整股票集合的盤前並排實盤樣本"}
     interval = frame[frame["new_covered80"].notna()]
     n, distinct = len(frame), frame["date"].nunique()
-    complete_days = int((frame.groupby("date")["ticker"].nunique() >=
-                         REVIEW_GATE["min_tickers_per_day"]).sum())
+    complete_day_count = int(distinct)
     coverage = float(interval["new_covered80"].astype(float).mean()) if len(interval) else None
     grouped = frame.groupby("date")[["new_mae", "old_mae", "zero_mae"]].mean()
     advantages = grouped[["old_mae", "zero_mae"]].min(axis=1) - grouped["new_mae"]
     day_win_rate = float((advantages > 0).mean())
     leave_one_out = float(min(advantages.drop(day).mean() for day in advantages.index)) if len(advantages) > 1 else None
     approved = bool(n >= REVIEW_GATE["min_pairs"] and distinct >= REVIEW_GATE["min_days"] and
-                    complete_days >= REVIEW_GATE["min_complete_days"] and
+                    complete_day_count >= REVIEW_GATE["min_complete_days"] and
                     frame["new_correct"].mean() >= max(REVIEW_GATE["min_direction"], frame["old_correct"].mean()) and
                     frame["new_mae"].mean() <= (1 - REVIEW_GATE["min_mae_improvement"]) * min(
                         frame["old_mae"].mean(), frame["zero_mae"].mean()) and
@@ -92,7 +97,7 @@ def promotion_decision(pairs):
                     leave_one_out > REVIEW_GATE["min_leave_one_day_out_advantage_pp"] and
                     len(interval) >= REVIEW_GATE["min_interval_pairs"] and
                     REVIEW_GATE["coverage80_min"] <= coverage <= REVIEW_GATE["coverage80_max"])
-    return {"approved": approved, "n": n, "days": int(distinct), "complete_days": complete_days,
+    return {"approved": approved, "n": n, "days": int(distinct), "complete_days": complete_day_count,
             "new_mae": float(frame["new_mae"].mean()), "old_mae": float(frame["old_mae"].mean()),
             "zero_mae": float(frame["zero_mae"].mean()), "coverage80": coverage,
             "day_win_rate": day_win_rate, "leave_one_day_out_worst_advantage_pp": leave_one_out,

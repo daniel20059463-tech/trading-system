@@ -61,6 +61,20 @@ class DailyRetrainTests(unittest.TestCase):
         self.assertGreaterEqual(decision['day_win_rate'], .6)
         self.assertLessEqual(decision['leave_one_day_out_worst_advantage_pp'], 0)
 
+    def test_incomplete_day_cannot_distort_review_window(self):
+        pairs = [dict(date=f'2026-08-{day + 1:02d}', ticker=f'{ticker}.TW',
+                      new_mae=.3, old_mae=.7, zero_mae=.8,
+                      new_correct=True, old_correct=False, new_covered80=(ticker % 5 != 0))
+                 for day in range(20) for ticker in range(10)]
+        pairs.extend(dict(date='2026-08-21', ticker=f'{ticker}.TW',
+                          new_mae=10, old_mae=.1, zero_mae=.1,
+                          new_correct=False, old_correct=True, new_covered80=False)
+                     for ticker in range(5))
+        decision = dr.promotion_decision(pairs)
+        self.assertTrue(decision['approved'])
+        self.assertEqual(decision['n'], 200)
+        self.assertEqual(decision['complete_days'], 20)
+
     def test_snapshot_is_immutable_and_late_snapshot_rejected(self):
         now = datetime(2026, 9, 16, 8, 30, tzinfo=TZ)
         with tempfile.TemporaryDirectory() as directory:

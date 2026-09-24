@@ -220,7 +220,9 @@ def _restore_baseline(root, promotion):
 
 def _review_evidence(root, pairs, decision):
     root = Path(root)
-    days = sorted({p["date"] for p in pairs})[-REVIEW_GATE["lookback_days"]:]
+    window_days = sorted({p["date"] for p in pairs})[-REVIEW_GATE["lookback_days"]:]
+    counts = {day: len({p["ticker"] for p in pairs if p["date"] == day}) for day in window_days}
+    days = [day for day in window_days if counts[day] >= REVIEW_GATE["min_tickers_per_day"]]
     selected = [p for p in pairs if p["date"] in days and p.get("candidate_protocol") == CANDIDATE_PROTOCOL]
     if len(selected) != decision["n"]:
         raise ValueError("候選配對與門檻計分樣本不一致")

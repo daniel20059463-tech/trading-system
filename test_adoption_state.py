@@ -117,7 +117,8 @@ def test_review_rejects_changed_candidate_or_formal_model(tmp_path):
     row["candidate_artifact_sha256"] = artifact_sha
     versions = {"production_model_sha256": {"A.TW.pt": baseline_sha}}
     with patch.object(adoption, "_versions", return_value=versions), \
-         patch.dict("config.ALL_STOCKS", {"A.TW": "A"}, clear=True):
+         patch.dict("config.ALL_STOCKS", {"A.TW": "A"}, clear=True), \
+         patch.dict(adoption.REVIEW_GATE, {"min_tickers_per_day": 1}):
         assert adoption._review_evidence(tmp_path, [row], {"n": 1})["pair_count"] == 1
         model.write_bytes(b"changed")
         with pytest.raises(ValueError, match="候選模型來源無法驗證"):
