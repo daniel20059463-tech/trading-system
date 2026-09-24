@@ -49,3 +49,26 @@ git push
 - Windows 排程備份
 
 歷史行情、新聞資料、預測、模型、實證與報告會納入版本控制，供另一台電腦接續使用。
+
+## 每日候選採用治理
+
+每日重訓產生的是影子候選。盤後系統只根據盤前不可覆寫的同股、同日預測及實際收盤計分；候選若同時滿足至少20個交易日／200筆、方向與誤差門檻、區間涵蓋，以及至少60%的逐日勝出率，才進入 `eligible_for_review`。移除任一天後平均優勢仍須為正，以避免單日行情主導結果。
+
+```powershell
+python adoption_state.py status
+python adoption_state.py review
+```
+
+待審狀態會列出完整事件雜湊、計分日、受影響股票、候選模型、原正式模型與規則版本。檢視後若決定採用，將待審事件中的 `event_sha256` 貼入：
+
+```powershell
+python adoption_state.py promote --expected-event-hash <待審事件的完整雜湊>
+```
+
+若資料或版本在檢視後變動，命令會拒絕使用過期事件。採用從下一個交易日開始；十檔候選、原正式模型與雜湊必須同時完整，才會替換正式預測並重算策略。盤前預測與策略會帶有採用 ID、模型與規則版本，盤後成績另存為不可覆寫結算。至少10個交易日／100筆後，若誤差高於原模型或猜不變基準2%且至少60%的日子未勝出，或方向準確率低於原模型5個百分點，就自動回滾。保留決策至少需20個交易日／200筆的獨立採用後樣本。也可以手動回滾：
+
+```powershell
+python adoption_state.py rollback --reason "人工檢查發現退化"
+```
+
+事件保存在 `live_evidence/adoption/events/`，含前一事件雜湊；監測結算保存在 `live_evidence/adoption/settlements/`。回滾後停止這一輪採用；新候選使用不同協定版本並備好模型後，執行 `python adoption_state.py restart`，才重新進入 shadow 驗證。

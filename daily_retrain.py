@@ -11,6 +11,7 @@ from threadpoolctl import threadpool_limits
 
 import config as cfg
 import walkforward_training as wf
+from adoption_state import REVIEW_GATE
 from prediction_audit import TZ, read_json, require_pre_market, score, valid_daily_candidate
 
 HERE = Path(__file__).resolve().parent
@@ -53,10 +54,15 @@ def live_pairs(root=HERE):
             if not (current["eligible"] and old["eligible"]):
                 continue
             pairs.append({"date": day, "ticker": point["ticker"],
+                          "candidate_protocol": candidate.get("protocol"),
+                          "candidate_artifact_sha256": candidate.get("artifact_sha256"),
+                          "candidate_model_path": candidate.get("model_path"),
+                          "adoption_id": point.get("adoption", {}).get("promotion_id"),
                           "new_mae": current["abs_error_pp"], "old_mae": old["abs_error_pp"],
                           "zero_mae": current["baseline_abs_error_pp"],
                           "new_correct": current["direction_correct"], "old_correct": old["direction_correct"],
                           "new_covered80": current["covered80"], "new_width80": current["width80_pp"],
+                          "prior_close": current["base_close"], "actual_close": current["actual_close"],
                           "actual_pct": current["actual_pct"], "predicted_pct": current["predicted_pct"]})
     return pairs
 
@@ -66,20 +72,32 @@ def promotion_decision(pairs):
     if not pairs:
         return {"approved": False, "n": 0, "days": 0, "reason": "尚無新版本的盤前並排實盤樣本"}
     frame = pd.DataFrame(pairs)
-    days = sorted(frame["date"].unique())[-40:]
+    days = sorted(frame["date"].unique())[-REVIEW_GATE["lookback_days"]:]
     frame = frame[frame["date"].isin(days)]
     interval = frame[frame["new_covered80"].notna()]
     n, distinct = len(frame), frame["date"].nunique()
+    complete_days = int((frame.groupby("date")["ticker"].nunique() >=
+                         REVIEW_GATE["min_tickers_per_day"]).sum())
     coverage = float(interval["new_covered80"].astype(float).mean()) if len(interval) else None
-    approved = bool(n >= 200 and distinct >= 20 and
-                    frame["new_correct"].mean() >= max(.52, frame["old_correct"].mean()) and
-                    frame["new_mae"].mean() <= .98 * min(frame["old_mae"].mean(), frame["zero_mae"].mean()) and
-                    len(interval) >= 100 and .75 <= coverage <= .95)
-    return {"approved": approved, "n": n, "days": int(distinct),
+    grouped = frame.groupby("date")[["new_mae", "old_mae", "zero_mae"]].mean()
+    advantages = grouped[["old_mae", "zero_mae"]].min(axis=1) - grouped["new_mae"]
+    day_win_rate = float((advantages > 0).mean())
+    leave_one_out = float(min(advantages.drop(day).mean() for day in advantages.index)) if len(advantages) > 1 else None
+    approved = bool(n >= REVIEW_GATE["min_pairs"] and distinct >= REVIEW_GATE["min_days"] and
+                    complete_days >= REVIEW_GATE["min_complete_days"] and
+                    frame["new_correct"].mean() >= max(REVIEW_GATE["min_direction"], frame["old_correct"].mean()) and
+                    frame["new_mae"].mean() <= (1 - REVIEW_GATE["min_mae_improvement"]) * min(
+                        frame["old_mae"].mean(), frame["zero_mae"].mean()) and
+                    day_win_rate >= REVIEW_GATE["min_day_win_rate"] and
+                    leave_one_out > REVIEW_GATE["min_leave_one_day_out_advantage_pp"] and
+                    len(interval) >= REVIEW_GATE["min_interval_pairs"] and
+                    REVIEW_GATE["coverage80_min"] <= coverage <= REVIEW_GATE["coverage80_max"])
+    return {"approved": approved, "n": n, "days": int(distinct), "complete_days": complete_days,
             "new_mae": float(frame["new_mae"].mean()), "old_mae": float(frame["old_mae"].mean()),
             "zero_mae": float(frame["zero_mae"].mean()), "coverage80": coverage,
+            "day_win_rate": day_win_rate, "leave_one_day_out_worst_advantage_pp": leave_one_out,
             "new_direction_accuracy": float(frame["new_correct"].mean()),
-            "reason": "達到並排實盤採用門檻" if approved else "尚未同時達到20交易日／200筆、方向、MAE與涵蓋率門檻"}
+            "reason": "達到並排實盤採用門檻" if approved else "尚未同時達到交易日／配對數、逐日一致性、方向、MAE與涵蓋率門檻"}
 
 
 def evaluate_live(root=HERE):

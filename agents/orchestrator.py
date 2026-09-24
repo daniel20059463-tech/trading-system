@@ -184,7 +184,7 @@ class TradingOrchestrator:
             strategies = []
             print("      策略生成失敗")
 
-        # 策略完成後才固定上下文及最終預測，讓候選只讀當時已完成的新聞/策略。
+        # 先固定原正式模型產生的新聞／策略上下文，候選只能讀這份因果上較早的快照。
         try:
             from daily_retrain import snapshot_context, attach_candidates
             try:
@@ -195,7 +195,53 @@ class TradingOrchestrator:
             print(f"      每日重訓比較：{decision['reason']}")
         except Exception as e:
             logger.warning(f"每日重訓候選/上下文留底失敗：{e}")
+        # 只有採用事件已存在且同批候選全部有效時才改正式預測；改後重算受影響策略。
+        adoption_result = {"adopted": False}
+        try:
+            import copy
+            from adoption_state import route, rollback
+            original_predictions = copy.deepcopy(predictions)
+            adoption_result = route(predictions)
+            if adoption_result.get("halt_publication"):
+                raise RuntimeError("原正式模型已恢復；今日盤前原預測可能來自變動前版本，停止發布")
+            if adoption_result["adopted"]:
+                promoted_strategies = self.strategy_agent.generate_strategy(
+                    predictions=predictions, news_analysis=news_analysis,
+                    market_sentiment=market_sentiment, wiki_context=wiki_context)
+                if {s.get("ticker") for s in promoted_strategies} != {p["ticker"] for p in predictions}:
+                    raise ValueError("採用後策略股票集合不完整")
+                strategies = promoted_strategies
+                for strategy in strategies:
+                    strategy["adoption_policy_id"] = adoption_result["promotion_id"]
+                if news_intraday_snapshot:
+                    from news_intraday_shadow import attach_to_strategies
+                    attach_to_strategies(strategies, news_intraday_snapshot)
+                if market_analog_snapshot:
+                    for strategy in strategies:
+                        case = market_analog_snapshot["by_ticker"].get(strategy.get("ticker", ""))
+                        if case:
+                            strategy["us_market_analog_reference"] = {
+                                "us_session": market_analog_snapshot["metadata"]["us_session"],
+                                "case_count": case["case_count"],
+                                "intraday_history": case["summary"]["intraday"],
+                                "status": "descriptive_reference"}
+                logger.info("採用政策 %s 已套用於正式預測及策略", adoption_result["promotion_id"])
+        except Exception as e:
+            predictions = original_predictions
+            if adoption_result.get("adopted"):
+                try:
+                    rollback(reason=f"盤前正式策略重算失敗：{e}")
+                except Exception as rollback_error:
+                    logger.error(f"採用回滾事件寫入失敗：{rollback_error}")
+                adoption_result = {"adopted": False}
+            from adoption_state import status as adoption_status
+            if adoption_result.get("halt_publication") or adoption_status()["state"] in ("promoted", "monitored", "retained"):
+                raise RuntimeError(f"採用政策校驗失敗，停止今日正式發布：{e}") from e
+            logger.warning(f"採用政策未套用：{e}")
         freeze(self._to_serializable(predictions))
+        if adoption_result.get("adopted"):
+            from adoption_state import save_strategies
+            save_strategies(self._to_serializable(strategies), self._to_serializable(predictions))
 
         # Step 5：寫入 Wiki
         print("[5/5] 寫入 Wiki 知識庫...")

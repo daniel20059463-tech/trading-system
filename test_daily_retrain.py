@@ -47,6 +47,20 @@ class DailyRetrainTests(unittest.TestCase):
             row['new_mae'] = .8
         self.assertFalse(dr.promotion_decision(pairs)['approved'])
 
+    def test_one_exceptional_day_cannot_promote_noisy_candidate(self):
+        pairs = []
+        for day in range(20):
+            new = .99 if day < 12 else 1.03 if day < 19 else 0.0
+            for ticker in range(10):
+                pairs.append(dict(date=f'2026-08-{day + 1:02d}', ticker=f'{ticker}.TW',
+                    new_mae=new, old_mae=1.0, zero_mae=1.0,
+                    new_correct=True, old_correct=False,
+                    new_covered80=(ticker % 5 != 0)))
+        decision = dr.promotion_decision(pairs)
+        self.assertFalse(decision['approved'])
+        self.assertGreaterEqual(decision['day_win_rate'], .6)
+        self.assertLessEqual(decision['leave_one_day_out_worst_advantage_pp'], 0)
+
     def test_snapshot_is_immutable_and_late_snapshot_rejected(self):
         now = datetime(2026, 9, 16, 8, 30, tzinfo=TZ)
         with tempfile.TemporaryDirectory() as directory:

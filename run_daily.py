@@ -95,7 +95,13 @@ def run_post_market(actual_prices=None):
         from prediction_audit import update
         update()
         from daily_retrain import train_latest
-        train_latest()
+        try:
+            train_latest()
+        finally:
+            from adoption_state import review, seal_post_market, monitor
+            review()
+            seal_post_market()
+            monitor()
 
 
 def check_session():
