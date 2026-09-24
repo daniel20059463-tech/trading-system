@@ -1,0 +1,281 @@
+{
+  "recent": [
+    {
+      "method": "empirical_returns_60",
+      "coverage_target": 0.5,
+      "n": 450,
+      "days": 45,
+      "coverage": 0.6555555555555556,
+      "width": 9.841942082992466,
+      "interval_score": 14.120653894478556
+    },
+    {
+      "method": "empirical_returns_60",
+      "coverage_target": 0.8,
+      "n": 450,
+      "days": 45,
+      "coverage": 0.8711111111111111,
+      "width": 17.94325661023543,
+      "interval_score": 19.32236969478743
+    },
+    {
+      "method": "ridge_full",
+      "coverage_target": 0.5,
+      "n": 450,
+      "days": 45,
+      "coverage": 0.6333333333333333,
+      "width": 10.168997973229912,
+      "interval_score": 14.409056975374869
+    },
+    {
+      "method": "ridge_full",
+      "coverage_target": 0.8,
+      "n": 450,
+      "days": 45,
+      "coverage": 0.8911111111111111,
+      "width": 17.88424500728324,
+      "interval_score": 20.400094314881223
+    },
+    {
+      "method": "ridge_price",
+      "coverage_target": 0.5,
+      "n": 450,
+      "days": 45,
+      "coverage": 0.6177777777777778,
+      "width": 9.676854432117336,
+      "interval_score": 13.367607238703927
+    },
+    {
+      "method": "ridge_price",
+      "coverage_target": 0.8,
+      "n": 450,
+      "days": 45,
+      "coverage": 0.8866666666666667,
+      "width": 16.400648476446033,
+      "interval_score": 18.026187378944503
+    },
+    {
+      "method": "zero",
+      "coverage_target": 0.5,
+      "n": 450,
+      "days": 45,
+      "coverage": 0.6022222222222222,
+      "width": 9.492001423161454,
+      "interval_score": 13.235939469679334
+    },
+    {
+      "method": "zero",
+      "coverage_target": 0.8,
+      "n": 450,
+      "days": 45,
+      "coverage": 0.9044444444444445,
+      "width": 16.825358910983134,
+      "interval_score": 17.902161137714856
+    }
+  ],
+  "matched_verified": [
+    {
+      "method": "empirical_returns_60",
+      "coverage_target": 0.5,
+      "n": 18,
+      "days": 2,
+      "coverage": 0.9444444444444444,
+      "width": 8.87355070047926,
+      "interval_score": 9.13966723597167
+    },
+    {
+      "method": "empirical_returns_60",
+      "coverage_target": 0.8,
+      "n": 18,
+      "days": 2,
+      "coverage": 1.0,
+      "width": 17.0990236473978,
+      "interval_score": 17.0990236473978
+    },
+    {
+      "method": "ridge_full",
+      "coverage_target": 0.5,
+      "n": 18,
+      "days": 2,
+      "coverage": 0.6666666666666666,
+      "width": 7.3906520383123615,
+      "interval_score": 10.527041610898426
+    },
+    {
+      "method": "ridge_full",
+      "coverage_target": 0.8,
+      "n": 18,
+      "days": 2,
+      "coverage": 0.8333333333333334,
+      "width": 13.26552935713174,
+      "interval_score": 14.676412753806728
+    },
+    {
+      "method": "ridge_price",
+      "coverage_target": 0.5,
+      "n": 18,
+      "days": 2,
+      "coverage": 0.6111111111111112,
+      "width": 7.1806762424061805,
+      "interval_score": 9.615430561202542
+    },
+    {
+      "method": "ridge_price",
+      "coverage_target": 0.8,
+      "n": 18,
+      "days": 2,
+      "coverage": 0.8333333333333334,
+      "width": 12.096886051545416,
+      "interval_score": 13.225071830492853
+    },
+    {
+      "method": "verified_original",
+      "coverage_target": 0.5,
+      "n": 18,
+      "days": 2,
+      "coverage": 0.6111111111111112,
+      "width": 7.421,
+      "interval_score": 9.897847252825418
+    },
+    {
+      "method": "verified_original",
+      "coverage_target": 0.8,
+      "n": 18,
+      "days": 2,
+      "coverage": 0.9444444444444444,
+      "width": 13.337222222222223,
+      "interval_score": 14.84116942909761
+    },
+    {
+      "method": "zero",
+      "coverage_target": 0.5,
+      "n": 18,
+      "days": 2,
+      "coverage": 0.6666666666666666,
+      "width": 6.93138525194579,
+      "interval_score": 8.87811094656213
+    },
+    {
+      "method": "zero",
+      "coverage_target": 0.8,
+      "n": 18,
+      "days": 2,
+      "coverage": 0.8888888888888888,
+      "width": 12.43892436584475,
+      "interval_score": 12.715323704982179
+    }
+  ],
+  "known_limitation": "current adjusted returns; legacy models not independently OOS; only 18 genuine dated interval pairs",
+  "today_width_decomposition": [
+    {
+      "ticker": "2327.TW",
+      "data_as_of": "2026-09-15",
+      "raw_width": 14.377678871154785,
+      "sigma20": 4.530526484092867,
+      "stored_correction": 0.15781996295323966,
+      "calibration_added_width": 1.430015043756415,
+      "unclipped_width": 15.807693914911201,
+      "displayed_width_before_news": 15.807693914911201,
+      "scaler_class": "MinMaxScaler"
+    },
+    {
+      "ticker": "2492.TW",
+      "data_as_of": "2026-09-15",
+      "raw_width": 15.31049394607544,
+      "sigma20": 5.563017713074552,
+      "stored_correction": 0.3396076235938447,
+      "calibration_added_width": 3.7784864510954264,
+      "unclipped_width": 19.088980397170864,
+      "displayed_width_before_news": 19.088980397170864,
+      "scaler_class": "MinMaxScaler"
+    },
+    {
+      "ticker": "3026.TW",
+      "data_as_of": "2026-09-15",
+      "raw_width": 12.56695556640625,
+      "sigma20": 6.117829617082088,
+      "stored_correction": 0.3427658739816109,
+      "calibration_added_width": 4.193966431139452,
+      "unclipped_width": 16.7609219975457,
+      "displayed_width_before_news": 16.7609219975457,
+      "scaler_class": "MinMaxScaler"
+    },
+    {
+      "ticker": "2472.TW",
+      "data_as_of": "2026-09-15",
+      "raw_width": 14.007649898529053,
+      "sigma20": 3.1994786479865622,
+      "stored_correction": 0.18347019235715475,
+      "calibration_added_width": 1.174017925977408,
+      "unclipped_width": 15.181667824506462,
+      "displayed_width_before_news": 14.987697611212582,
+      "scaler_class": "MinMaxScaler"
+    },
+    {
+      "ticker": "3357.TWO",
+      "data_as_of": "2026-09-15",
+      "raw_width": 9.346964836120605,
+      "sigma20": 2.419027508272329,
+      "stored_correction": 0.1290617040262868,
+      "calibration_added_width": 0.6244076246081788,
+      "unclipped_width": 9.971372460728784,
+      "displayed_width_before_news": 9.971372460728784,
+      "scaler_class": "MinMaxScaler"
+    },
+    {
+      "ticker": "5425.TWO",
+      "data_as_of": "2026-09-15",
+      "raw_width": 6.855525016784668,
+      "sigma20": 3.0857988618944745,
+      "stored_correction": 0.46790696661082537,
+      "calibration_added_width": 2.8877335700803615,
+      "unclipped_width": 9.743258586865029,
+      "displayed_width_before_news": 9.743258586865029,
+      "scaler_class": "MinMaxScaler"
+    },
+    {
+      "ticker": "2481.TW",
+      "data_as_of": "2026-09-15",
+      "raw_width": 16.197848796844482,
+      "sigma20": 4.0198528197744725,
+      "stored_correction": 0.10161373972332692,
+      "calibration_added_width": 0.8169445563092901,
+      "unclipped_width": 17.014793353153774,
+      "displayed_width_before_news": 17.014793353153774,
+      "scaler_class": "MinMaxScaler"
+    },
+    {
+      "ticker": "3675.TWO",
+      "data_as_of": "2026-09-15",
+      "raw_width": 8.473621368408203,
+      "sigma20": 3.330747794960005,
+      "stored_correction": 0.7383091572363477,
+      "calibration_added_width": 4.91824319492749,
+      "unclipped_width": 13.391864563335693,
+      "displayed_width_before_news": 13.391864563335693,
+      "scaler_class": "MinMaxScaler"
+    },
+    {
+      "ticker": "8255.TWO",
+      "data_as_of": "2026-09-15",
+      "raw_width": 4.571844100952148,
+      "sigma20": 1.5347720136810326,
+      "stored_correction": 0.1214079797307316,
+      "calibration_added_width": 0.37266713905656185,
+      "unclipped_width": 4.94451124000871,
+      "displayed_width_before_news": 4.94451124000871,
+      "scaler_class": "MinMaxScaler"
+    },
+    {
+      "ticker": "8261.TW",
+      "data_as_of": "2026-09-15",
+      "raw_width": 7.589444875717163,
+      "sigma20": 2.73876307234724,
+      "stored_correction": 0.0710777849529272,
+      "calibration_added_width": 0.3893304253866306,
+      "unclipped_width": 7.978775301103793,
+      "displayed_width_before_news": 7.978775301103793,
+      "scaler_class": "MinMaxScaler"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "measured_at": "2026-09-15T21:46:36.544649+08:00",
+  "training_seconds": 17.846658399997978,
+  "inference_seconds": 15.854469200014137,
+  "total_seconds": 33.701127600012114,
+  "models": 10,
+  "predictions": 10,
+  "training_n": 647,
+  "training_scope": "fresh ten models including features, calibration reads, hashing and artifact writes",
+  "excluded": "price downloads, news/LLM/strategy calls, original production models; no guarantee of full pre-market completion"
+}

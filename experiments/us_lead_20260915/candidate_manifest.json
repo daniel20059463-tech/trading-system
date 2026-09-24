@@ -1,0 +1,20 @@
+{
+  "protocol": "us_lead_v1",
+  "method": "price_us",
+  "trained_through": "2026-09-15",
+  "training_n_per_stock": 647,
+  "files": {
+    "2327.TW_price_us.pkl": "08ec2764b42103c4a5248ad1f24000c6b6b275ab18866067c8ecd2cc37322228",
+    "2472.TW_price_us.pkl": "91e3a413a960884a02548d4988891ddf0e626900e9b638334b1a96c3d3aeac94",
+    "2481.TW_price_us.pkl": "a381329744d5870687c1387e33eaf916a35e58918f1039f26c2386ef666c57c0",
+    "2492.TW_price_us.pkl": "413c51366487b757fce2077eaa40f2f55434824fe4c4408c845da120a7c221f0",
+    "3026.TW_price_us.pkl": "003e167d1d897cbe9dd048c82c48d2bd9ba76d091824f9383b120e5667bb1f3a",
+    "3357.TWO_price_us.pkl": "8b8312a91b3cc8b2ea4f552448390d3f1fe8ed6fd45c2c15946af0aada24ab71",
+    "3675.TWO_price_us.pkl": "ccb427c0889cc1c9700a8d46945f3712685e539ac6ed0d1718520c4f30031250",
+    "5425.TWO_price_us.pkl": "5702fd7452007a8202b2d2e211b22347c241479595a41497714fe19f48ae046c",
+    "8255.TWO_price_us.pkl": "d7db70bca3bd444e4303ec8acde278dd0a3b64aafce99dba78e62fda6cb1c788",
+    "8261.TW_price_us.pkl": "ba54d6bd604c08717b02165f148e9bc328dfb5939051991ce5c5643dce7cba0f"
+  },
+  "inference": "pipeline prediction times current prior20-day return standard deviation (minimum0.3pp)",
+  "purpose": "All ten fixed candidates retained; research-only, not promoted or attached to daily runs"
+}

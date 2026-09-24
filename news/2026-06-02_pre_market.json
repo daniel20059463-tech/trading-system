@@ -1,0 +1,267 @@
+{
+  "2327": {
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "key_catalysts": [
+      "台灣的Yageo成功加快對日本Shibaura的收購進程，可能影響市場競爭環境",
+      "Shibaura被列為國家安全核心，顯示市場對被動元件的重視",
+      "Yageo提高收購價，反映對被動元件需求的強勁信心"
+    ],
+    "risk_factors": [
+      "收購過程中的不確定性可能影響市場動向",
+      "市場競爭加劇可能壓縮利潤空間",
+      "國際貿易政策變化可能對業務造成負面影響"
+    ],
+    "strategy_signal": "watch",
+    "strategy_reason": "目前市場情勢不穩定，需觀察收購進展及市場反應。",
+    "confidence": 0.7,
+    "ticker_name": "國巨",
+    "session_type": "pre_market",
+    "news_count": 4,
+    "ml_prediction": {
+      "ticker": "2327.TW",
+      "name": "國巨",
+      "predicted_close": 627.29,
+      "last_close": 790.0,
+      "predicted_change_pct": -20.5966,
+      "direction": "DOWN",
+      "confidence": 1.0,
+      "model_type": "lstm"
+    }
+  },
+  "2492": {
+    "sentiment": "bullish",
+    "sentiment_score": 0.7,
+    "key_catalysts": [
+      "華新科淨利率大幅上升",
+      "強化市場對營運效率的信心",
+      "可能提高未來的獲利預期"
+    ],
+    "risk_factors": [
+      "市場競爭加劇",
+      "全球經濟不穩定性",
+      "原材料價格波動"
+    ],
+    "strategy_signal": "buy",
+    "strategy_reason": "淨利率上升顯示華新科的盈利能力改善，符合市場正向預期，建議積極布局。",
+    "confidence": 0.8,
+    "ticker_name": "華新科",
+    "session_type": "pre_market",
+    "news_count": 1,
+    "ml_prediction": {
+      "ticker": "2492.TW",
+      "name": "華新科",
+      "predicted_close": 260.11,
+      "last_close": 416.0,
+      "predicted_change_pct": -37.4731,
+      "direction": "DOWN",
+      "confidence": 1.0,
+      "model_type": "lstm"
+    }
+  },
+  "3026": {
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "key_catalysts": [],
+    "risk_factors": [
+      "無法取得 AI 分析，請人工確認"
+    ],
+    "strategy_signal": "hold",
+    "strategy_reason": "API 分析失敗，維持觀望",
+    "confidence": 0.0,
+    "ticker_name": "禾伸堂",
+    "session_type": "pre_market",
+    "news_count": 0,
+    "ml_prediction": {
+      "ticker": "3026.TW",
+      "name": "禾伸堂",
+      "predicted_close": 269.82,
+      "last_close": 672.0,
+      "predicted_change_pct": -59.8478,
+      "direction": "DOWN",
+      "confidence": 1.0,
+      "model_type": "lstm"
+    }
+  },
+  "2472": {
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "key_catalysts": [],
+    "risk_factors": [],
+    "strategy_signal": "hold",
+    "strategy_reason": "近期無實質消息影響，市場動向不明，持股觀望為佳。",
+    "confidence": 0.7,
+    "ticker_name": "立隆電",
+    "session_type": "pre_market",
+    "news_count": 10,
+    "ml_prediction": {
+      "ticker": "2472.TW",
+      "name": "立隆電",
+      "predicted_close": 372.21,
+      "last_close": 392.0,
+      "predicted_change_pct": -5.0474,
+      "direction": "DOWN",
+      "confidence": 1.0,
+      "model_type": "lstm"
+    }
+  },
+  "3357": {
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "key_catalysts": [],
+    "risk_factors": [
+      "無法取得 AI 分析，請人工確認"
+    ],
+    "strategy_signal": "hold",
+    "strategy_reason": "API 分析失敗，維持觀望",
+    "confidence": 0.0,
+    "ticker_name": "臺慶科",
+    "session_type": "pre_market",
+    "news_count": 0,
+    "ml_prediction": {
+      "ticker": "3357.TWO",
+      "name": "臺慶科",
+      "predicted_close": 264.83,
+      "last_close": 284.5,
+      "predicted_change_pct": -6.9148,
+      "direction": "DOWN",
+      "confidence": 1.0,
+      "model_type": "lstm"
+    }
+  },
+  "5425": {
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "key_catalysts": [
+      "U.S. semiconductor tariffs可能影響全球供應鏈，包括台灣元件廠",
+      "Morgan Stanley的AI股票推薦未必直接影響台半，但反映市場對半導體的關注"
+    ],
+    "risk_factors": [
+      "美國政策變動對科技產業的影響",
+      "全球市場需求不穩定可能影響業績",
+      "競爭對手的市場策略"
+    ],
+    "strategy_signal": "watch",
+    "strategy_reason": "目前市場情緒尚未明朗，需觀察政策及市場動態。",
+    "confidence": 0.6,
+    "ticker_name": "台半",
+    "session_type": "pre_market",
+    "news_count": 2,
+    "ml_prediction": {
+      "ticker": "5425.TWO",
+      "name": "台半",
+      "predicted_close": 97.08,
+      "last_close": 106.5,
+      "predicted_change_pct": -8.8452,
+      "direction": "DOWN",
+      "confidence": 1.0,
+      "model_type": "lstm"
+    }
+  },
+  "2481": {
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "key_catalysts": [],
+    "risk_factors": [
+      "無法取得 AI 分析，請人工確認"
+    ],
+    "strategy_signal": "hold",
+    "strategy_reason": "API 分析失敗，維持觀望",
+    "confidence": 0.0,
+    "ticker_name": "強茂",
+    "session_type": "pre_market",
+    "news_count": 0,
+    "ml_prediction": {
+      "ticker": "2481.TW",
+      "name": "強茂",
+      "predicted_close": 144.03,
+      "last_close": 157.0,
+      "predicted_change_pct": -8.2612,
+      "direction": "DOWN",
+      "confidence": 1.0,
+      "model_type": "lstm"
+    }
+  },
+  "3675": {
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "key_catalysts": [],
+    "risk_factors": [
+      "無法取得 AI 分析，請人工確認"
+    ],
+    "strategy_signal": "hold",
+    "strategy_reason": "API 分析失敗，維持觀望",
+    "confidence": 0.0,
+    "ticker_name": "德微",
+    "session_type": "pre_market",
+    "news_count": 0,
+    "ml_prediction": {
+      "ticker": "3675.TWO",
+      "name": "德微",
+      "predicted_close": 351.86,
+      "last_close": 372.0,
+      "predicted_change_pct": -5.4136,
+      "direction": "DOWN",
+      "confidence": 1.0,
+      "model_type": "lstm"
+    }
+  },
+  "8255": {
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "key_catalysts": [],
+    "risk_factors": [
+      "無法取得 AI 分析，請人工確認"
+    ],
+    "strategy_signal": "hold",
+    "strategy_reason": "API 分析失敗，維持觀望",
+    "confidence": 0.0,
+    "ticker_name": "朋程",
+    "session_type": "pre_market",
+    "news_count": 0,
+    "ml_prediction": {
+      "ticker": "8255.TWO",
+      "name": "朋程",
+      "predicted_close": 184.52,
+      "last_close": 186.0,
+      "predicted_change_pct": -0.797,
+      "direction": "DOWN",
+      "confidence": 0.4830999970436096,
+      "model_type": "lstm"
+    }
+  },
+  "8261": {
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "key_catalysts": [],
+    "risk_factors": [
+      "無法取得 AI 分析，請人工確認"
+    ],
+    "strategy_signal": "hold",
+    "strategy_reason": "API 分析失敗，維持觀望",
+    "confidence": 0.0,
+    "ticker_name": "富鼎",
+    "session_type": "pre_market",
+    "news_count": 0,
+    "ml_prediction": {
+      "ticker": "8261.TW",
+      "name": "富鼎",
+      "predicted_close": 166.56,
+      "last_close": 174.0,
+      "predicted_change_pct": -4.2756,
+      "direction": "DOWN",
+      "confidence": 1.0,
+      "model_type": "lstm"
+    }
+  },
+  "market": {
+    "market_sentiment": "bearish",
+    "score": -0.6,
+    "summary": "富士康公布的財報未達市場預期，引發對Apple及Nvidia 未來需求的擔憂，尤其是在AI市場的表現不如預期，可能影響台灣被動元件及功率元件廠的業績。",
+    "key_themes": [
+      "富士康財報",
+      "AI市場展望"
+    ],
+    "macro_risk": "高"
+  }
+}

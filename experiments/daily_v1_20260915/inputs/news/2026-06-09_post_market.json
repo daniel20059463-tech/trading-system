@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-09",
+  "timestamp": "2026-06-09 20:23:28",
+  "ticker_performance": {
+    "2327": {
+      "predicted": 758.04,
+      "actual": 826.0,
+      "mape": 8.23,
+      "direction_correct": true
+    },
+    "2492": {
+      "predicted": 404.73,
+      "actual": 440.0,
+      "mape": 8.02,
+      "direction_correct": true
+    },
+    "3026": {
+      "predicted": 604.34,
+      "actual": 661.0,
+      "mape": 8.57,
+      "direction_correct": true
+    },
+    "2472": {
+      "predicted": 344.53,
+      "actual": 372.5,
+      "mape": 7.51,
+      "direction_correct": true
+    },
+    "2481": {
+      "predicted": 148.78,
+      "actual": 146.0,
+      "mape": 1.9,
+      "direction_correct": false
+    },
+    "8261": {
+      "predicted": 157.16,
+      "actual": 164.5,
+      "mape": 4.46,
+      "direction_correct": true
+    }
+  },
+  "summary": {
+    "avg_mape": 6.45,
+    "direction_accuracy": 0.833,
+    "sample_count": 6
+  },
+  "post_market_analysis": {
+    "2327": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [
+        "日本政府已清除台灣國巨在Shibaura收購的安全審查",
+        "國巨提高對Shibaura的出價以超越競爭對手",
+        "Shibaura被認定為國家安全核心企業，收購複雜性增加"
+      ],
+      "risk_factors": [
+        "全球經濟不確定性可能影響被動元件需求",
+        "若收購失敗，可能影響國巨市場信心",
+        "競爭對手價格戰風險增大"
+      ],
+      "strategy_signal": "watch",
+      "strategy_reason": "目前市場情況不明朗，需觀察後續收購進展及需求變化。",
+      "confidence": 0.7,
+      "ticker_name": "國巨",
+      "session_type": "post_market"
+    },
+    "2492": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.7,
+      "key_catalysts": [
+        "華新科報告顯示淨利潤率上升",
+        "強化了公司操作效率的樂觀預期",
+        "被動元件需求持續增長"
+      ],
+      "risk_factors": [
+        "市場競爭加劇可能影響利潤",
+        "全球供應鏈不穩定造成材料成本升高",
+        "需求波動可能影響未來業績"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "公司淨利潤率上升，顯示出良好的營運效益，適合在被動元件需求增加的市場中採取看多策略。",
+      "confidence": 0.8,
+      "ticker_name": "華新科",
+      "session_type": "post_market"
+    },
+    "3026": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [],
+      "risk_factors": [
+        "無法取得 AI 分析，請人工確認"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "API 分析失敗，維持觀望",
+      "confidence": 0.0,
+      "ticker_name": "禾伸堂",
+      "session_type": "post_market"
+    },
+    "2472": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [],
+      "risk_factors": [],
+      "strategy_signal": "hold",
+      "strategy_reason": "近期新聞未包含具體影響立隆電的消息，需觀察後續市場動態。",
+      "confidence": 0.6,
+      "ticker_name": "立隆電",
+      "session_type": "post_market"
+    },
+    "3357": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [],
+      "risk_factors": [
+        "無法取得 AI 分析，請人工確認"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "API 分析失敗，維持觀望",
+      "confidence": 0.0,
+      "ticker_name": "臺慶科",
+      "session_type": "post_market"
+    }
+  }
+}

@@ -1,0 +1,604 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-17",
+  "captured_at": "2026-09-17T08:31:47.075234+08:00",
+  "cutoff": "09:00 Asia/Taipei",
+  "target": "100 * (Close / Open - 1)",
+  "evidence_status": "live_shadow",
+  "training": {
+    "training_days": 0,
+    "training_rows": 0,
+    "minimum_days": 20,
+    "minimum_rows": 150
+  },
+  "source_articles": {
+    "2327": [
+      {
+        "title": "【Hot台股】國巨軟腳翻黑跌2%再翻紅...網封「反指標」 分析師：別急著加碼 - Yahoo股市",
+        "url": "https://news.google.com/rss/articles/CBMiygNBVV95cUxOcjZ1eTRfR1ptN1F0eEFxY0VrRXJ1T2NmeXp0T1NZRUxGbHlhMmJqaG85V3NVeWlOdTUtMUt4TEZrdlY4R2hSdXlCeThiTXlSQ1dyMEk2VDQzTjVZZFVVMTE3MURJZWlZcHNYdkktNk1Kc0c5VFhjbk9LYVVlOVJMelhWYXhFR3FGX2htQVlwaHVrVXNmQ19jUXlkRHFtNDVreElVeFQySm8yd1E3VlZNR3gxalhpQVJtRkE3Z19oSVRMSHgzdXVoT0lmOXA5akg3cGFROGdHSmg4U1dMQ29pcUxEUWk1MmZDWDJYTWo2ZWNudXJPNkkwa3pxQWVKamhlLW1Wa3pCcTNOTTdPX3IyRTBCUjJ3cmhHbFVydmlGVjhqZG9yaEFZWVkwSjhMd3Q1cVVqaVdLcjJ3STFiX3FvVTZwVTVVX1EtZGM1d1R2WVJ4Z1VoVzN4U0F0alU3VU4zZDFXV0hNYkFJTWpfRTlKeGdKWlNyRWp5SmF0YkMzbXhQVDdhZkJIT2xVcTJtVFRZTzA3Vm04bWJYc0ZyanUtYWx3dUltNzVKdFV4a1VUcVJzNkhuemZ4Wi00TDJ1b1FxdFVBQVMxS0JTZw?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 06:53:07 GMT",
+        "source": "Yahoo股市"
+      },
+      {
+        "title": "Factset 最新調查：國巨(2327-TW)EPS預估下修至19.83元，預估目標價為1125元｜新聞快訊｜豐雲學堂 - sinotrade.com.tw",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9PMGRvTEk5VXJnLTh4bjR2QXJRRDB2WEt5ejVqVHZKR3NjdlFaUE1LQ0IzWU5XZGlVcGxLWWJJa0xYR29HLUhqN0w3WV9kSlgxa0FUVDRsNFNQeUdTYVEtX3F3MnRwOHBUTHFmUHgyN3kwMXI1OXc?oc=5",
+        "timestamp": "Tue, 15 Sep 2026 09:10:00 GMT",
+        "source": "sinotrade.com.tw"
+      },
+      {
+        "title": "2327 國巨* - 【國巨(2327)盤後解析】外資主力同步賣超，股價量增收黑 ... - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ySzhqRzBnQmJzajRydjlkbGxDT2loTXpnOENyNldQMWJEQTFOMDRHTDhjeWJ6YWxCTTJ6dmRHYWJIWWtzRGdKdDhkQWgzTXV4MkN4WjVCaUY?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 12:17:28 GMT",
+        "source": "CMoney"
+      },
+      {
+        "title": "鉅亨速報 - Factset 最新調查：國巨(2327-TW)EPS預估下修至19.83元，預估目標價為1125元 - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tc2xxbVVIcmdNdlJZdEtSUDlFY0hlYUFZSEIwcjZ4WDRDY1FSbFAzMXQ5MnlFOWJqdVd4Rm8zMmpwUnQxNVRESTBsU2dVX0l3SjBOOVNTYjdkdHg4TTliSm1HY0xfUQ?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 00:10:00 GMT",
+        "source": "TradingView"
+      },
+      {
+        "title": "爸說股票沒賣不算虧！ 他國巨「1100⭢565元」仍續抱 網安慰：奇蹟自來 - 東森電視",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ndFpfWjNydUpRbWVGNlZtdTJEWlAyUUppYU8zdTJZdE91MGVYTkV6M3U0V3R1LURkNnk5QnJ5bVhTVmpyTFBCajg2T1JrMGdhajg1TDB3?oc=5",
+        "timestamp": "Fri, 11 Sep 2026 09:59:00 GMT",
+        "source": "東森電視"
+      },
+      {
+        "title": "外資預期 MLCC 營收成長正迎來拐點 為何國巨卻遭降目標價？ - 經濟日報",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5OcGJVajZwNWVvWXozOTFHaGhlUkttNGs3ZV9vSk1Zd3RsMXFieko1NFM1VEhmTDRsUFFVWmRlV0RORDR6SEtMeWVPZFpNcjNobFNuUi1IOG9TZ9IBX0FVX3lxTFBsckhZREYtUXlYNWlOUkRvMGMwLVdlTkxmUnJfcklMSTZFUEw4d09QNWUwVjlWM1JvVDFPcThmaWxGUnJDbFF0Zlc2VkgxYVJVR05JQ1ppYTBWTWZyNnZr?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 01:25:57 GMT",
+        "source": "經濟日報"
+      },
+      {
+        "title": "記憶體2.0效應引爆！產能排擠掀漲價潮　郭哲榮點名「這幾檔」 - 三立新聞",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBIU29YLTUtOXkteGpRTGsteEgwVmljaEhkbjM1c1p0WDAtZmZwcm1nQl83TmpINWs0Mk1VUkdMSEdZS21qWjFtcdIBTEFVX3lxTE9DWmxnQlRxTUtBOXNKR1RNaWVkM1VrV3I0ODl0SS0xX2RvTEM3NUs3VXhSSDZQLUtKTTNtbVBFOTY0WTBrS0ZrWTBTUzA?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 19:00:00 GMT",
+        "source": "三立新聞"
+      },
+      {
+        "title": "2327 國巨* - 【00406A】09/16 操作日報｜狂買聯茂近兩百趴，資金猛掃AI硬體- 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1hUUlFM1VKVU5nbFhHX2k2dkRpTVVGR01sZGF4cXFyZ3NxSjU2TEV2MGx2ZWNfdWJfcFd3eWxjZFZVa0JYTF9kZE5MRmUwUGpMZ0hUU3ktUWU?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 09:41:00 GMT",
+        "source": "CMoney"
+      },
+      {
+        "title": "被動元件綠海滔滔！國巨目標價688元盤中跌逾2% 「這檔」Q4迎出貨潮仍重摔4.46%、天二科技跌近7%為最多 - Yahoo股市",
+        "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxQSDdHM1BTM1h1dVY0R3E2LTNLaWV2MGZFLXV1NFl6OENTRVhPV3lNWkpZd1lOeGJmZVV0SUpPeVpoZTNXWm9BY0toQVBpY0pBNmpyRnlfMGlpRjR4U2MwcFB0OUcyUDFBY3hjd1c4ZGRoc29CenIzaGl3cDYzck9LcXRrbWs0SVZWNmY0SFNqME5jUGhCS1lSeUFfb2FFTnZHTXBzWnltV1h3b1pkOGQyY3Zid3otVTlxNDhQWjd2YjJ3TjFWallyckdJd1UyMk5vUTNjaHM5OFRTQmFfQ1BCSkF2Rlkyc19md2hfejR4bG5FejFHVmthcmFEaS1sbUFJUWZEOWVvVWhBMkJvVEVwb1gxNEhzNGRPY0dsN1lJX29iZE4xSXNkUjk1NnZ3b0h1SDhQV25XLUtVRHd0aU5wbnZYTnRrUHBKOVdoekd4TGsycy0yYWl0c3J4VUVpbTJtUWg3MGE3WWpyWjZwRm9yWDdkUnBoUXhxbk1zMjBsekd5Y25obVlVazh2dENGWGRJa3Q0czZSZ00tYzVnN3E0Vmc4XzNtZU5tUTRDdWFhZXc?oc=5",
+        "timestamp": "Mon, 14 Sep 2026 02:14:39 GMT",
+        "source": "Yahoo股市"
+      },
+      {
+        "title": "2327 國巨* - 外資預期MLCC 營收成長正迎來拐點為何國巨卻遭降目標價？ - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBfQWJTYUlfWWFlNUVrZmJWOE1tTGZoeUtVT1lnQXlDdHE5bGdmd2g1bmJ0NDRWMzRnN1VjTzJyNkZVc01vSFVmUlBBMDhjVVJ0MFozLXYtaG4?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 07:44:15 GMT",
+        "source": "CMoney"
+      }
+    ],
+    "2492": [
+      {
+        "title": "2492 華新科 - 華新科，布局被動元件市場，受惠電子需求與產業成長的科技股 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9MYjRtQ1dLQ2tHV05CVlVSMC1zMHhBWHRmVmVmODNDQXNPZElneXdJTUd4TURTaWdFREg0dzB4cVZhbkhpLXFfV2piNkVEUnJFOEZGMldjb2s?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 13:42:42 GMT",
+        "source": "CMoney"
+      },
+      {
+        "title": "8月營收創近8年新高！華新科資本支出上看30億元、再發45億元可轉債 投信卻提款5.36億元 - FTNN 新聞",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBYZ3V6emo1SFp3Wmg4eExBQlB3MGRJSE1GVnVJNlc2U1I2NXhEUS04OFZRT0VhX185V0pJdWNFc2dicUFmLWFtNXQ0TQ?oc=5",
+        "timestamp": "Mon, 14 Sep 2026 11:30:00 GMT",
+        "source": "FTNN 新聞"
+      },
+      {
+        "title": "雙雄強攻上漲 被動元件族群開趴慶祝！「大哥」竟缺席落綠淚 - 三立新聞",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5reE5UTXNjQjctdUQ2OEliUjJDbGZvcElqaGF4c0dJN25OZ2x6cGVTRnlXMHJzU0Z2OExacGdvUjdHZGlSeE44UHk3aw?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 02:59:50 GMT",
+        "source": "三立新聞"
+      },
+      {
+        "title": "村田為何突然停產部分MLCC？國巨(2327)、華新科(2492)迎轉單潮，4檔受惠股一次看 - news.cnyes.com",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Ya2NERHVlc3BnWm5oRDNsbVB3OUVFRXgzYjdVb1FLQzQ0bjVPQ3lITVdxczViUkxzQUJiRElfNEp4WjU5ZzAtaGFSZ2pTU1E?oc=5",
+        "timestamp": "Thu, 10 Sep 2026 08:30:32 GMT",
+        "source": "news.cnyes.com"
+      },
+      {
+        "title": "村田淡出掀MLCC大洗牌！華新科、信昌電、禾伸堂迎轉單「國巨最受惠、重返千金是時間問題？」外資大膽預言：除非這件事發生 - 旺得富理財網",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ELVNkVlZqd3Y3dHQ2S1pJZHF4c2FFb0ZzaWhYbkV5eWtMMWtPNjltSEJaRVN1MTVTdVF0ZUpwRGgxWkFOREtmaVRQNzVya3NkSTA1TGRWMkx6Q2c1ZWIxak1kR0x5OTVPQXc?oc=5",
+        "timestamp": "Mon, 14 Sep 2026 07:01:23 GMT",
+        "source": "旺得富理財網"
+      },
+      {
+        "title": "【12:57 即時新聞】華新科(2492)股價走強至326.5元，上漲2.19%，8月營收寫近八年新高＋站穩中短期均線、多頭結構延續 - CMoney投資網誌",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaTZxZV9qS3NocEw1RXJBX0twVmpsVjJaMkRTbVFQYWFZc2Y0cjVvOW1CWU1BdmJLOWt3WExXVzQ0T2V2d2ltVHVSMkQ4ZXM4VWh2ajBoUWExVmRTN1gwSlZfTkZCSmR2VXFRd1ZBMk5Rc0pxSDBTVUVvMXFFQkRSdk9NbTFBUlpSUGJlV0xn?oc=5",
+        "timestamp": "Thu, 10 Sep 2026 04:58:10 GMT",
+        "source": "CMoney投資網誌"
+      },
+      {
+        "title": "2492 華新科 - 完了完了 永遠套住 被套元件 - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE01V0MtdHh3dXN6UHBFblhlM1BWM0MzemtkSUZ2bDJ1bXB3b3A3VkdUMkRLZVdKYjMwQlB1aFdmWkRITUd3YkVtNC0tc0xXc1pTMGZqR1dTUTk?oc=5",
+        "timestamp": "Sun, 13 Sep 2026 06:38:01 GMT",
+        "source": "CMoney"
+      }
+    ],
+    "3026": [
+      {
+        "title": "3026 禾伸堂- 股市最新爆料，掌握股友們對眾個股股價、技術分析、新聞的第一手... - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB5NWR5ckl4SjJ1VUtuLTFaMFdpVnM5bGFXOTJqRlh2Y1Y5V1JJTUpwWVlVVG5yMFNDRHBieDd4TkVMVEowTG9xWERlZHByendtNzJtT1F4Zms?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 11:54:25 GMT",
+        "source": "CMoney"
+      },
+      {
+        "title": "討論牆 | 盤中速報 - 禾伸堂(3026)大跌7%，報598元 - LINE TODAY",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Hb0RERHVoY255TVNnREIzZ1R2dGltVnRwRDZxQldEa1d2NWtYeWUyTXVYMEt0OXZnWl9FQlFIeUZ2RjZtdGhWTl9iMzdXQUkzTzliV043UXNYSEpINnpTbDdkZXo?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 17:35:17 GMT",
+        "source": "LINE TODAY"
+      },
+      {
+        "title": "產能滿載，禾伸堂斥資8.12億添購設備- 新聞 - MoneyDJ",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcFNrZlR6bGtsbXgxa2IySVh3bDB0QmZJTUdXMWxOMlpPdll1c3lBR2JaeTZBY3lsMU03V0s5X0o4aS02eUVmcV9XUTRZZ1lzRHc4TG94QkE4LUYweGJZeWM2SFM0Z29Vb1JDd3hNamtzemNCdHVTZ1BCQVEzaUlQcnBvQ1Q0UUZwamFmUWU0Y3N4dw?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 02:12:00 GMT",
+        "source": "MoneyDJ"
+      },
+      {
+        "title": "【12:37 即時新聞】禾伸堂(3026)盤中走強，市場聚焦AI伺服器高階MLCC需求 - CMoney投資網誌",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNN0wwdGNqbFdtNHdoemJ3RTBSSzY0VlVoTUgwSk1sYzZVc2dNVHpCN19HaWcybFJpc3M4M0VZd2lyRnVERXRacFdHdFZ3SDF0STlEQU0zREplbDc2RlJyTWZpT3VKeWJScU1UV19tRC1zT3VSaDJUSGo4bVpUNHRHN3FZaVRUdzNBODJ2M1Bn?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 04:37:17 GMT",
+        "source": "CMoney投資網誌"
+      },
+      {
+        "title": "禾伸堂砸8.12億元添購設備 加速擴充AI電源MLCC產能 - news.cnyes.com",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBnbjdnMzZfN19ld09YQXIwM1l3WFZ1S0RGdkJPX2lMekhJUVg0U2hkYzZsN3FDaUluTHBLRm5YWHBiM0k3NkJ4Tk5ab1BDeTQ?oc=5",
+        "timestamp": "Tue, 15 Sep 2026 11:06:46 GMT",
+        "source": "news.cnyes.com"
+      },
+      {
+        "title": "需求及利潤率趨勢向上 法人調升禾伸堂獲利預估值及目標價 - UDN",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9GeTI5OEhuLU1lbmRHclN5VXJVYWNSaG5kcGJXTG1vdjhIcUxTMDlpU2VxQWlhNURDY2JzeHVjMzVLSzBiT2RDTFNWTDUzR3Jj0gFWQVVfeXFMUE9BanpPa2tfU3c3a1JHdkVFSTVDRkFMXzFmOWU5YXVqQVA4TVZpeFg4NDlYS1ctMGNiNUJvbDdrbDFxZS0tU1oxd3NEQTdaN0NVMVBQYlE?oc=5",
+        "timestamp": "Mon, 14 Sep 2026 05:11:56 GMT",
+        "source": "UDN"
+      },
+      {
+        "title": "國巨、禾伸堂走弱！「它」直奔漲停小兵立大功　揮舞大旗領被動元件族群 - 三立新聞",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4wOVZTNVBUT3VubGpPZkYzTHhkMFBVVGVacmVRTlZhXzBTejhNOTZWcUJOMzh0cVBZQXlSU0RyNERKOXRHM3NfedIBTEFVX3lxTFBHQzBKd05BRTBBSnBzVHhLelJqOTVQZ1hsX0pyYlE2UW9mOUJBN1hnRE5TV0RPZ1JPaVBJckl3Y2JsYjBGMXZFTnYtTTU?oc=5",
+        "timestamp": "Sat, 12 Sep 2026 11:18:53 GMT",
+        "source": "三立新聞"
+      }
+    ],
+    "2472": [
+      {
+        "title": "【00406A】09/10 操作日報｜新建倉上詮，大買先進封裝與散熱 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5vajMtYU9wMnZpRExPd0VlMVhDbUtlWjZoQUxqb2JvSl85cGIyMWYxZ1ZDQjhCck52YmVBTGtISElUZUItVHh1UWNsWlFndkI4NXdZdDJ6LXg?oc=5",
+        "timestamp": "Thu, 10 Sep 2026 09:40:50 GMT",
+        "source": "CMoney"
+      }
+    ],
+    "3357": [],
+    "5425": [
+      {
+        "title": "【12:47 即時新聞】臺半(5425)盤中走強站上95元 上攻動能聚焦功率半導體買盤 - CMoney投資網誌",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORl9zVGpYNlFqYXhvNUJsTDliNE9GSjVWdnJmRFY5VzdFM1lMamxpbW5BM3NUVTV5MTdHUHBmbEQ1VlJWN2xxMm9VanJrTG9zVUk4VXhwVWNES1pLNVNfa3hYUndKdWpvRUUwTkYxYWM2UWpndWpnQkNFbTI2bm1rVEgtV29JR192SnpucUVB?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 04:47:24 GMT",
+        "source": "CMoney投資網誌"
+      },
+      {
+        "title": "功率半導體行情火紅！「這檔指標」逆風飆出漲停、強茂噴7.67%爆4.4萬張台半漲逾半根、順德也飆7% - FTNN 新聞",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBxTGRmWE9Jd1U2YzVKZ2FiZHhROXdIczZFQktQc1ltUnZUTFl5d05ydU82d1BhNWpiZ0ZUR3ZWYU5XaWE2ZG51ZmZTbw?oc=5",
+        "timestamp": "Mon, 14 Sep 2026 03:15:00 GMT",
+        "source": "FTNN 新聞"
+      },
+      {
+        "title": "【10:55 即時新聞】臺半(5425)股價上漲逾5%，主動式ETF早前大舉加碼搭配營收成長支撐、短線多空籌碼對敲下偏強整理 - CMoney投資網誌",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQR3RFY1JyYUlyUUFLdzljRUlSRjJ0QlVzSm1wVnEwaGh6UkhfcURYV2FaWVoteWd2VFdOTjBpbS10LVFxQnpaU3lJNkk4UV9ibEtKYUVNbVppNGEtQ0N3UkVUTjktREtlYnZUQlVRS2JWQXAxRXN6RG0wcUxDeWI4S0VzRVpVQS1GMzFrazRn?oc=5",
+        "timestamp": "Mon, 14 Sep 2026 02:55:28 GMT",
+        "source": "CMoney投資網誌"
+      },
+      {
+        "title": "【2026/08月營收公告】台半(5425) 八月營收17.14億元，年增22.43％ - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE03eEtzZjZaMHRRRmE5RE5VMHFwVFJjRW5rWHNNdm5rdUk2VW9HQTc2OWthRHJyZEhqX3dyUnlVcFU0cjFMUG5UNnNuaEdNWGtoa3RnbTI5d01mOFVQbEd2MW9DMFFoR1E?oc=5",
+        "timestamp": "Thu, 10 Sep 2026 07:10:04 GMT",
+        "source": "CMoney"
+      }
+    ],
+    "2481": [
+      {
+        "title": "2481 強茂 - 完了完了 😱 小弟賣到剩幾張而已！ 接下來看各位發財了😅... - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB0X3lwT2xFY09LTkhaSHFNSnpKWS1IeTVMS3NXalVxNF95V3c1MUloTHFaYWJEekMySkg4c3dmVW54Y2dvMGgzazFtRmhndG5INkpVMldzbXM?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 14:04:30 GMT",
+        "source": "CMoney"
+      },
+      {
+        "title": "強茂 瞄準逾150天 - 經濟日報",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00ZGJSNmdXeHJHUU81VlRsUkhTdHB0NWl2MktyNkphVC1SaW9iQ0RIdnBaS1RLSElGc1RsMmNwVEZqM3E2VTd0emJjbV9aY3Q3bFNzcndEdGptZ9IBX0FVX3lxTE9pS2VEY1ctZFktbDNUY3BYclNaU0dLMW9tcE9ucm84Ymw5MENhT005aXJlQnZia0dzdmpYcXA1T0lzaHNSV01uSXhQVV9wVDEydUY5Y3BoaEF5Wkp2T2xR?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 16:54:45 GMT",
+        "source": "經濟日報"
+      },
+      {
+        "title": "熱門股－強茂 投信連日加碼 - 中時新聞網",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBoWmYzamVDMG1BMTBEODdNcWFZQWFkeWFFWXptNVBLSkQ4TVdzQVpkUkxLUkpsZk0taXBub3dCTWZ2UHg0Yy1PLV9sb0J6RVNiTG9NNGxVT3k0c2RZVkNaSHNOSlN0dldmNjhv?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 20:10:00 GMT",
+        "source": "中時新聞網"
+      },
+      {
+        "title": "【優分析即時新聞】強茂(2481)逆勢漲5%！功率半導體缺貨漲價，AI機櫃含金量暴增近7倍 - news.cnyes.com",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5udUNGd21NXzh6bmRzbkhieU1qVlRfN2dQWk5LYVRjZkxieFVkR2hKSjh4OUxtWU5jNm5MX0RSMnhJYWpuZWlXY2pUWkVwelU?oc=5",
+        "timestamp": "Mon, 14 Sep 2026 02:30:08 GMT",
+        "source": "news.cnyes.com"
+      },
+      {
+        "title": "AI電力升級點火德微、強茂營運衝- 日報 - 工商時報",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9SQ2xiT0JWRlVXc2lSX3VFZHI3eG9KMFVBVlRNZlo4Z3FHUnpKaWFoMnhiUnRUYzBuNVlEU1BCbS12UGx1WEc1bm0zTU5wb2tmYndYN2FpMWJPb09kUFVv?oc=5",
+        "timestamp": "Mon, 14 Sep 2026 19:00:00 GMT",
+        "source": "工商時報"
+      },
+      {
+        "title": "【11:08 即時新聞】強茂(2481)走強近8% AI與車用功率元件成盤中焦點 - CMoney投資網誌",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZEpPYUJRUmFRV2lPRVc5OGVRclc0eW1LLWxpNERyMm51YmdkUU05Sy1NejljSUhIUHJNSTdHaFJpUXE4UWZJcEJpODJ4eWI4UmZIWW1EWDlPT3J1MktQdEFwc0kzX2RxX1FWa0w1MlBPSGxHbXluYjI2dGRWdzUxX3hQTHRNT2s1VkhJLU1B?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 03:08:56 GMT",
+        "source": "CMoney投資網誌"
+      },
+      {
+        "title": "功率半導體也倒下！強茂切CSP大啖AI紅利盤中跌3.46% 「這檔」漲價題材不敵賣壓回檔逾2% - Yahoo股市",
+        "url": "https://news.google.com/rss/articles/CBMi4ANBVV95cUxQY0JrUVNuNnp6S0Rqb2lGWThrbldWdmlUQ3F6WHhxcEM2Q21yU1doclR6UFNXS21zbmJYOVNodzEwaFFZTWdFZXZGNTh2b3J0RU81bUVuT1EtX1c3eGlGTEpVX2hHcXlkdXJoeUZybGxFNFRhSVpBbFdtUGZVc3BGQ1hUX3BPMXBqR3M3SndlcE5OdGN0Y0UxU2NZbUdpQ0xacEg2ZHVlaWxEVXV5aWNFMVFkZUZzN0ZReEF0ZWtZQlEtRVNhVG1QUnVSLXNqZGZpSzVOY3VuZ0lMZzBVTHNwZDhPNTRYeHJWTUJyLVFVTzN2UmQtbmtPUDh2MkVDWUZocDdPdmg1N0tYUDFQV1NfaTJfaWM3bHE3c01hZUlmSGEwOUxTa21GSjh2SlJTQUFvTDF6SHliNHB5V3J6cUN1M2dJNHZZYjNuVjQtUzdSaS11bGhQZUZYTHJDQ18wdVNEUUJCdjVmbGkwQ3FGOTBZOWE2VHVpT0dmdWVyOU9MUUQ0OXUwWjNtcmZMaEVwLUZwdndMWTBhQklsNXRVNDFGYmhmLUtQNkdROEx4YllqajZodVZ6R2dwZmhtRTJ5TXUzc1FpY1ZpYXA0MWpJRDYtYjRxbktlbXI2T3JmRWhCenM?oc=5",
+        "timestamp": "Tue, 15 Sep 2026 04:23:20 GMT",
+        "source": "Yahoo股市"
+      },
+      {
+        "title": "強茂(2481)股價預測：強茂值得買嗎？ - TOP1markets",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM29kMmozWGxybmRHNnpVSGtNdGZnY045YnRmRGZBTzh3QTY0OEM2aHVsQTk0anhJbWFFMDdHZEdpdFFYcHo2WUVFVDRwR2w2ZnMxN2ZIUVZFWHE1UDROTzlJTzlUTC1CXzZCUEZvbE95Zk1NRTF4NDJGNDYydjNPZHowUmR5VUNpNVpwQmpJYXozeGdhVG13SlVsaW5fSzZqZnI2cWlSSGp1cXZiaTRfYmk4ZnVUZF9P?oc=5",
+        "timestamp": "Mon, 14 Sep 2026 03:39:07 GMT",
+        "source": "TOP1markets"
+      },
+      {
+        "title": "AI營收占比達11%！強茂已打入CSP供應鏈 八大公股卻狂倒1.9千張、提款3.3億元 - FTNN 新聞",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9Td3VIRFZPTC0yZzN3anB6ZWpPNWFWblk4YlY1RmxtVnFndmRwS2VMbDJLbFVJQ3JLRWZXODhCa0c5dGFaYkY1RThnOA?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 14:30:00 GMT",
+        "source": "FTNN 新聞"
+      },
+      {
+        "title": "2481 強茂 - 又怎麼了@@ - 股市爆料同學會 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ZcDNic2JnMWhyNjhpVEIzRTZEeXlJRjlKUUhzOUw1ekxBNGJIX29VSjRibVNjRXFubzhHQWp3Tmw3N21MeDNrQVhBMTQyWF85dURVRmZjWVU?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 01:48:04 GMT",
+        "source": "CMoney"
+      }
+    ],
+    "3675": [
+      {
+        "title": "德微(3675) 個股概覽 | 個股 - 股市 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5LODRZcW81NXBpMkhqV3dLZ3ljbTR2R21rN3d4c2RMXzRrSkE4d2I4Y3NwQ0tBYnVVZjZmdkZ3Y21HeGw0Y0FjbFZsSEcwR0J6X3hr?oc=5",
+        "timestamp": "Sat, 12 Sep 2026 00:35:13 GMT",
+        "source": "CMoney"
+      },
+      {
+        "title": "最牛一輪／德微鍍金 統一64沾光 - UDN",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1UQXZ4YW1ubkVGemVUSlhBSnA1VFB4UDRQaTlfeWNEZ1VDakRqVHUxbEFDbUVOa3NrNTRVOFBEQXk2NmFnQTVUZnVZTmZpRUtv0gFWQVVfeXFMTUNrS09IU014ek40RVNXRHBmaFNBd21XTjBNd3FVSy1pcjBnbUMyeU1XLUFqMWR1eDhTMGRrY2pSR2l0N1FfcmFxbVVlNWt4YzFJNFpnRFE?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 19:18:14 GMT",
+        "source": "UDN"
+      },
+      {
+        "title": "德微（3675）做什麼？晶圓廠整合、核心技術與營收EPS解析 - pocket.tw",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSNk14a3Q4RXl5M2R4UG4wZ1ZKZ1lrRzYxVkhWRkhTcEpTUzFhSFdzcm14Z3hHQ1N1Q2xHSVV4ZEJXT2xmajFfd3lHUjBLQ1FzMTFSUG5fUG8yYk40?oc=5",
+        "timestamp": "Mon, 14 Sep 2026 07:27:53 GMT",
+        "source": "pocket.tw"
+      },
+      {
+        "title": "焦點股》德微：漲價題材加持 漲停鎖死 - 自由財經",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9HVEt5Mk1RVkg2UG1QNnBiSjJJN2YyNlNBRVdyNGF3TG5idmZySDFmVVJiR0d0d01KOUJfS25DRU1fZDhHV29ST21ReDVKWHZQRFI0MWFRcVNSbWxXZS1j?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 03:02:52 GMT",
+        "source": "自由財經"
+      },
+      {
+        "title": "【09:54 即時新聞】德微(3675)亮燈漲停 功率半導體買盤迴流 - CMoney投資網誌",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWkFxTDduZXRVU3dEZkpyME1SS3RWRGVHbUwwYnliOFFXRFNnQ2l4N1J4MVZMUy1zY0hLZVh5cERhdkZ2OUVmRUpuanJJRU5vNGxYb3lDZ29oZmlldVJ5T1BPMkRtYnZMNEl0c1B2YmwwZnFIVmdwLUMwaVBWV0FFSXdiRkdCM0JPQ005cFpn?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 01:54:30 GMT",
+        "source": "CMoney投資網誌"
+      },
+      {
+        "title": "AI電力升級點火德微、強茂營運衝- 日報 - 工商時報",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9SQ2xiT0JWRlVXc2lSX3VFZHI3eG9KMFVBVlRNZlo4Z3FHUnpKaWFoMnhiUnRUYzBuNVlEU1BCbS12UGx1WEc1bm0zTU5wb2tmYndYN2FpMWJPb09kUFVv?oc=5",
+        "timestamp": "Mon, 14 Sep 2026 19:00:00 GMT",
+        "source": "工商時報"
+      },
+      {
+        "title": "討論牆 | 盤中速報 - 德微(3675)大跌9.72%，報195元 - LINE TODAY",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE45d2RwRUxmOXhPeENqQ1pCMTAwR3dhUjdVcV95SFlrYXdhNUVWTVVNcHJhM0lDTHhPbHRCcEJ6dEtHejFVemZnR1YxQkxiMkRyeEVmbl9YbjNfV1IxbkpvaUtINmM?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 22:30:32 GMT",
+        "source": "LINE TODAY"
+      },
+      {
+        "title": "AI電源革命點燃功率半導體！德微漲停、強茂台半急追 800V架構＋漲價潮成雙引擎 - 理財周刊",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBXNkdkaDhmZlBLbFZVM0NVWkxXSXpVSm04VmF2YzNSQ21nak9SaDB3TWJCTDJoTkFwbFMyVmljSjdCYTdLV3diamhEM0x4dU4td0lINjRvc1BHdldQQ2xfckRJRC1hckE0RFNwc1Zobw?oc=5",
+        "timestamp": "Wed, 16 Sep 2026 03:10:02 GMT",
+        "source": "理財周刊"
+      },
+      {
+        "title": "盤中速報 - 德微(3675)股價拉至漲停，漲停價284.5元，成交968張 - TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE05d3ZvQlV4YUNLeF9fbE9kcVN0VC03MlU3djFvc24wcnpIWWwweU1EVHhjQVkzM3ZObFRDSkkzVlozOGFVRzJxS0xmNWNYczRHUVpYVWhUV0hQZFRKU0dkbTMwQ1I?oc=5",
+        "timestamp": "Mon, 14 Sep 2026 03:46:55 GMT",
+        "source": "TradingView"
+      },
+      {
+        "title": "功率半導體漲價潮來了？德微(3675)營收創高、強茂(2481)AI占比翻倍，下一棒看誰？ - 優分析UAnalyze",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aWE81d3dUZXp4aU4wbXJjVWxTUGk4bTdfaHBEZE1mWWI3dFhsRmhBbFQtdnNMbjJTZWUzdmdIV1M2QTk1MGFPR1d0NGgwSTAxbVVpOTd3?oc=5",
+        "timestamp": "Thu, 10 Sep 2026 05:50:00 GMT",
+        "source": "優分析UAnalyze"
+      }
+    ],
+    "8255": [
+      {
+        "title": "【09/10券商評等報告彙整】朋程(8255) 今日僅1家券商發布績效評等報告，評價為中立，目標價為146元。 - CMoney",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5peFJtLU9qU0t6OVpKaWFQamFBc21QWUFkdW96ZVA4LTlKb2FZNXJhSlVTS1ZqWkhEbktkYmV1czNXZUtqdmhEMlVBQ3p4cnNpeXo3WFdxMlJxMlF4aWRmcjJndmk2ZGs?oc=5",
+        "timestamp": "Thu, 10 Sep 2026 10:50:03 GMT",
+        "source": "CMoney"
+      }
+    ],
+    "8261": [
+      {
+        "title": "【12:01 即時新聞】富鼎(8261)股價上漲3.7%、來到168元，受功率半導體漲價與AI電力題材支撐，惟技術面偏弱、主力籌碼續偏空 - CMoney投資網誌",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdllkQ2ZxTFA3UEdTLW5Wb2E1RUhOTnFSTnF4cGxGVUlET0YtZ1lEdHJXOHowelhqNGlVdGItOTBvOTl6SW9FbFZUNURvQm4xMl8tQ1dBRVVDRUJRd1lJNW9UR29ySUMtYTJqdmQtOHdlVzBPVnN2WGRBUGdZZl9Ya0FFUEREUTQwNWtTbzFR?oc=5",
+        "timestamp": "Mon, 14 Sep 2026 04:02:44 GMT",
+        "source": "CMoney投資網誌"
+      }
+    ],
+    "market": []
+  },
+  "tickers": {
+    "2327.TW": {
+      "target": "same_day_open_to_close_pct",
+      "predicted_intraday_pct": -0.225,
+      "sentiment_score": -0.6,
+      "features": [
+        -0.6,
+        0.6,
+        0.75,
+        2.3978952727983707,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "warmup_shadow",
+      "formal_strategy_input": false
+    },
+    "2472.TW": {
+      "target": "same_day_open_to_close_pct",
+      "predicted_intraday_pct": 0.0,
+      "sentiment_score": 0.0,
+      "features": [
+        0.0,
+        0.0,
+        0.6,
+        0.6931471805599453,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "warmup_shadow",
+      "formal_strategy_input": false
+    },
+    "2481.TW": {
+      "target": "same_day_open_to_close_pct",
+      "predicted_intraday_pct": 0.2625,
+      "sentiment_score": 0.7,
+      "features": [
+        0.7,
+        0.7,
+        0.75,
+        2.3978952727983707,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "warmup_shadow",
+      "formal_strategy_input": false
+    },
+    "2492.TW": {
+      "target": "same_day_open_to_close_pct",
+      "predicted_intraday_pct": 0.3,
+      "sentiment_score": 0.75,
+      "features": [
+        0.75,
+        0.75,
+        0.8,
+        2.0794415416798357,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "warmup_shadow",
+      "formal_strategy_input": false
+    },
+    "3026.TW": {
+      "target": "same_day_open_to_close_pct",
+      "predicted_intraday_pct": 0.0,
+      "sentiment_score": 0.0,
+      "features": [
+        0.0,
+        0.0,
+        0.7,
+        2.0794415416798357,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "warmup_shadow",
+      "formal_strategy_input": false
+    },
+    "3357.TWO": {
+      "target": "same_day_open_to_close_pct",
+      "predicted_intraday_pct": 0.0,
+      "sentiment_score": 0.0,
+      "features": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "warmup_shadow",
+      "formal_strategy_input": false
+    },
+    "3675.TWO": {
+      "target": "same_day_open_to_close_pct",
+      "predicted_intraday_pct": 0.28,
+      "sentiment_score": 0.7,
+      "features": [
+        0.7,
+        0.7,
+        0.8,
+        2.3978952727983707,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "warmup_shadow",
+      "formal_strategy_input": false
+    },
+    "5425.TWO": {
+      "target": "same_day_open_to_close_pct",
+      "predicted_intraday_pct": 0.34,
+      "sentiment_score": 0.8,
+      "features": [
+        0.8,
+        0.8,
+        0.85,
+        1.6094379124341003,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "status": "warmup_shadow",
+      "formal_strategy_input": false
+    },
+    "8255.TWO": {
+      "target": "same_day_open_to_close_pct",
+      "predicted_intraday_pct": 0.0,
+      "sentiment_score": 0.0,
+      "features": [
+        0.0,
+        0.0,
+        0.6,
+        0.6931471805599453,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "status": "warmup_shadow",
+      "formal_strategy_input": false
+    },
+    "8261.TW": {
+      "target": "same_day_open_to_close_pct",
+      "predicted_intraday_pct": -0.14,
+      "sentiment_score": -0.4,
+      "features": [
+        -0.4,
+        0.4,
+        0.7,
+        0.6931471805599453,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "status": "warmup_shadow",
+      "formal_strategy_input": false
+    }
+  }
+}

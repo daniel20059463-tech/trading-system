@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-15",
+  "timestamp": "2026-09-15 17:39:34",
+  "ticker_performance": {},
+  "summary": {},
+  "post_market_analysis": {
+    "2327": {
+      "sentiment": "bearish",
+      "sentiment_score": -0.6,
+      "key_catalysts": [
+        "國巨股價下跌，市場對其被動元件需求持續疑慮。",
+        "被動元件族群的漲價循環是否持續仍不明朗，影響投資者信心。",
+        "其他被動元件廠商未能穩定表現，導致市場整體情緒低迷。"
+      ],
+      "risk_factors": [
+        "經濟環境不明朗可能影響消費電子需求。",
+        "部件價格上漲可能造成需求減少。",
+        "主要競爭對手的價格策略影響市場份額。"
+      ],
+      "strategy_signal": "sell",
+      "strategy_reason": "由於市場對國巨目前需求展望感到悲觀，短期內股價可能持續下行，建議賣出減少風險。",
+      "confidence": 0.75,
+      "ticker_name": "國巨",
+      "session_type": "post_market"
+    },
+    "2492": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.7,
+      "key_catalysts": [
+        "三星喊漲MLCC，帶動被動元件三雄股價上升",
+        "8月營收創近8年新高，顯示公司產品需求強勁",
+        "公司信心喊話，反映未來展望樂觀"
+      ],
+      "risk_factors": [
+        "投信提款5.36億元可能影響股價穩定性",
+        "市場過度反應或許導致技術回檔",
+        "整體經濟環境不確定性持續高漲"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "由於強勁的營收及市場需求，且行業景氣回暖，適合進場布局。",
+      "confidence": 0.8,
+      "ticker_name": "華新科",
+      "session_type": "post_market"
+    },
+    "3026": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.1,
+      "key_catalysts": [
+        "禾伸堂因MLCC漲價及AI高階伺服器需求遞增，股價表現相對穩定",
+        "雙雄強勢領漲，使被動元件族群紅綠交錯情況增強",
+        "近期投信買盤穩定進場，對股價有一定支撐"
+      ],
+      "risk_factors": [
+        "被動元件族群整體表現波動且存在市場情緒影響",
+        "禾伸堂股價曾面臨重大回調，需持續關注風險",
+        "對於其他競爭者的表現可能對公司造成壓力"
+      ],
+      "strategy_signal": "watch",
+      "strategy_reason": "禾伸堂目前面臨市場波動，儘管需求仍然強勁，但需觀察市場走向以評估持倉決策。",
+      "confidence": 0.6,
+      "ticker_name": "禾伸堂",
+      "session_type": "post_market"
+    },
+    "2472": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.7,
+      "key_catalysts": [
+        "8月營收年增率高達51.19%",
+        "下半年營運持續向上",
+        "AI伺服器與車用電子需求增強"
+      ],
+      "risk_factors": [
+        "市場競爭加劇可能影響毛利率",
+        "全球供應鏈不穩可能影響交貨期",
+        "經濟衰退風險可能抑制需求"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "立隆電的營收成長強勁，加上下半年需求看好，適合進場布局",
+      "confidence": 0.85,
+      "ticker_name": "立隆電",
+      "session_type": "post_market"
+    },
+    "3357": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [
+        "臺慶科通過配息5.2元，營運展望樂觀",
+        "8月營收達8.15億元，年增53.07%",
+        "被動元件整體市場受到負面影響，臺慶科成為唯一跌停股票"
+      ],
+      "risk_factors": [
+        "被動元件市場波動影響整體股價表現",
+        "競爭對手表現不佳可能影響市場信心",
+        "股市整體環境不穩定可能影響投資人情緒"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "公司營收增長顯著，但市場波動及競爭壓力令人擔憂，建議觀望。",
+      "confidence": 0.75,
+      "ticker_name": "臺慶科",
+      "session_type": "post_market"
+    }
+  }
+}

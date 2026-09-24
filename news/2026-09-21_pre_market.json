@@ -1,0 +1,361 @@
+{
+  "2327": {
+    "sentiment": "bearish",
+    "sentiment_score": -0.6,
+    "key_catalysts": [
+      "EPS預估下修至19.83元，目標價1125元",
+      "外資主力賣超，股價量增收黑",
+      "國巨鉭電容漲價占比提升，毛利率表現需持續觀察"
+    ],
+    "risk_factors": [
+      "市場對被動元件需求預期不佳",
+      "近期股價波動性增大",
+      "外資持續賣超影響股東情緒"
+    ],
+    "strategy_signal": "sell",
+    "strategy_reason": "面對 EPS 下修與外資賣超，短期內股價壓力可能加大，建議獲利了結。",
+    "confidence": 0.75,
+    "ticker_name": "國巨",
+    "session_type": "pre_market",
+    "news_count": 11,
+    "ml_prediction": {
+      "ticker": "2327.TW",
+      "name": "國巨",
+      "data_as_of": "2026-09-20",
+      "predicted_close": 549.25,
+      "last_close": 546.0,
+      "prev_close": 550.0,
+      "predicted_change_pct": 0.5944,
+      "direction": "UP",
+      "confidence": 1.0,
+      "model_type": "ensemble",
+      "lstm_weight": 0.491,
+      "transformer_weight": 0.509,
+      "lstm_pct": 0.4625,
+      "transformer_pct": 0.7217
+    }
+  },
+  "2492": {
+    "sentiment": "bullish",
+    "sentiment_score": 0.8,
+    "key_catalysts": [
+      "華新科、信昌電募資計畫顯示市場對被動元件需求的期待",
+      "被動元件市場復甦，華新科急拉3.03%顯示投資者信心",
+      "華新科計畫募資45億元強化生產及擴大市場佔有率"
+    ],
+    "risk_factors": [
+      "市場需求波動可能影響被動元件價格及利潤",
+      "全球經濟不確定性可能影響電子產品需求",
+      "競爭對手的技術與市場策略"
+    ],
+    "strategy_signal": "buy",
+    "strategy_reason": "隨著被動元件需求回升與募資計畫，華新科有潛力實現增長。",
+    "confidence": 0.75,
+    "ticker_name": "華新科",
+    "session_type": "pre_market",
+    "news_count": 6,
+    "ml_prediction": {
+      "ticker": "2492.TW",
+      "name": "華新科",
+      "data_as_of": "2026-09-20",
+      "predicted_close": 307.8,
+      "last_close": 307.0,
+      "prev_close": 309.5,
+      "predicted_change_pct": 0.2597,
+      "direction": "UP",
+      "confidence": 0.8314,
+      "model_type": "ensemble",
+      "lstm_weight": 0.569,
+      "transformer_weight": 0.431,
+      "lstm_pct": -0.0692,
+      "transformer_pct": 0.694
+    }
+  },
+  "3026": {
+    "sentiment": "bullish",
+    "sentiment_score": 0.75,
+    "key_catalysts": [
+      "禾伸堂產能逼近滿載，近期EPS表現良好",
+      "AI電源MLCC產能擴充，加速技術佈局",
+      "高階產品熱銷，帶動市場需求增加"
+    ],
+    "risk_factors": [
+      "市場競爭激烈，價格壓力增加",
+      "全球經濟變化可能影響需求",
+      "擴產計畫執行風險"
+    ],
+    "strategy_signal": "buy",
+    "strategy_reason": "隨著市場需求強勁及產能擴充，禾伸堂具備良好成長潛力。",
+    "confidence": 0.8,
+    "ticker_name": "禾伸堂",
+    "session_type": "pre_market",
+    "news_count": 9,
+    "ml_prediction": {
+      "ticker": "3026.TW",
+      "name": "禾伸堂",
+      "data_as_of": "2026-09-20",
+      "predicted_close": 811.46,
+      "last_close": 805.0,
+      "prev_close": 797.0,
+      "predicted_change_pct": 0.8027,
+      "direction": "UP",
+      "confidence": 1.0,
+      "model_type": "ensemble",
+      "lstm_weight": 0.5,
+      "transformer_weight": 0.5,
+      "lstm_pct": 0.4524,
+      "transformer_pct": 1.153
+    }
+  },
+  "2472": {
+    "sentiment": "bullish",
+    "sentiment_score": 0.7,
+    "key_catalysts": [
+      "AI需求刺激被動元件需求上升",
+      "市場預期進入新一輪漲價循環",
+      "立隆電可能受益於供應鏈需求回升"
+    ],
+    "risk_factors": [
+      "需求增長能否持續",
+      "市場競爭加劇",
+      "原材料價格波動"
+    ],
+    "strategy_signal": "buy",
+    "strategy_reason": "隨著AI需求增長，被動元件市場有望進入漲價潮，立隆電將受益。",
+    "confidence": 0.8,
+    "ticker_name": "立隆電",
+    "session_type": "pre_market",
+    "news_count": 1,
+    "ml_prediction": {
+      "ticker": "2472.TW",
+      "name": "立隆電",
+      "data_as_of": "2026-09-20",
+      "predicted_close": 219.59,
+      "last_close": 216.0,
+      "prev_close": 216.0,
+      "predicted_change_pct": 1.661,
+      "direction": "UP",
+      "confidence": 0.9996,
+      "model_type": "ensemble",
+      "lstm_weight": 0.484,
+      "transformer_weight": 0.516,
+      "lstm_pct": 1.6806,
+      "transformer_pct": 1.6427
+    }
+  },
+  "3357": {
+    "sentiment": "bullish",
+    "sentiment_score": 0.6,
+    "key_catalysts": [
+      "被動元件市場漲價趨勢已確立",
+      "日商村田電感產品漲價，可能推動台廠報價上調",
+      "台廠受惠於整體產業需求回升"
+    ],
+    "risk_factors": [
+      "全球經濟不穩定可能影響需求",
+      "原材料價格波動可能影響利潤",
+      "國際貿易政策變動風險"
+    ],
+    "strategy_signal": "buy",
+    "strategy_reason": "被動元件漲價趨勢有助提高利潤，且市場需求提升，建議把握買入機會。",
+    "confidence": 0.75,
+    "ticker_name": "臺慶科",
+    "session_type": "pre_market",
+    "news_count": 1,
+    "ml_prediction": {
+      "ticker": "3357.TWO",
+      "name": "臺慶科",
+      "data_as_of": "2026-09-20",
+      "predicted_close": 212.04,
+      "last_close": 212.0,
+      "prev_close": 207.5,
+      "predicted_change_pct": 0.0178,
+      "direction": "UP",
+      "confidence": 1.0,
+      "model_type": "ensemble",
+      "lstm_weight": 0.502,
+      "transformer_weight": 0.498,
+      "lstm_pct": 0.1484,
+      "transformer_pct": -0.1138
+    }
+  },
+  "5425": {
+    "sentiment": "bullish",
+    "sentiment_score": 0.7,
+    "key_catalysts": [
+      "台半(5425)急拉4.57%報91.5元，成交3,448張，顯示市場強勁買盤。",
+      "盤中走強站上95元，功率半導體需求提升，吸引資金進場。",
+      "持續的成交量提升，顯示投資者信心增加。"
+    ],
+    "risk_factors": [
+      "全球半導體市場波動可能影響需求。",
+      "競爭對手的市場策略可能對股價形成壓力。",
+      "利率上升可能對資本支出造成影響。"
+    ],
+    "strategy_signal": "buy",
+    "strategy_reason": "近期股價上漲伴隨大量成交，顯示市場對功率元件需求的積極預期。",
+    "confidence": 0.8,
+    "ticker_name": "台半",
+    "session_type": "pre_market",
+    "news_count": 3,
+    "ml_prediction": {
+      "ticker": "5425.TWO",
+      "name": "台半",
+      "data_as_of": "2026-09-20",
+      "predicted_close": 93.19,
+      "last_close": 93.3,
+      "prev_close": 92.6,
+      "predicted_change_pct": -0.117,
+      "direction": "DOWN",
+      "confidence": 0.9552,
+      "model_type": "ensemble",
+      "lstm_weight": 0.491,
+      "transformer_weight": 0.509,
+      "lstm_pct": -0.4273,
+      "transformer_pct": 0.1824
+    }
+  },
+  "2481": {
+    "sentiment": "bullish",
+    "sentiment_score": 0.8,
+    "key_catalysts": [
+      "光電與功率半導體領軍爆發，強茂股價漲停",
+      "AI與車用功率元件需求增強，激勵強茂營運",
+      "近期股價走強，吸引投資者注意"
+    ],
+    "risk_factors": [
+      "市場波動可能導致短期股價回調",
+      "供應鏈狀況不穩可能影響生產",
+      "競爭對手技術進步影響市場位置"
+    ],
+    "strategy_signal": "buy",
+    "strategy_reason": "強茂受益於AI及車用需求上升，股價持續強勢，適合逢低進場。",
+    "confidence": 0.85,
+    "ticker_name": "強茂",
+    "session_type": "pre_market",
+    "news_count": 8,
+    "ml_prediction": {
+      "ticker": "2481.TW",
+      "name": "強茂",
+      "data_as_of": "2026-09-20",
+      "predicted_close": 168.57,
+      "last_close": 168.5,
+      "prev_close": 168.5,
+      "predicted_change_pct": 0.0394,
+      "direction": "UP",
+      "confidence": 1.0,
+      "model_type": "ensemble",
+      "lstm_weight": 0.502,
+      "transformer_weight": 0.498,
+      "lstm_pct": 0.2394,
+      "transformer_pct": -0.1623
+    }
+  },
+  "3675": {
+    "sentiment": "bullish",
+    "sentiment_score": 0.8,
+    "key_catalysts": [
+      "德微漲停鎖死，反映出市場對漲價題材的高度關注",
+      "功率半導體需求回流，AI機櫃升級將進一步帶動需求",
+      "車用市場與AI需求雙驅動，預期未來營運表現將持續提升"
+    ],
+    "risk_factors": [
+      "市場過熱可能導致短期調整",
+      "若漲價效應不持續，營收壓力將增加",
+      "競爭加劇可能影響市場份額"
+    ],
+    "strategy_signal": "buy",
+    "strategy_reason": "德微在功率元件市場的需求上升與營收潛力引起關注，適合把握增長機會。",
+    "confidence": 0.75,
+    "ticker_name": "德微",
+    "session_type": "pre_market",
+    "news_count": 9,
+    "ml_prediction": {
+      "ticker": "3675.TWO",
+      "name": "德微",
+      "data_as_of": "2026-09-20",
+      "predicted_close": 295.9,
+      "last_close": 295.5,
+      "prev_close": 294.0,
+      "predicted_change_pct": 0.1351,
+      "direction": "UP",
+      "confidence": 0.9847,
+      "model_type": "ensemble",
+      "lstm_weight": 0.551,
+      "transformer_weight": 0.449,
+      "lstm_pct": 0.1166,
+      "transformer_pct": 0.1577
+    }
+  },
+  "8255": {
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "key_catalysts": [],
+    "risk_factors": [
+      "無法取得 AI 分析，請人工確認"
+    ],
+    "strategy_signal": "hold",
+    "strategy_reason": "API 分析失敗，維持觀望",
+    "confidence": 0.0,
+    "ticker_name": "朋程",
+    "session_type": "pre_market",
+    "news_count": 0,
+    "ml_prediction": {
+      "ticker": "8255.TWO",
+      "name": "朋程",
+      "data_as_of": "2026-09-20",
+      "predicted_close": 146.35,
+      "last_close": 146.0,
+      "prev_close": 136.0,
+      "predicted_change_pct": 0.2387,
+      "direction": "UP",
+      "confidence": 0.9858,
+      "model_type": "ensemble",
+      "lstm_weight": 0.515,
+      "transformer_weight": 0.485,
+      "lstm_pct": 0.1276,
+      "transformer_pct": 0.3567
+    }
+  },
+  "8261": {
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "key_catalysts": [
+      "富鼎股價漲停至202.0元，成交量2,162張，顯示市場熱度。",
+      "近期受功率半導體漲價影響，但技術面偏弱。",
+      "較近期大漲後出現急跌，顯示市場情緒不穩定。"
+    ],
+    "risk_factors": [
+      "主力籌碼偏空，可能導致股價回調。",
+      "短期內市場情緒波動較大，風險需謹慎觀察。",
+      "技術面分析不佳，可能影響後市表現。"
+    ],
+    "strategy_signal": "hold",
+    "strategy_reason": "因近期股價波動劇烈且市場情緒不穩，建議持觀望態度。",
+    "confidence": 0.7,
+    "ticker_name": "富鼎",
+    "session_type": "pre_market",
+    "news_count": 4,
+    "ml_prediction": {
+      "ticker": "8261.TW",
+      "name": "富鼎",
+      "data_as_of": "2026-09-20",
+      "predicted_close": 175.05,
+      "last_close": 176.0,
+      "prev_close": 177.0,
+      "predicted_change_pct": -0.5408,
+      "direction": "DOWN",
+      "confidence": 0.9701,
+      "model_type": "ensemble",
+      "lstm_weight": 0.49,
+      "transformer_weight": 0.51,
+      "lstm_pct": -1.3912,
+      "transformer_pct": 0.2763
+    }
+  },
+  "market": {
+    "market_sentiment": "neutral",
+    "score": 0.0,
+    "summary": "無大盤新聞可供分析"
+  }
+}

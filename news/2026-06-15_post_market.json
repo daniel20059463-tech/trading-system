@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-15",
+  "timestamp": "2026-06-15 15:30:24",
+  "ticker_performance": {
+    "2327": {
+      "predicted": 870.51,
+      "actual": 940.0,
+      "prev_close": 855.0,
+      "mape": 7.39,
+      "baseline_mape": 9.04,
+      "direction_correct": true
+    },
+    "2492": {
+      "predicted": 413.81,
+      "actual": 449.5,
+      "prev_close": 409.0,
+      "mape": 7.94,
+      "baseline_mape": 9.01,
+      "direction_correct": true
+    },
+    "3026": {
+      "predicted": 779.98,
+      "actual": 840.0,
+      "prev_close": 764.0,
+      "mape": 7.15,
+      "baseline_mape": 9.05,
+      "direction_correct": true
+    },
+    "2472": {
+      "predicted": 377.11,
+      "actual": 386.0,
+      "prev_close": 371.5,
+      "mape": 2.3,
+      "baseline_mape": 3.76,
+      "direction_correct": true
+    },
+    "3357": {
+      "predicted": 296.01,
+      "actual": 322.0,
+      "prev_close": 293.0,
+      "mape": 8.07,
+      "baseline_mape": 9.01,
+      "direction_correct": true
+    },
+    "5425": {
+      "predicted": 101.2,
+      "actual": 101.0,
+      "prev_close": 101.0,
+      "mape": 0.2,
+      "baseline_mape": 0.0,
+      "direction_correct": false
+    },
+    "2481": {
+      "predicted": 145.6,
+      "actual": 142.5,
+      "prev_close": 145.0,
+      "mape": 2.18,
+      "baseline_mape": 1.75,
+      "direction_correct": false
+    },
+    "3675": {
+      "predicted": 312.67,
+      "actual": 318.0,
+      "prev_close": 311.0,
+      "mape": 1.68,
+      "baseline_mape": 2.2,
+      "direction_correct": true
+    },
+    "8255": {
+      "predicted": 167.32,
+      "actual": 183.0,
+      "prev_close": 168.0,
+      "mape": 8.57,
+      "baseline_mape": 8.2,
+      "direction_correct": false
+    },
+    "8261": {
+      "predicted": 173.64,
+      "actual": 186.0,
+      "prev_close": 173.5,
+      "mape": 6.65,
+      "baseline_mape": 6.72,
+      "direction_correct": true
+    }
+  },
+  "summary": {
+    "avg_mape": 5.21,
+    "baseline_mape": 5.87,
+    "beat_baseline": true,
+    "direction_accuracy": 0.7,
+    "sample_count": 10
+  },
+  "post_market_analysis": {
+    "2327": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [
+        "台灣Yageo成功並購Shibaura，提高競爭力",
+        "日本對Shibaura的安全審查表示關注",
+        "Yageo提高出價以增強其談判地位"
+      ],
+      "risk_factors": [
+        "國際政經因素影響供應鏈穩定性",
+        "競爭壓力來自其他被動元件廠商",
+        "Yageo併購的不確定因素"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "國巨目前面臨不確定的市場環境，需持觀望態度。",
+      "confidence": 0.7,
+      "ticker_name": "國巨",
+      "session_type": "post_market"
+    },
+    "2492": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.7,
+      "key_catalysts": [
+        "華新科的淨利潤率跳升",
+        "加強市場對操作效率的信心",
+        "未來盈利潛力提升"
+      ],
+      "risk_factors": [
+        "市場競爭加劇",
+        "全球經濟變化的影響",
+        "原材料成本波動"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "華新科淨利潤率顯著提升，顯示出良好的經營效率與未來增長潛力，有利於投資者進場。",
+      "confidence": 0.8,
+      "ticker_name": "華新科",
+      "session_type": "post_market"
+    },
+    "3026": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [],
+      "risk_factors": [
+        "無法取得 AI 分析，請人工確認"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "API 分析失敗，維持觀望",
+      "confidence": 0.0,
+      "ticker_name": "禾伸堂",
+      "session_type": "post_market"
+    },
+    "2472": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [],
+      "risk_factors": [],
+      "strategy_signal": "hold",
+      "strategy_reason": "近期新聞未提供有力訊息，立隆電需關注未來實質訂單和產業動向。",
+      "confidence": 0.6,
+      "ticker_name": "立隆電",
+      "session_type": "post_market"
+    },
+    "3357": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [],
+      "risk_factors": [
+        "無法取得 AI 分析，請人工確認"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "API 分析失敗，維持觀望",
+      "confidence": 0.0,
+      "ticker_name": "臺慶科",
+      "session_type": "post_market"
+    }
+  }
+}

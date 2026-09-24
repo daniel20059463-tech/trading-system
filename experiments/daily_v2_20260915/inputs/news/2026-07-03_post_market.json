@@ -1,0 +1,190 @@
+{
+  "date": "2026-07-03",
+  "timestamp": "2026-07-03 15:30:36",
+  "ticker_performance": {
+    "2327": {
+      "predicted": 1076.22,
+      "actual": 1045.0,
+      "prev_close": 1055.0,
+      "mape": 2.99,
+      "baseline_mape": 0.96,
+      "direction_correct": false
+    },
+    "2492": {
+      "predicted": 570.49,
+      "actual": 563.0,
+      "prev_close": 561.0,
+      "mape": 1.33,
+      "baseline_mape": 0.36,
+      "direction_correct": true
+    },
+    "3026": {
+      "predicted": 897.1,
+      "actual": 988.0,
+      "prev_close": 899.0,
+      "mape": 9.2,
+      "baseline_mape": 9.01,
+      "direction_correct": false
+    },
+    "2472": {
+      "predicted": 431.71,
+      "actual": 425.0,
+      "prev_close": 428.0,
+      "mape": 1.58,
+      "baseline_mape": 0.71,
+      "direction_correct": false
+    },
+    "3357": {
+      "predicted": 302.04,
+      "actual": 292.0,
+      "prev_close": 299.0,
+      "mape": 3.44,
+      "baseline_mape": 2.4,
+      "direction_correct": false
+    },
+    "5425": {
+      "predicted": 134.31,
+      "actual": 131.0,
+      "prev_close": 133.5,
+      "mape": 2.53,
+      "baseline_mape": 1.91,
+      "direction_correct": false
+    },
+    "2481": {
+      "predicted": 211.67,
+      "actual": 207.0,
+      "prev_close": 213.5,
+      "mape": 2.26,
+      "baseline_mape": 3.14,
+      "direction_correct": true
+    },
+    "3675": {
+      "predicted": 413.1,
+      "actual": 417.5,
+      "prev_close": 407.0,
+      "mape": 1.05,
+      "baseline_mape": 2.51,
+      "direction_correct": true
+    },
+    "8255": {
+      "predicted": 189.21,
+      "actual": 186.5,
+      "prev_close": 191.5,
+      "mape": 1.45,
+      "baseline_mape": 2.68,
+      "direction_correct": true
+    },
+    "8261": {
+      "predicted": 331.21,
+      "actual": 320.0,
+      "prev_close": 327.0,
+      "mape": 3.5,
+      "baseline_mape": 2.19,
+      "direction_correct": false
+    }
+  },
+  "summary": {
+    "avg_mape": 2.93,
+    "baseline_mape": 2.59,
+    "beat_baseline": false,
+    "direction_accuracy": 0.4,
+    "sample_count": 10
+  },
+  "post_market_analysis": {
+    "2327": {
+      "sentiment": "bearish",
+      "sentiment_score": -0.6,
+      "key_catalysts": [
+        "國巨遭違約交割3880萬元",
+        "台股因違約交割消息翻車",
+        "被動元件漲價未能完全抵消違約風險"
+      ],
+      "risk_factors": [
+        "違約交割可能影響市場信心",
+        "短期內股價波動性增加",
+        "高估值可能回調"
+      ],
+      "strategy_signal": "sell",
+      "strategy_reason": "違約交割事件對投資者信心造成壓力，短期內股價可能持續承壓。",
+      "confidence": 0.75,
+      "ticker_name": "國巨",
+      "session_type": "post_market"
+    },
+    "2492": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [
+        "被動元件漲價潮，華新科有成長潛力但面臨市場波動",
+        "國巨股價遽升，帶動華新科的整體市場情緒",
+        "電容族群遭遇賣壓，影響華新科股價表現"
+      ],
+      "risk_factors": [
+        "市場對於電容族群的恐慌性拋售",
+        "AI需求增長影響需求結構的不確定性",
+        "競爭對手市場表現強勁，可能影響市場份額"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "面對漲價潮與市場波動，建議持有觀察以評估未來走勢。",
+      "confidence": 0.7,
+      "ticker_name": "華新科",
+      "session_type": "post_market"
+    },
+    "3026": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.8,
+      "key_catalysts": [
+        "禾伸堂股價漲停至988元，AI伺服器電源升級利多發酵",
+        "法人調升禾伸堂目標價，獲利成長動能強勁",
+        "被動元件漲價潮持續，禾伸堂股價在過去三個月翻倍"
+      ],
+      "risk_factors": [
+        "國巨股價下跌可能影響市場情緒",
+        "技術調整風險可能導致短期波動",
+        "全球經濟不穩定性可能影響採購需求"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "禾伸堂受益於AI伺服器升級及被動元件漲價潮，獲利持續改善，且法人看好未來成長。 ",
+      "confidence": 0.85,
+      "ticker_name": "禾伸堂",
+      "session_type": "post_market"
+    },
+    "2472": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.8,
+      "key_catalysts": [
+        "立隆電配發3.5元股利，估Q3營收再攀升",
+        "立隆電亮燈漲停至453.5元，被動元件與AI伺服器題材推升",
+        "討論牆訊息顯示立隆電股價漲幅7.03%"
+      ],
+      "risk_factors": [
+        "市場整體波動性可能影響股價",
+        "行業競爭加劇可能導致利潤壓縮",
+        "政策變動可能影響供應鏈及需求"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "公司營運數據顯示增長潛力，加上市場情緒正面，建議考慮買入。",
+      "confidence": 0.85,
+      "ticker_name": "立隆電",
+      "session_type": "post_market"
+    },
+    "3357": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.8,
+      "key_catalysts": [
+        "臺慶科5月營收年增率達37.77%，顯示強勁的成長潛力。",
+        "AI電感產品帶動營收創高，支持股價上漲。",
+        "外資連日偏多，顯示市場信心回升。"
+      ],
+      "risk_factors": [
+        "全球電子需求變化可能影響未來營收。",
+        "市場競爭可能壓縮利潤空間。",
+        "原物料價格波動影響成本。"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "臺慶科營收成長強勁，受AI電感推動，前景樂觀。",
+      "confidence": 0.85,
+      "ticker_name": "臺慶科",
+      "session_type": "post_market"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-22",
+  "captured_at": "2026-09-22T08:31:45.434017+08:00",
+  "status": "core_indices_only",
+  "cutoff": "08:30 Asia/Taipei",
+  "metadata": {
+    "us_session": "2026-09-21",
+    "us_available_taipei": "2026-09-22T05:00:00+08:00",
+    "previous_tw_date": "2026-09-21",
+    "source": "Yahoo Finance adjusted daily close",
+    "symbols": {
+      "sox_last": "^SOX",
+      "nasdaq_last": "^IXIC",
+      "sp500_last": "^GSPC",
+      "on_last": "ON",
+      "vsh_last": "VSH"
+    },
+    "us_age_hours": 4.5,
+    "anchor_us_session": "2026-09-18",
+    "missing_symbols": [
+      "ON",
+      "VSH"
+    ],
+    "us_features": {
+      "new_us_sessions": 1,
+      "us_age_hours": 4.5,
+      "sox_last": 4.29033509775012,
+      "sox_since_tw": 4.29033509775012,
+      "nasdaq_last": 2.260547853609185,
+      "nasdaq_since_tw": 2.260547853609185,
+      "sp500_last": 1.4927154475197657,
+      "sp500_since_tw": 1.4927154475197657
+    }
+  },
+  "aggregate": null,
+  "by_ticker": {}
+}

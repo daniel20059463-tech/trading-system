@@ -1,0 +1,245 @@
+{
+  "generated_at": "2026-09-22T08:32:27.563338+08:00",
+  "schema_version": 1,
+  "records": [
+    {
+      "ticker": "2327.TW",
+      "news": {
+        "sentiment_score": 0.7,
+        "strategy_signal": "buy",
+        "strategy_reason": "市場情緒與業績預期改善，加上券商目標價提升，是進場買入的好時機。",
+        "key_catalysts": [
+          "被動元件基本4趴起跳，顯示市場熱情回升",
+          "分析師預估國巨Q3獲利攀升，EPS挑戰45元",
+          "唯一的券商已給予看多評價，目標價700元"
+        ],
+        "risk_factors": [
+          "Factset EPS預估下修至19.83元，可能壓抑股價",
+          "市場對被動元件需求的波動性",
+          "競爭對手可能持續影響市場份額"
+        ],
+        "news_count": 11
+      },
+      "strategy": {
+        "action": "hold",
+        "position_size": "small",
+        "reason": "因大盤與新聞情緒不佳，則僅可小量持有以觀察後續情勢。"
+      }
+    },
+    {
+      "ticker": "2492.TW",
+      "news": {
+        "sentiment_score": 0.7,
+        "strategy_signal": "buy",
+        "strategy_reason": "被動元件漲價潮及外溢訂單有助於提升華新科未來營收，股價上行空間可期。",
+        "key_catalysts": [
+          "被動元件掀漲價潮，台廠迎外溢訂單",
+          "華新科股價大漲7.24%，收288元",
+          "集體募資超過61億元，顯示市場信心"
+        ],
+        "risk_factors": [
+          "短期內市場情緒波動可能影響股價",
+          "全球需求放緩可能影響未來業績",
+          "供應鏈問題持續存在，影響生產穩定"
+        ],
+        "news_count": 9
+      },
+      "strategy": {
+        "action": "buy",
+        "position_size": "small",
+        "reason": "需求回升及募資計畫推動可能上行，短期看好其表現。"
+      }
+    },
+    {
+      "ticker": "3026.TW",
+      "news": {
+        "sentiment_score": 0.7,
+        "strategy_signal": "buy",
+        "strategy_reason": "市場需求強勁及高階產品銷售上升，有助提升獲利能力。",
+        "key_catalysts": [
+          "禾伸堂股價已連續漲停，顯示市場需求強勁",
+          "MLCC用量增加，禾伸堂產能接近滿載，對明年成長前景樂觀",
+          "高階產品熱銷，推動業績增長"
+        ],
+        "risk_factors": [
+          "短期內市場情緒可能劇烈波動",
+          "出口市場依賴國際大廠需求，存在合約風險",
+          "擴產計劃若無法按時實現會影響未來營運"
+        ],
+        "news_count": 7
+      },
+      "strategy": {
+        "action": "buy",
+        "position_size": "small",
+        "reason": "市場需求強勁且產能擴充，值得小額進場布局。"
+      }
+    },
+    {
+      "ticker": "2472.TW",
+      "news": {
+        "sentiment_score": 0.75,
+        "strategy_signal": "buy",
+        "strategy_reason": "AI需求增長及漲價循環對被動元件廠商利好，立隆電受惠於此。",
+        "key_catalysts": [
+          "AI需求增長推動被動元件價格上漲",
+          "市場對被動元件的需求持續上升",
+          "立隆電可能受惠於價格循環的提升"
+        ],
+        "risk_factors": [
+          "全球經濟波動導致需求不穩",
+          "競爭加劇可能壓縮利潤率",
+          "供應鏈問題影響生產能力"
+        ],
+        "news_count": 1
+      },
+      "strategy": {
+        "action": "buy",
+        "position_size": "small",
+        "reason": "AI需求增長及漲價循環對公司有利，建議小量買入。"
+      }
+    },
+    {
+      "ticker": "3357.TWO",
+      "news": {
+        "sentiment_score": 0.7,
+        "strategy_signal": "buy",
+        "strategy_reason": "隨著被動元件市場回暖及價格上漲，臺慶科有望受益，吸引資金鎖定成長潛力。",
+        "key_catalysts": [
+          "日商村田電感產品漲價，有望帶動台廠被動元件需求",
+          "被動元件市場整體回暖，產業景氣回升",
+          "可能影響臺慶科的客戶端訂單成長"
+        ],
+        "risk_factors": [
+          "全球電子市場需求波動",
+          "競爭加劇，價格壓力",
+          "原材料成本上升"
+        ],
+        "news_count": 1
+      },
+      "strategy": {
+        "action": "buy",
+        "position_size": "small",
+        "reason": "隨市場回暖有助公司成長，建議小量進場。"
+      }
+    },
+    {
+      "ticker": "5425.TWO",
+      "news": {
+        "sentiment_score": 0.8,
+        "strategy_signal": "buy",
+        "strategy_reason": "市場需求回升及正向買盤動能，對台半未來表現樂觀。",
+        "key_catalysts": [
+          "台半盤中走強站上95元，顯示市場對功率半導體需求強勁",
+          "急拉4.57%，成交量高達3,448張，顯示投資者積極買入",
+          "持續的上漲趨勢反映出市場對台半的信心"
+        ],
+        "risk_factors": [
+          "全球功率元件市場競爭激烈",
+          "可能受到原材料價格波動影響",
+          "市場情緒變化可能導致短期股價波動"
+        ],
+        "news_count": 3
+      },
+      "strategy": {
+        "action": "hold",
+        "position_size": "small",
+        "reason": "短期內雖有正向動能，但需觀察市場情勢，建議觀望。"
+      }
+    },
+    {
+      "ticker": "2481.TW",
+      "news": {
+        "sentiment_score": 0.7,
+        "strategy_signal": "buy",
+        "strategy_reason": "考量需求增長及機構加碼情況，短期內看好股價上漲潛力。",
+        "key_catalysts": [
+          "強茂(2481)大漲7.17%，市場情緒回暖",
+          "投信連日加碼，顯示機構對未來的信心",
+          "AI與車用功率元件需求增強，吸引投資關注"
+        ],
+        "risk_factors": [
+          "市場波動性大，可能影響短期股價",
+          "競爭壓力來自其他功率元件廠商",
+          "全球經濟不確定性影響需求"
+        ],
+        "news_count": 8
+      },
+      "strategy": {
+        "action": "watch",
+        "position_size": "none",
+        "reason": "最近股價波動性增大且需觀察後市，暫不進場。"
+      }
+    },
+    {
+      "ticker": "3675.TWO",
+      "news": {
+        "sentiment_score": 0.8,
+        "strategy_signal": "buy",
+        "strategy_reason": "德微因AI與車用市場需求強勁，近期漲停顯示市場熱情，適合介入。",
+        "key_catalysts": [
+          "漲價題材加持漲停鎖死，顯示市場需求強勁",
+          "車用外溢和AI需求對德微營運有正面影響",
+          "專家認為德微中長期營運將持續強勁"
+        ],
+        "risk_factors": [
+          "市場競爭加劇可能影響利潤",
+          "供應鏈問題或提高生產成本",
+          "外部環境變化可能影響需求"
+        ],
+        "news_count": 7
+      },
+      "strategy": {
+        "action": "watch",
+        "position_size": "none",
+        "reason": "因需求強勁建議持觀望態度，觀察價格波動後再進場。"
+      }
+    },
+    {
+      "ticker": "8255.TWO",
+      "news": {
+        "sentiment_score": 0.0,
+        "strategy_signal": "hold",
+        "strategy_reason": "在券商評價中立的情況下，應觀察市場動向和競爭環境",
+        "key_catalysts": [
+          "今日僅1家券商發布績效報告",
+          "評價為中立",
+          "目標價143元"
+        ],
+        "risk_factors": [
+          "市場需求不穩定",
+          "與其他競爭對手的比較",
+          "整體經濟環境不佳"
+        ],
+        "news_count": 1
+      },
+      "strategy": {
+        "action": "hold",
+        "position_size": "small",
+        "reason": "觀察中立評價，建議持有不動，等待更明確信號。"
+      }
+    },
+    {
+      "ticker": "8261.TW",
+      "news": {
+        "sentiment_score": -0.7,
+        "strategy_signal": "sell",
+        "strategy_reason": "近期股價先漲後跌，顯示市場情緒不穩，需謹慎觀察後續走勢",
+        "key_catalysts": [
+          "前一日股價漲停，出現短期投資熱度",
+          "隨後股價大跌7.18%，顯示市場對於股價的信心下降"
+        ],
+        "risk_factors": [
+          "市場情緒波動未穩定",
+          "外部經濟環境影響需求",
+          "公司基本面可能受到打擊"
+        ],
+        "news_count": 2
+      },
+      "strategy": {
+        "action": "sell",
+        "position_size": "none",
+        "reason": "市場情緒不穩且有賣壓，建議獲利了結或小量減碼持股。"
+      }
+    }
+  ]
+}

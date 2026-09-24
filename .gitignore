@@ -1,0 +1,27 @@
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+
+# Python caches and local dependency bundles
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.research_deps/
+.venv/
+venv/
+
+# Runtime logs and temporary files
+logs/
+*.log
+*.tmp
+*.temp
+~$*
+
+# Local Windows scheduler exports and editor files
+task_backup_*/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

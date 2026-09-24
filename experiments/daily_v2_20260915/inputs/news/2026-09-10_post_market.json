@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-10",
+  "timestamp": "2026-09-10 17:35:43",
+  "ticker_performance": {},
+  "summary": {},
+  "post_market_analysis": {
+    "2327": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.7,
+      "key_catalysts": [
+        "村田停產部分MLCC，促使國巨迎來轉單機會",
+        "市場對國巨及華新科的需求增加，股價拉升",
+        "供應鏈變動利好國巨產品銷售"
+      ],
+      "risk_factors": [
+        "依賴單一客戶的風險",
+        "全球經濟不確定性可能影響訂單",
+        "其他競爭者介入市場分食"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "隨著村田的停產，國巨將受益於市場需求回升，短期內有利可圖。",
+      "confidence": 0.85,
+      "ticker_name": "國巨",
+      "session_type": "post_market"
+    },
+    "2492": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.8,
+      "key_catalysts": [
+        "華新科8月營收創近8年新高",
+        "村田停產部分MLCC，將迎來轉單潮",
+        "華新科股價持續走強，站穩中短期均線"
+      ],
+      "risk_factors": [
+        "市場對被動元件的需求波動",
+        "其他競爭對手的產能回升",
+        "整體經濟環境的不確定性"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "華新科在MLCC市場中具優勢，且即將受益於村田的產能調整，未來前景看好。",
+      "confidence": 0.85,
+      "ticker_name": "華新科",
+      "session_type": "post_market"
+    },
+    "3026": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.6,
+      "key_catalysts": [
+        "禾伸堂AI產品陸續出貨，Q4占比有望突破40%",
+        "被動元件股王」EPS上看近4股本，MLCC市場有望大增",
+        "禾伸堂漲停，顯示市場情緒回暖"
+      ],
+      "risk_factors": [
+        "8月營收止步成長，範圍縮小",
+        "遭遇盤中回調，市場波動性上升",
+        "外資和金控法人目標價不同調"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "禾伸堂在AI產品領域展現增長潛力，市場情緒回暖，長期看好其成長性。",
+      "confidence": 0.75,
+      "ticker_name": "禾伸堂",
+      "session_type": "post_market"
+    },
+    "2472": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.7,
+      "key_catalysts": [
+        "立隆電8月營收年增51.19%，顯示業績成長強勁。",
+        "AI技術的應用可能重塑立隆電的競爭格局與市場機會。",
+        "未來營運展望持續向上，市場對於長期成長持樂觀態度。"
+      ],
+      "risk_factors": [
+        "月營收的季減可能反映出短期需求的不穩定性。",
+        "在高階應用領域的競爭壓力可能會影響獲利。",
+        "整體市場環境變化及全球經濟不確定性仍為潛在威脅。"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "立隆電發布的營收數據強勁，且未來潛力看好，值得逢低介入。",
+      "confidence": 0.8,
+      "ticker_name": "立隆電",
+      "session_type": "post_market"
+    },
+    "3357": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.7,
+      "key_catalysts": [
+        "8月營收年增率高達53.07%，顯示出強勁的市場需求",
+        "預估Q3營運表現優於Q2，顯示持續成長潛力",
+        "AI及車用需求強勁，有助於擴大市場份額"
+      ],
+      "risk_factors": [
+        "市場競爭激烈，可能影響毛利率",
+        "受到大環境經濟波動的影響",
+        "短期內股價波動可能受其他被動元件廠影響"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "基於優異的營收成長及良好的市場展望，適合於長期投資",
+      "confidence": 0.8,
+      "ticker_name": "臺慶科",
+      "session_type": "post_market"
+    }
+  }
+}

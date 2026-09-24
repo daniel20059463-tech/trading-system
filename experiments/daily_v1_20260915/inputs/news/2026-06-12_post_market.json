@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-12",
+  "timestamp": "2026-06-12 15:30:25",
+  "ticker_performance": {
+    "2327": {
+      "predicted": 843.41,
+      "actual": 855.0,
+      "prev_close": 836.0,
+      "mape": 1.36,
+      "baseline_mape": 2.22,
+      "direction_correct": true
+    },
+    "2492": {
+      "predicted": 422.11,
+      "actual": 409.0,
+      "prev_close": 417.5,
+      "mape": 3.21,
+      "baseline_mape": 2.08,
+      "direction_correct": false
+    },
+    "3026": {
+      "predicted": 697.97,
+      "actual": 764.0,
+      "prev_close": 695.0,
+      "mape": 8.64,
+      "baseline_mape": 9.03,
+      "direction_correct": true
+    },
+    "2472": {
+      "predicted": 355.06,
+      "actual": 371.5,
+      "prev_close": 350.0,
+      "mape": 4.43,
+      "baseline_mape": 5.79,
+      "direction_correct": true
+    },
+    "3357": {
+      "predicted": 288.66,
+      "actual": 293.0,
+      "prev_close": 287.0,
+      "mape": 1.48,
+      "baseline_mape": 2.05,
+      "direction_correct": true
+    },
+    "5425": {
+      "predicted": 92.2,
+      "actual": 101.0,
+      "prev_close": 91.9,
+      "mape": 8.71,
+      "baseline_mape": 9.01,
+      "direction_correct": true
+    },
+    "2481": {
+      "predicted": 137.32,
+      "actual": 145.0,
+      "prev_close": 137.0,
+      "mape": 5.3,
+      "baseline_mape": 5.52,
+      "direction_correct": true
+    },
+    "3675": {
+      "predicted": 309.08,
+      "actual": 311.0,
+      "prev_close": 300.0,
+      "mape": 0.62,
+      "baseline_mape": 3.54,
+      "direction_correct": true
+    },
+    "8255": {
+      "predicted": 158.56,
+      "actual": 168.0,
+      "prev_close": 159.5,
+      "mape": 5.62,
+      "baseline_mape": 5.06,
+      "direction_correct": false
+    },
+    "8261": {
+      "predicted": 159.12,
+      "actual": 173.5,
+      "prev_close": 158.0,
+      "mape": 8.29,
+      "baseline_mape": 8.93,
+      "direction_correct": true
+    }
+  },
+  "summary": {
+    "avg_mape": 4.76,
+    "baseline_mape": 5.32,
+    "beat_baseline": true,
+    "direction_accuracy": 0.8,
+    "sample_count": 10
+  },
+  "post_market_analysis": {
+    "2327": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [
+        "Japan clears Taiwan's Yageo in Shibaura bid after lengthy security review",
+        "Taiwan's Yageo raises offer price for Japan's Shibaura to 7,130 yen/share to further outbid rival",
+        "Japan's Shibaura classified as core to national security amid takeover battle"
+      ],
+      "risk_factors": [
+        "市場對被動元件需求的波動",
+        "國際貿易政策變化",
+        "競爭對手收購及整併行動"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "國巨受益於Yageo的收購動態，但市場風險仍存，建議觀望。",
+      "confidence": 0.7,
+      "ticker_name": "國巨",
+      "session_type": "post_market"
+    },
+    "2492": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.8,
+      "key_catalysts": [
+        "2025年淨利潤率提升",
+        "營運效率增強的正面敘述",
+        "市場對被動元件的需求持續增長"
+      ],
+      "risk_factors": [
+        "全球經濟不確定性",
+        "供應鏈中斷風險",
+        "競爭加劇"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "淨利潤率的提升顯示出公司獲利能力改善，符合市場對被動元件的需求增長，建議購入。",
+      "confidence": 0.75,
+      "ticker_name": "華新科",
+      "session_type": "post_market"
+    },
+    "3026": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [],
+      "risk_factors": [
+        "無法取得 AI 分析，請人工確認"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "API 分析失敗，維持觀望",
+      "confidence": 0.0,
+      "ticker_name": "禾伸堂",
+      "session_type": "post_market"
+    },
+    "2472": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [],
+      "risk_factors": [],
+      "strategy_signal": "hold",
+      "strategy_reason": "近期新聞未針對立隆電作出實質評價，市場情緒偏平穩，建議觀望。",
+      "confidence": 0.6,
+      "ticker_name": "立隆電",
+      "session_type": "post_market"
+    },
+    "3357": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [],
+      "risk_factors": [
+        "無法取得 AI 分析，請人工確認"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "API 分析失敗，維持觀望",
+      "confidence": 0.0,
+      "ticker_name": "臺慶科",
+      "session_type": "post_market"
+    }
+  }
+}

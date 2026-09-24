@@ -1,0 +1,24 @@
+{
+  "verified_at": "2026-09-16T07:47:23.598451+08:00",
+  "rows": 105660,
+  "paired_methods": true,
+  "price_control_matches_previous_replay": true,
+  "no_future_training_or_us_availability": true,
+  "input_hashes": 21,
+  "files": {
+    "us_lead_study.py": "32183dc99eeeb74b976227805cb8c6b6d0601d68741afbaedf5bef1df2ba20a9",
+    "us_lead_report.py": "4f54d847f51b5142501d0e00b7c22d761aab50570565772efedd67a86f317705",
+    "test_us_lead_study.py": "637c19dcfc788329ba164297f99311b47032d1fedaf61da50a81139984d47b05",
+    "walkforward_training.py": "536120c3c29e8c42ea25b611e8e6a6045750219e30e5238834fe7717a92c6e87",
+    "prediction_audit.py": "2baa3b9ffd83ff52ae2da3d65e8d47ffa47020aedc73b391c48e9873568d6aa5",
+    "config.py": "144326c98d4c0ff07453d12da45cea334863b60cd8eacb62088e10199af06dca"
+  },
+  "packages": {
+    "yfinance": "1.2.0",
+    "pandas": "3.0.1",
+    "numpy": "2.4.2",
+    "scikit-learn": "1.8.0",
+    "pandas_market_calendars": "5.4.0",
+    "exchange_calendars": "4.13.2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "source": "C:\\Users\\danie\\OneDrive\\桌面\\hiu\\trading-system\\experiments\\us_lead_20260915\\aligned.csv",
+  "source_status": "2026-09-15 sealed exploratory historical alignment",
+  "first_tw_date": "2024-01-12",
+  "last_tw_date": "2026-09-15",
+  "days": 647,
+  "stocks_per_day": 10,
+  "us_features": [
+    "sox_last",
+    "nasdaq_last",
+    "sp500_last",
+    "on_last",
+    "vsh_last"
+  ],
+  "tw_outcomes": {
+    "gap": "Open / prior Close - 1",
+    "intraday": "Close / Open - 1",
+    "close_to_close": "Close / prior Close - 1"
+  },
+  "cutoff": "08:30 Asia/Taipei; US market close + 60 minutes availability",
+  "caveat": "US/TW prices are vendor historical adjusted data; analogs are descriptive, not validated forecasts"
+}

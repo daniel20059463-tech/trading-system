@@ -1,0 +1,186 @@
+{
+  "pure_us": [
+    {
+      "window": "all",
+      "target": "close_to_close",
+      "n": 5870,
+      "days": 587,
+      "accuracy": 0.5538330494037479,
+      "mae": 2.3188699396861243
+    },
+    {
+      "window": "all",
+      "target": "gap",
+      "n": 5870,
+      "days": 587,
+      "accuracy": 0.7347529812606474,
+      "mae": 1.0379731134495513
+    },
+    {
+      "window": "all",
+      "target": "intraday",
+      "n": 5870,
+      "days": 587,
+      "accuracy": 0.5129471890971039,
+      "mae": 2.00048715760963
+    },
+    {
+      "window": "after_validation",
+      "target": "close_to_close",
+      "n": 4870,
+      "days": 487,
+      "accuracy": 0.559958932238193,
+      "mae": 2.466627311644648
+    },
+    {
+      "window": "after_validation",
+      "target": "gap",
+      "n": 4870,
+      "days": 487,
+      "accuracy": 0.726694045174538,
+      "mae": 1.1105754631520266
+    },
+    {
+      "window": "after_validation",
+      "target": "intraday",
+      "n": 4870,
+      "days": 487,
+      "accuracy": 0.5141683778234086,
+      "mae": 2.103820219750869
+    },
+    {
+      "window": "last120",
+      "target": "close_to_close",
+      "n": 1200,
+      "days": 120,
+      "accuracy": 0.5858333333333333,
+      "mae": 4.226736811551905
+    },
+    {
+      "window": "last120",
+      "target": "gap",
+      "n": 1200,
+      "days": 120,
+      "accuracy": 0.725,
+      "mae": 2.0525712859106755
+    },
+    {
+      "window": "last120",
+      "target": "intraday",
+      "n": 1200,
+      "days": 120,
+      "accuracy": 0.47583333333333333,
+      "mae": 3.4087931598826327
+    },
+    {
+      "window": "last60",
+      "target": "close_to_close",
+      "n": 600,
+      "days": 60,
+      "accuracy": 0.5933333333333334,
+      "mae": 4.170739209237005
+    },
+    {
+      "window": "last60",
+      "target": "gap",
+      "n": 600,
+      "days": 60,
+      "accuracy": 0.6683333333333333,
+      "mae": 1.917689977642765
+    },
+    {
+      "window": "last60",
+      "target": "intraday",
+      "n": 600,
+      "days": 60,
+      "accuracy": 0.44166666666666665,
+      "mae": 3.4076900655607956
+    },
+    {
+      "window": "last20",
+      "target": "close_to_close",
+      "n": 200,
+      "days": 20,
+      "accuracy": 0.645,
+      "mae": 2.6732769453725096
+    },
+    {
+      "window": "last20",
+      "target": "gap",
+      "n": 200,
+      "days": 20,
+      "accuracy": 0.655,
+      "mae": 1.3313763563244105
+    },
+    {
+      "window": "last20",
+      "target": "intraday",
+      "n": 200,
+      "days": 20,
+      "accuracy": 0.45,
+      "mae": 2.4248096941895456
+    }
+  ],
+  "paired_uncertainty": [
+    {
+      "window": "after_validation",
+      "reference": "price",
+      "days": 487,
+      "mae_reduction_pp": 0.10618659020876996,
+      "approx95": [
+        0.02952195726577264,
+        0.1947389669724334
+      ]
+    },
+    {
+      "window": "after_validation",
+      "reference": "zero",
+      "days": 487,
+      "mae_reduction_pp": 0.04828205895118007,
+      "approx95": [
+        -0.03638784997375028,
+        0.14079758102926224
+      ]
+    },
+    {
+      "window": "last60",
+      "reference": "price",
+      "days": 60,
+      "mae_reduction_pp": 0.31065868100068855,
+      "approx95": [
+        0.06860958820826757,
+        0.5708876269846378
+      ]
+    },
+    {
+      "window": "last60",
+      "reference": "zero",
+      "days": 60,
+      "mae_reduction_pp": 0.1885446065622669,
+      "approx95": [
+        -0.20538681192774563,
+        0.6211292514168136
+      ]
+    },
+    {
+      "window": "last20",
+      "reference": "price",
+      "days": 20,
+      "mae_reduction_pp": 0.19690789494194375,
+      "approx95": [
+        0.02289865094281202,
+        0.3901157645742759
+      ]
+    },
+    {
+      "window": "last20",
+      "reference": "zero",
+      "days": 20,
+      "mae_reduction_pp": 0.03165773022713294,
+      "approx95": [
+        -0.10182521510581381,
+        0.16139118285314905
+      ]
+    }
+  ]
+}

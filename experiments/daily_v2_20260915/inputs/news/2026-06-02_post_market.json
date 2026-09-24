@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-02",
+  "timestamp": "2026-06-02 20:59:09",
+  "ticker_performance": {
+    "2327": {
+      "predicted": 809.95,
+      "actual": 846.0,
+      "mape": 4.26,
+      "direction_correct": true
+    },
+    "2492": {
+      "predicted": 427.69,
+      "actual": 456.0,
+      "mape": 6.21,
+      "direction_correct": true
+    },
+    "3026": {
+      "predicted": 701.2,
+      "actual": 650.0,
+      "mape": 7.88,
+      "direction_correct": true
+    },
+    "2472": {
+      "predicted": 411.3,
+      "actual": 380.0,
+      "mape": 8.24,
+      "direction_correct": true
+    },
+    "2481": {
+      "predicted": 157.83,
+      "actual": 146.0,
+      "mape": 8.1,
+      "direction_correct": true
+    },
+    "8261": {
+      "predicted": 175.56,
+      "actual": 167.5,
+      "mape": 4.81,
+      "direction_correct": true
+    }
+  },
+  "summary": {
+    "avg_mape": 6.58,
+    "direction_accuracy": 1.0,
+    "sample_count": 6
+  },
+  "post_market_analysis": {
+    "2327": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [
+        "Yageo在日本收購Shibaura獲得通過，顯示台灣元件廠在國際擴張上有優勢。",
+        "日本Shibaura被標記為國安核心，增加了產業整併的市場關注。",
+        "Yageo提高出價可能會引發價格戰，影響整體市場競爭格局。"
+      ],
+      "risk_factors": [
+        "國際政治緊張可能影響台灣元件廠的市場穩定。",
+        "收購過程中的不確定性可能導致資金流動風險。",
+        "市場競爭加劇可能沖擊利潤率。"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "目前情況尚無明確利多或利空，保持觀望以衡量後續發展。",
+      "confidence": 0.65,
+      "ticker_name": "國巨",
+      "session_type": "post_market"
+    },
+    "2492": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.7,
+      "key_catalysts": [
+        "2025年淨利潤率顯著上升",
+        "提升公司運營效率的正面消息",
+        "前景看好，吸引投資者注意"
+      ],
+      "risk_factors": [
+        "市場競爭加劇可能壓低價格",
+        "全球供應鏈不穩定帶來的原料成本上升",
+        "需求可能隨宏觀經濟變化而波動"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "公司淨利潤率提升顯示出強勁的運營效率，有利未來成長。",
+      "confidence": 0.8,
+      "ticker_name": "華新科",
+      "session_type": "post_market"
+    },
+    "3026": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [],
+      "risk_factors": [
+        "無法取得 AI 分析，請人工確認"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "API 分析失敗，維持觀望",
+      "confidence": 0.0,
+      "ticker_name": "禾伸堂",
+      "session_type": "post_market"
+    },
+    "2472": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [],
+      "risk_factors": [],
+      "strategy_signal": "hold",
+      "strategy_reason": "近期新聞無明顯對公司或產業的正面或負面影響，觀察後市表現為宜。",
+      "confidence": 0.6,
+      "ticker_name": "立隆電",
+      "session_type": "post_market"
+    },
+    "3357": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [],
+      "risk_factors": [
+        "無法取得 AI 分析，請人工確認"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "API 分析失敗，維持觀望",
+      "confidence": 0.0,
+      "ticker_name": "臺慶科",
+      "session_type": "post_market"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-09-15T21:47:13.764576+08:00",
+  "rows": 46960,
+  "target_days": 587,
+  "input_hashes_checked": 200,
+  "no_future_training_targets": true,
+  "controls_identical": true,
+  "models_checked": 10,
+  "code_sha256": {
+    "walkforward_training.py": "536120c3c29e8c42ea25b611e8e6a6045750219e30e5238834fe7717a92c6e87",
+    "complete_context_replay.py": "5d9f0d4e19955d2b914392004bedd8cdd4187207550ae2545de372483c69a60e",
+    "daily_retrain.py": "bfeb722d484a413e458fcf4dbfae47632978573ba9b3f39b15a7a257514cbdfe",
+    "prediction_audit.py": "2baa3b9ffd83ff52ae2da3d65e8d47ffa47020aedc73b391c48e9873568d6aa5",
+    "run_daily.py": "9c2db350bbe09dacdd57c017c95ac70a25ef503266adee5993d18aa7a5370651",
+    "launch.ps1": "e697b3a1c67945b05c555f7d5941de28e756277dafb9bf6b4774e33e25b9982c",
+    "agents/orchestrator.py": "8d407e8b111692057131fa40c0bff1a91a989cfac5274bf97f5cd9002c18ae8b",
+    "test_walkforward_training.py": "a1b57a72d2b22602a8bd892a8ae59f2fadde67079292b59e2070a3d4a2214344",
+    "test_daily_retrain.py": "23714c3dc66933cf42cf81dad45cc174fcb1912a292fb2d5660ae0e3956d3d85",
+    "finalize_daily_retrain.py": "9e76fe6f180fa00527216a9fe36e3a1fdc3cc111379ca9615c4547c2e946927f",
+    "interval_calibration_replay.py": "c9af37a8c39e9e434c05a924286ffdfb76a7b7a9640191b74d4f1bb88accb7ec",
+    "rigorous_evaluation.py": "52aa84f434ca90f4120c37c4a1ecd442a13f8280b1a5a8bd5ad310010c28ac8f",
+    "benchmark_daily_retrain.py": "504288c997bcef9c7bc696a8af1e3bb4f164c2147c8d8a8f64e304d260088074"
+  },
+  "packages": {
+    "numpy": "2.4.2",
+    "pandas": "3.0.1",
+    "scikit-learn": "1.8.0",
+    "threadpoolctl": "3.6.0"
+  }
+}

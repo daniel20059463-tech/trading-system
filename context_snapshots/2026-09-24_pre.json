@@ -1,0 +1,244 @@
+{
+  "generated_at": "2026-09-24T08:32:12.747494+08:00",
+  "schema_version": 1,
+  "records": [
+    {
+      "ticker": "2327.TW",
+      "news": {
+        "sentiment_score": 0.7,
+        "strategy_signal": "buy",
+        "strategy_reason": "基於穩定的營運表現及增長預期，短期內可能上漲。",
+        "key_catalysts": [
+          "國巨營運維持高檔，估Q3營收/獲利再向上",
+          "被動元件需求強勁，車用電子需求看漲",
+          "券商評價看多，目標價700元"
+        ],
+        "risk_factors": [
+          "被動元件市場競爭加劇",
+          "整體經濟環境不穩定",
+          "法人操作風險"
+        ],
+        "news_count": 11
+      },
+      "strategy": {
+        "action": "buy",
+        "position_size": "large",
+        "reason": "國巨短期內有穩定增長及正面新聞支持，信心度高，適合大倉位進場。"
+      }
+    },
+    {
+      "ticker": "2492.TW",
+      "news": {
+        "sentiment_score": 0.6,
+        "strategy_signal": "buy",
+        "strategy_reason": "華新科近期營收成長顯著，且市場對被動元件需求仍保持樂觀，配合目標價提升，具投資價值。",
+        "key_catalysts": [
+          "華新科8月營收續創高，村田調整產能打開轉單空間",
+          "被動元件漲價潮致台廠迎外溢訂單",
+          "官股投顧喊出華新科千元目標價"
+        ],
+        "risk_factors": [
+          "市場對被動元件需求的不確定性",
+          "國際競爭加劇可能影響利潤",
+          "股市整體情緒波動影響股票表現"
+        ],
+        "news_count": 9
+      },
+      "strategy": {
+        "action": "buy",
+        "position_size": "medium",
+        "reason": "華新科近期營收強勁，需求穩定，因此建議中等倉位進場。"
+      }
+    },
+    {
+      "ticker": "3026.TW",
+      "news": {
+        "sentiment_score": 0.8,
+        "strategy_signal": "buy",
+        "strategy_reason": "禾伸堂的業績強勁，且市場對其未來成長持正面看法，值得把握進場機會。",
+        "key_catalysts": [
+          "禾伸堂利基型MLCC表現強勁，市場預期其EPS將達33元",
+          "官股投顧給予禾伸堂千元目標價，對未來需求看好",
+          "禾伸堂AI產品新產能明年Q3即將放量，利多未來成長"
+        ],
+        "risk_factors": [
+          "面臨日韓競爭壓力",
+          "被動元件市場不穩定波動風險",
+          "國際需求變化的潛在影響"
+        ],
+        "news_count": 9
+      },
+      "strategy": {
+        "action": "buy",
+        "position_size": "large",
+        "reason": "禾伸堂在被動元件市場具競爭優勢且前景明朗，符合進場條件。"
+      }
+    },
+    {
+      "ticker": "2472.TW",
+      "news": {
+        "sentiment_score": 0.7,
+        "strategy_signal": "buy",
+        "strategy_reason": "受益於AI擴張和漲價循環，立隆電未來營運前景看好。",
+        "key_catalysts": [
+          "AI需求持續增長將推動被動元件需求上升",
+          "市場預期進入新一輪漲價循環",
+          "立隆電在MLCC及電容領域具競爭優勢"
+        ],
+        "risk_factors": [
+          "全球供應鏈緊張影響生產能力",
+          "價格上漲可能壓縮需求",
+          "競爭者技術進步可能影響市場佔有率"
+        ],
+        "news_count": 1
+      },
+      "strategy": {
+        "action": "buy",
+        "position_size": "large",
+        "reason": "立隆電受益於AI擴張，前景看好，建議大倉位進場。"
+      }
+    },
+    {
+      "ticker": "3357.TWO",
+      "news": {
+        "sentiment_score": 0.8,
+        "strategy_signal": "buy",
+        "strategy_reason": "當前被動元件漲價潮及市場需求強勁，對臺慶科未來業績有正面推動。",
+        "key_catalysts": [
+          "被動元件漲價潮促使多檔個股漲停，顯示市場需求強勁。",
+          "日商村田調漲電感產品價格，對台廠構成正面影響，利多整體產業。",
+          "春季報告指出被動元件需求穩定增長，預期利於臺慶科業績提升。"
+        ],
+        "risk_factors": [
+          "全球經濟狀況影響下遊需求，可能導致產業波動。",
+          "競爭加劇，可能侵蝕利潤率。",
+          "漲價能否持續，市場情緒變化帶來不穩定。"
+        ],
+        "news_count": 2
+      },
+      "strategy": {
+        "action": "buy",
+        "position_size": "medium",
+        "reason": "臺慶科受到市場需求強勁及漲價潮推動，建議中等倉位進場。"
+      }
+    },
+    {
+      "ticker": "5425.TWO",
+      "news": {
+        "sentiment_score": 0.7,
+        "strategy_signal": "buy",
+        "strategy_reason": "考慮到功率半導體需求增長及近期股價走強，短期買入利潤機會可觀。",
+        "key_catalysts": [
+          "台半股價走強，顯示市場對功率半導體的需求持續增加",
+          "功率半導體族群的買盤延續，可能受到下游需求上升的影響",
+          "過去一日股價大漲7.14%，市場情緒樂觀"
+        ],
+        "risk_factors": [
+          "市場整體波動可能影響短期股價",
+          "競爭對手技術進步可能影響市場份額",
+          "全球供應鏈問題仍可能對生產造成影響"
+        ],
+        "news_count": 2
+      },
+      "strategy": {
+        "action": "buy",
+        "position_size": "medium",
+        "reason": "台半受益於功率半導體需求增加，適合中等倉位進場。"
+      }
+    },
+    {
+      "ticker": "2481.TW",
+      "news": {
+        "sentiment_score": 0.7,
+        "strategy_signal": "buy",
+        "strategy_reason": "在需求增加和EPS提升背景下，潛在漲幅可觀。",
+        "key_catalysts": [
+          "功率元件漲價，強茂EPS挑戰8元",
+          "強茂盤中走強，AI功率元件成焦點",
+          "強茂近5日漲2.67%"
+        ],
+        "risk_factors": [
+          "市場競爭加劇可能影響利潤",
+          "全球經濟不穩可能影響需求",
+          "政策變化導致產業調整"
+        ],
+        "news_count": 8
+      },
+      "strategy": {
+        "action": "buy",
+        "position_size": "medium",
+        "reason": "強茂預測EPS提升且需求增加，建議中等倉位進場。"
+      }
+    },
+    {
+      "ticker": "3675.TWO",
+      "news": {
+        "sentiment_score": 0.8,
+        "strategy_signal": "buy",
+        "strategy_reason": "AI電源市場需求上升，加上德微產能擴張，預期將提升未來營收表現。",
+        "key_catalysts": [
+          "德微AI電源產品升級，6吋產能拚明年倍增",
+          "德微股價走強，AI電源與營收創高",
+          "AI電力革命點火功率半導體，德微盤中漲停"
+        ],
+        "risk_factors": [
+          "市場競爭加劇可能壓縮毛利率",
+          "全球經濟不確定性影響需求",
+          "技術更新快速可能導致產品過時"
+        ],
+        "news_count": 5
+      },
+      "strategy": {
+        "action": "buy",
+        "position_size": "large",
+        "reason": "德微受到AI市場需求上升的驅動，宜大倉位進場。"
+      }
+    },
+    {
+      "ticker": "8255.TWO",
+      "news": {
+        "sentiment_score": 0.0,
+        "strategy_signal": "hold",
+        "strategy_reason": "目前缺乏強烈的買進或賣出信號，需要觀察市場與產業走勢",
+        "key_catalysts": [
+          "券商對朋程的評價為中立，目標價143元",
+          "無其他顯著利好或利空消息影響股價"
+        ],
+        "risk_factors": [
+          "市場整體情況不明朗",
+          "產業競爭加劇可能影響獲利"
+        ],
+        "news_count": 2
+      },
+      "strategy": {
+        "action": "hold",
+        "position_size": "small",
+        "reason": "朋程缺乏強烈的信號，建議持有觀察市場情況。"
+      }
+    },
+    {
+      "ticker": "8261.TW",
+      "news": {
+        "sentiment_score": -0.6,
+        "strategy_signal": "sell",
+        "strategy_reason": "考慮到股價大幅波動和市場情緒不穩定，建議賣出以防止進一步損失。",
+        "key_catalysts": [
+          "富鼎股價在短期內先後經歷大漲和大跌，顯示市場情緒不穩定。",
+          "近期股價波動性高，可能影響投資者信心。",
+          "無明顯的正面消息支持股價回升，反而出現資金流出現象。"
+        ],
+        "risk_factors": [
+          "市場情緒不穩定，可能導致進一步的股價下滑。",
+          "短期內缺乏積極的利好消息。",
+          "競爭加劇，可能壓低產品價格和毛利率。"
+        ],
+        "news_count": 3
+      },
+      "strategy": {
+        "action": "sell",
+        "position_size": "none",
+        "reason": "由於市場情緒不穩及股價波動，建議賣出以防止損失。"
+      }
+    }
+  ]
+}

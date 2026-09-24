@@ -1,0 +1,246 @@
+{
+  "generated_at": "2026-09-16T08:32:11.200451+08:00",
+  "schema_version": 1,
+  "records": [
+    {
+      "ticker": "2327.TW",
+      "news": {
+        "sentiment_score": -0.6,
+        "strategy_signal": "sell",
+        "strategy_reason": "近期融券壓力及市場情緒不穩，短期內建議減碼持股",
+        "key_catalysts": [
+          "村田為何突然停產部分MLCC？國巨(2327)、華新科(2492)迎轉單潮",
+          "2.8萬張融券壓頂 空方氣勢強",
+          "營收速報 - 國巨(2327)8月營收163.32億元年增率高達51.8％"
+        ],
+        "risk_factors": [
+          "融券壓力可能進一步壓低股價",
+          "被動元件價格回跌風險",
+          "市場對國巨的短期利多解讀為過度樂觀"
+        ],
+        "news_count": 10
+      },
+      "strategy": {
+        "action": "sell",
+        "position_size": "small",
+        "reason": "面對融券壓力及市場情緒不穩，建議減碼持股，損失控制為首要考量。"
+      }
+    },
+    {
+      "ticker": "2492.TW",
+      "news": {
+        "sentiment_score": 0.6,
+        "strategy_signal": "buy",
+        "strategy_reason": "儘管近期股價震盪，但轉單機會及持續增長的營收提供了強勁的支撐。",
+        "key_catalysts": [
+          "村田停產部分MLCC，可能帶來轉單機會",
+          "華新科8月營收創近8年新高",
+          "華新科信心喊話，直攻漲停"
+        ],
+        "risk_factors": [
+          "近期股價下跌5.81%",
+          "市場對被動元件總體需求不確定性",
+          "外資撤出對股價的潛在影響"
+        ],
+        "news_count": 11
+      },
+      "strategy": {
+        "action": "buy",
+        "position_size": "medium",
+        "reason": "轉單機會及營收增長支撐其股價，建議介入但需謹慎參考市場情勢。"
+      }
+    },
+    {
+      "ticker": "3026.TW",
+      "news": {
+        "sentiment_score": 0.7,
+        "strategy_signal": "buy",
+        "strategy_reason": "禾伸堂因AI需求與產能擴充預期強勁，法人樂觀調升預估且股價走勢向上，短期具買進機會。",
+        "key_catalysts": [
+          "禾伸堂砸8.12億元添購設備 加速擴充AI電源MLCC產能",
+          "需求及利潤率趨勢向上 法人調升禾伸堂獲利預估值及目標價",
+          "禾伸堂股價震盪走高至786元、上漲3.69%"
+        ],
+        "risk_factors": [
+          "被動元件整體市場競爭激烈",
+          "MLCC漲價是否持續存在不確定性",
+          "股價近期已有較大漲幅，回調風險"
+        ],
+        "news_count": 10
+      },
+      "strategy": {
+        "action": "buy",
+        "position_size": "medium",
+        "reason": "因AI需求與產能擴充預期，建議進場，未來成長潛力可期。"
+      }
+    },
+    {
+      "ticker": "2472.TW",
+      "news": {
+        "sentiment_score": 0.8,
+        "strategy_signal": "buy",
+        "strategy_reason": "隨著營收成長及市場需求穩定，立隆電的股價具上漲潛力。",
+        "key_catalysts": [
+          "8月營收年增率高達51.19%",
+          "股價因AI伺服器及車用電容題材走強",
+          "漲價效應預期下半年營運持續向上"
+        ],
+        "risk_factors": [
+          "市場競爭加劇可能影響毛利率",
+          "全球經濟不確定性導致需求變化",
+          "供應鏈問題可能影響交貨時間"
+        ],
+        "news_count": 16
+      },
+      "strategy": {
+        "action": "buy",
+        "position_size": "medium",
+        "reason": "營收成長穩定，需求良好，建議借勢進場。"
+      }
+    },
+    {
+      "ticker": "3357.TWO",
+      "news": {
+        "sentiment_score": 0.75,
+        "strategy_signal": "buy",
+        "strategy_reason": "營收持續創高，市場需求強勁，適合進場布局。",
+        "key_catalysts": [
+          "營收增長顯著，7月與8月分別年增63.31%及53.07%",
+          "近期被動元件市場需求強勁，帶動股價上升",
+          "配息消息支持股東信心，未來展望樂觀"
+        ],
+        "risk_factors": [
+          "全球供應鏈不穩定可能影響原料供應",
+          "電動車與AI伺服器需求的持續性不確定",
+          "市場競爭加劇可能壓低利潤"
+        ],
+        "news_count": 10
+      },
+      "strategy": {
+        "action": "hold",
+        "position_size": "none",
+        "reason": "雖有買進訊號，但需觀察市場變化，建議持有觀望。"
+      }
+    },
+    {
+      "ticker": "5425.TWO",
+      "news": {
+        "sentiment_score": 0.7,
+        "strategy_signal": "buy",
+        "strategy_reason": "台半近期營收增長顯著，加上市場情緒偏向樂觀，建議把握買入機會。",
+        "key_catalysts": [
+          "主動式ETF早前大舉加碼搭配營收成長支撐，短線多空籌碼對敲下偏強整理",
+          "台半8月營收17.14億元，年增22.43%",
+          "功率半導體行情火紅，台半持續受到市場關注"
+        ],
+        "risk_factors": [
+          "市場整體波動可能影響短期股價",
+          "競爭對手的表現可能影響市場份額",
+          "全球半導體供應鏈的變化"
+        ],
+        "news_count": 11
+      },
+      "strategy": {
+        "action": "buy",
+        "position_size": "medium",
+        "reason": "近期營收增長顯著，市場情緒偏樂觀，適合進場。"
+      }
+    },
+    {
+      "ticker": "2481.TW",
+      "news": {
+        "sentiment_score": 0.6,
+        "strategy_signal": "buy",
+        "strategy_reason": "隨著AI及電力需求提升，強茂的營收增長顯示長期潛力，且外資持續買超。",
+        "key_catalysts": [
+          "強茂(2481)逆勢漲5%！功率半導體缺貨漲價，AI機櫃含金量暴增近7倍",
+          "強茂8月營收13.7億元、年增29.82%創同期新高",
+          "外資買超強茂，顯示市場對其未來表現的信心"
+        ],
+        "risk_factors": [
+          "功率半導體市場將面臨的賣壓可能影響股價",
+          "全球經濟不確定性可能影響整體需求",
+          "技術面調整可能影響短期表現"
+        ],
+        "news_count": 10
+      },
+      "strategy": {
+        "action": "buy",
+        "position_size": "medium",
+        "reason": "因應AI及電力需求提升，持續增長潛力，適合布局。"
+      }
+    },
+    {
+      "ticker": "3675.TWO",
+      "news": {
+        "sentiment_score": 0.8,
+        "strategy_signal": "hold",
+        "strategy_reason": "德微短期內表現強勁，但上檔壓力仍需觀察。建議觀望後續市場動態。",
+        "key_catalysts": [
+          "德微股價歷史新高，AI高功率題材支撐下的強勁營收成長。",
+          "功率半導體漲價潮來襲，預期下半年營運增幅加速。",
+          "德微股價漲停，市場對其短期反彈持樂觀態度。"
+        ],
+        "risk_factors": [
+          "上檔可能存在的獲利了結壓力。",
+          "全球市場需求波動可能影響營收。",
+          "競爭加劇導致的價格壓力。"
+        ],
+        "news_count": 10
+      },
+      "strategy": {
+        "action": "watch",
+        "position_size": "none",
+        "reason": "短線表現佳但需觀察市場動態，建議暫時觀望。"
+      }
+    },
+    {
+      "ticker": "8255.TWO",
+      "news": {
+        "sentiment_score": 0.6,
+        "strategy_signal": "buy",
+        "strategy_reason": "朋程具備AI與EV市場潛力，長期展望良好，可考慮進場佈局。",
+        "key_catalysts": [
+          "朋程卡位AI電源趨勢，預期今年營收雙位數增長。",
+          "朋程8月營收4.61%年增，顯示穩定成長。",
+          "各券商評估朋程具有強勁的評價重估潛力。"
+        ],
+        "risk_factors": [
+          "月增率下滑3.45%，顯示短期挑戰。",
+          "單一市場依賴風險，若需求下滑將影響營收。",
+          "市場競爭激烈，可能壓縮利潤率。"
+        ],
+        "news_count": 10
+      },
+      "strategy": {
+        "action": "buy",
+        "position_size": "medium",
+        "reason": "具備AI與EV市場潛力，建議適度布局，並注意市場變化。"
+      }
+    },
+    {
+      "ticker": "8261.TW",
+      "news": {
+        "sentiment_score": 0.0,
+        "strategy_signal": "hold",
+        "strategy_reason": "儘管有調價和題材支持，但營收表現不佳及技術面偏弱需謹慎觀察。",
+        "key_catalysts": [
+          "富鼎股價上漲3.7%，受到功率半導體漲價與AI電力題材支撐",
+          "Q3啟動調價，毛利率有望回升",
+          "8月營收年減3%，顯示短期表現壓力"
+        ],
+        "risk_factors": [
+          "技術面偏弱，主力籌碼偏空",
+          "近期營收連月下降趨勢",
+          "股價波動大，短期不穩定"
+        ],
+        "news_count": 10
+      },
+      "strategy": {
+        "action": "hold",
+        "position_size": "none",
+        "reason": "雖有題材支持，但技術面偏弱，需謹慎觀察。"
+      }
+    }
+  ]
+}

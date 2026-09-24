@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-11",
+  "timestamp": "2026-09-11 17:32:10",
+  "ticker_performance": {},
+  "summary": {},
+  "post_market_analysis": {
+    "2327": {
+      "sentiment": "bearish",
+      "sentiment_score": -0.7,
+      "key_catalysts": [
+        "國巨面臨股價下跌風險，市場對未來表現持悲觀態度。",
+        "村田停產部分MLCC可能導致國巨與華新科迎來轉單潮，有短期受惠機會。",
+        "市場對國巨的認購情況有正面評價，但前景仍受中長期風險影響。"
+      ],
+      "risk_factors": [
+        "市場對被動元件需求下降的擔憂。",
+        "競爭對手如村田停產影響市場供應與價格。",
+        "週邊新聞情緒不佳，可能干擾投資者信心。"
+      ],
+      "strategy_signal": "watch",
+      "strategy_reason": "雖然有短期機會，但股價壓力與市場情緒不佳需密切關注動態。",
+      "confidence": 0.75,
+      "ticker_name": "國巨",
+      "session_type": "post_market"
+    },
+    "2492": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [
+        "村田停產部分MLCC，台灣被動元件廠可能獲得轉單商機。",
+        "華新科受到公司信心喊話影響，股價直攻漲停。",
+        "MLCC龍頭村田退市，可能對華新科產生未來報酬影響。"
+      ],
+      "risk_factors": [
+        "被動元件綠光罩頂，禾伸堂、華新科等股價下滑超過6%。",
+        "市場對被動元件需求變化的不確定性。",
+        "華新科未來的營收成長是否能持續受到質疑。"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "目前有轉單商機但股價波動大，需觀察市場後續反應。",
+      "confidence": 0.7,
+      "ticker_name": "華新科",
+      "session_type": "post_market"
+    },
+    "3026": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.7,
+      "key_catalysts": [
+        "禾伸堂營收飆增逾3成，顯示市場需求強勁",
+        "MLCC漲價題材的發酵，可能提升公司利潤",
+        "AI需求增長助攻，對於元件需求的持續推動"
+      ],
+      "risk_factors": [
+        "禾伸堂與其他被動元件廠商股價同時下跌，市場情緒不穩定",
+        "村田退市可能影響行業競爭格局",
+        "資金輪動導致股價波動加大"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "禾伸堂在MLCC漲價和AI需求的背景下，未來營收及獲利成長潛力高。",
+      "confidence": 0.8,
+      "ticker_name": "禾伸堂",
+      "session_type": "post_market"
+    },
+    "2472": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.6,
+      "key_catalysts": [
+        "立隆電8月營收達13.11億元，年增率51.19％，顯示出強勁的市場需求。",
+        "儘管月增率輕微下滑1.30%，整體營運展望依然樂觀，市場反應積極。",
+        "公司專注於AI技術應用，持續開拓高階市場，增強競爭力。"
+      ],
+      "risk_factors": [
+        "月營收下滑可能影響短期市場信心。",
+        "外部市場變化及供應鏈問題可能對公司營運造成挑戰。",
+        "市場競爭加劇，可能影響利潤率。"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "公司年增率顯著，未來成長潛力大，建議把握介入時機。",
+      "confidence": 0.8,
+      "ticker_name": "立隆電",
+      "session_type": "post_market"
+    },
+    "3357": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.7,
+      "key_catalysts": [
+        "8月營收高達8.15億元，年增率53.07％，顯示業績強勁成長。",
+        "公司通過配息5.2元，反映資本運作能力和股東回報意願。",
+        "市場關注被動元件需求增長，高需求可能帶動未來訂單。"
+      ],
+      "risk_factors": [
+        "市場競爭激烈，其他被動元件廠商分食市佔率。",
+        "全球供應鏈不穩定可能影響原材料的供應。",
+        "近期股市波動可能引發投資者情緒不穩。"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "公司績效優異且配息良好，市場需求增長有助於未來成長潛力。",
+      "confidence": 0.8,
+      "ticker_name": "臺慶科",
+      "session_type": "post_market"
+    }
+  }
+}

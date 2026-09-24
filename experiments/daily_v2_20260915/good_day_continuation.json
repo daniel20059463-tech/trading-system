@@ -1,0 +1,34 @@
+[
+  {
+    "good_date": "2026-08-04",
+    "next_date": "2026-08-05",
+    "old_accuracy": 0.4,
+    "old_mae": 3.5345396403505958,
+    "new_accuracy": 0.4,
+    "new_mae": 3.454094234775807
+  },
+  {
+    "good_date": "2026-07-29",
+    "next_date": "2026-07-30",
+    "old_accuracy": 0.7,
+    "old_mae": 5.310325876860448,
+    "new_accuracy": 0.8,
+    "new_mae": 4.875662564884638
+  },
+  {
+    "good_date": "2026-09-03",
+    "next_date": "2026-09-04",
+    "old_accuracy": 0.1,
+    "old_mae": 6.508026612443933,
+    "new_accuracy": 0.1,
+    "new_mae": 6.544549351275904
+  },
+  {
+    "good_date": "2026-08-11",
+    "next_date": "2026-08-12",
+    "old_accuracy": 0.4,
+    "old_mae": 4.241246532788675,
+    "new_accuracy": 0.4,
+    "new_mae": 4.267038329646163
+  }
+]

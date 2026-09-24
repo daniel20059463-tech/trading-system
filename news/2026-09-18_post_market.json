@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-18",
+  "timestamp": "2026-09-18 15:30:22",
+  "ticker_performance": {},
+  "summary": {},
+  "post_market_analysis": {
+    "2327": {
+      "sentiment": "bearish",
+      "sentiment_score": -0.7,
+      "key_catalysts": [
+        "EPS預估下修至19.83元，目標價1125元，顯示市場信心不足",
+        "鉭電容漲價影響毛利率，但占比提升未必能緩解下降壓力",
+        "外資主力同步賣超，顯示資金流出"
+      ],
+      "risk_factors": [
+        "全球經濟放緩影響需求",
+        "競爭加劇導致價格壓力",
+        "市場對未來前景預期低迷"
+      ],
+      "strategy_signal": "sell",
+      "strategy_reason": "營運前景不明朗及外部賣壓顯示股價回穩困難",
+      "confidence": 0.75,
+      "ticker_name": "國巨",
+      "session_type": "post_market"
+    },
+    "2492": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.7,
+      "key_catalysts": [
+        "華新科布局被動元件市場",
+        "電子需求增強",
+        "產業整體成長"
+      ],
+      "risk_factors": [
+        "市場競爭激烈",
+        "供應鏈不穩定",
+        "全球經濟不確定性"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "隨著電子需求增長和市場布局，華新科有望受益於產業成長。",
+      "confidence": 0.8,
+      "ticker_name": "華新科",
+      "session_type": "post_market"
+    },
+    "3026": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.8,
+      "key_catalysts": [
+        "禾伸堂斥資8.12億添購設備，加速擴充AI電源MLCC產能。",
+        "市場聚焦AI伺服器高階MLCC需求。",
+        "被動元件市場需求上升，禾伸堂股價大漲6.88%。"
+      ],
+      "risk_factors": [
+        "可能受到全球經濟不確定性的影響。",
+        "設備投資的回報周期較長，短期內見效有限。",
+        "競爭對手可能加大擴產力度，影響市場佔有率。"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "禾伸堂正在擴充產能，並受益於AI高需求，未來成長潛力看好。",
+      "confidence": 0.85,
+      "ticker_name": "禾伸堂",
+      "session_type": "post_market"
+    },
+    "2472": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [],
+      "risk_factors": [
+        "無法取得 AI 分析，請人工確認"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "API 分析失敗，維持觀望",
+      "confidence": 0.0,
+      "ticker_name": "立隆電",
+      "session_type": "post_market"
+    },
+    "3357": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [],
+      "risk_factors": [
+        "無法取得 AI 分析，請人工確認"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "API 分析失敗，維持觀望",
+      "confidence": 0.0,
+      "ticker_name": "臺慶科",
+      "session_type": "post_market"
+    }
+  }
+}

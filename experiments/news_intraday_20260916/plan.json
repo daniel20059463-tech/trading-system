@@ -1,0 +1,34 @@
+{
+  "locked_at": "2026-09-16T08:45:59.689176+08:00",
+  "status": "reconstructed exploratory replay; historical JSON files were mutable",
+  "question": "Does a pre-09:00 news correction improve same-day open-to-close magnitude?",
+  "primary_comparison": "price_plus_news versus price, paired stock/date rows",
+  "target": "100 * (Close / Open - 1)",
+  "availability": "exactly one log line proving pre-market JSON save before 09:00",
+  "base": "price intraday prediction from sealed us_lead_20260915 replay",
+  "news_model": {
+    "type": "pooled expanding Ridge residual correction",
+    "alpha": 100.0,
+    "minimum_prior_dates": 20,
+    "minimum_rows": 150,
+    "scaling": "past rows only",
+    "max_adjustment_pp": 1.5,
+    "features": [
+      "base_pred",
+      "sentiment_score",
+      "abs_sentiment",
+      "confidence",
+      "log1p_news_count",
+      "buy",
+      "sell",
+      "hold",
+      "base_x_sentiment",
+      "ticker one-hot"
+    ]
+  },
+  "metrics": [
+    "direction_accuracy",
+    "MAE percentage points"
+  ],
+  "promotion_rule": "none; live shadow collection required before formal use"
+}

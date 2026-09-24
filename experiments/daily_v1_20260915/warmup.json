@@ -1,0 +1,72 @@
+[
+  {
+    "ticker": "2327.TW",
+    "raw_first_date": "2023-12-13",
+    "first_training_target": "2024-01-12",
+    "first_forecast_target": "2024-04-19",
+    "warmup_targets": 60
+  },
+  {
+    "ticker": "2492.TW",
+    "raw_first_date": "2023-12-13",
+    "first_training_target": "2024-01-12",
+    "first_forecast_target": "2024-04-19",
+    "warmup_targets": 60
+  },
+  {
+    "ticker": "3026.TW",
+    "raw_first_date": "2023-12-13",
+    "first_training_target": "2024-01-12",
+    "first_forecast_target": "2024-04-19",
+    "warmup_targets": 60
+  },
+  {
+    "ticker": "2472.TW",
+    "raw_first_date": "2023-12-13",
+    "first_training_target": "2024-01-12",
+    "first_forecast_target": "2024-04-19",
+    "warmup_targets": 60
+  },
+  {
+    "ticker": "3357.TWO",
+    "raw_first_date": "2023-12-13",
+    "first_training_target": "2024-01-12",
+    "first_forecast_target": "2024-04-19",
+    "warmup_targets": 60
+  },
+  {
+    "ticker": "5425.TWO",
+    "raw_first_date": "2023-12-13",
+    "first_training_target": "2024-01-12",
+    "first_forecast_target": "2024-04-19",
+    "warmup_targets": 60
+  },
+  {
+    "ticker": "2481.TW",
+    "raw_first_date": "2023-12-13",
+    "first_training_target": "2024-01-12",
+    "first_forecast_target": "2024-04-19",
+    "warmup_targets": 60
+  },
+  {
+    "ticker": "3675.TWO",
+    "raw_first_date": "2023-12-13",
+    "first_training_target": "2024-01-12",
+    "first_forecast_target": "2024-04-19",
+    "warmup_targets": 60
+  },
+  {
+    "ticker": "8255.TWO",
+    "raw_first_date": "2023-12-13",
+    "first_training_target": "2024-01-12",
+    "first_forecast_target": "2024-04-19",
+    "warmup_targets": 60
+  },
+  {
+    "ticker": "8261.TW",
+    "raw_first_date": "2023-12-13",
+    "first_training_target": "2024-01-12",
+    "first_forecast_target": "2024-04-19",
+    "warmup_targets": 60
+  }
+]

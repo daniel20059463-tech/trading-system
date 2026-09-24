@@ -1,0 +1,190 @@
+{
+  "date": "2026-07-20",
+  "timestamp": "2026-07-20 19:10:04",
+  "ticker_performance": {
+    "2327": {
+      "predicted": 707.23,
+      "actual": 630.0,
+      "prev_close": 699.0,
+      "mape": 12.26,
+      "baseline_mape": 10.95,
+      "direction_correct": false
+    },
+    "2492": {
+      "predicted": 310.51,
+      "actual": 277.0,
+      "prev_close": 307.5,
+      "mape": 12.1,
+      "baseline_mape": 11.01,
+      "direction_correct": false
+    },
+    "3026": {
+      "predicted": 691.92,
+      "actual": 621.0,
+      "prev_close": 690.0,
+      "mape": 11.42,
+      "baseline_mape": 11.11,
+      "direction_correct": false
+    },
+    "2472": {
+      "predicted": 289.76,
+      "actual": 265.5,
+      "prev_close": 288.0,
+      "mape": 9.14,
+      "baseline_mape": 8.47,
+      "direction_correct": false
+    },
+    "3357": {
+      "predicted": 220.17,
+      "actual": 207.5,
+      "prev_close": 218.0,
+      "mape": 6.11,
+      "baseline_mape": 5.06,
+      "direction_correct": false
+    },
+    "5425": {
+      "predicted": 93.25,
+      "actual": 86.0,
+      "prev_close": 92.5,
+      "mape": 8.43,
+      "baseline_mape": 7.56,
+      "direction_correct": false
+    },
+    "2481": {
+      "predicted": 150.64,
+      "actual": 139.5,
+      "prev_close": 151.5,
+      "mape": 7.99,
+      "baseline_mape": 8.6,
+      "direction_correct": true
+    },
+    "3675": {
+      "predicted": 287.2,
+      "actual": 264.5,
+      "prev_close": 285.5,
+      "mape": 8.58,
+      "baseline_mape": 7.94,
+      "direction_correct": false
+    },
+    "8255": {
+      "predicted": 151.56,
+      "actual": 146.0,
+      "prev_close": 150.5,
+      "mape": 3.81,
+      "baseline_mape": 3.08,
+      "direction_correct": false
+    },
+    "8261": {
+      "predicted": 253.16,
+      "actual": 229.0,
+      "prev_close": 251.0,
+      "mape": 10.55,
+      "baseline_mape": 9.61,
+      "direction_correct": false
+    }
+  },
+  "summary": {
+    "avg_mape": 9.04,
+    "baseline_mape": 8.34,
+    "beat_baseline": false,
+    "direction_accuracy": 0.1,
+    "sample_count": 10
+  },
+  "post_market_analysis": {
+    "2327": {
+      "sentiment": "bearish",
+      "sentiment_score": -0.8,
+      "key_catalysts": [
+        "國巨股價腰斬引發市場情緒悲觀，股民反應負面。",
+        "分析師建議觀望，暗示未來可能持續低迷。",
+        "法人買賣超雖然顯示外資有買進，但在大盤壓力下不具穩定性。"
+      ],
+      "risk_factors": [
+        "整體市場情緒不振影響股價回升機會。",
+        "被動元件相關產業持續弱勢，未來需求不明。",
+        "外資雖然買超，但多數法人仍偏鴿，風險仍高。"
+      ],
+      "strategy_signal": "sell",
+      "strategy_reason": "因為股價跌幅大且市場情緒悲觀，建議短期內減碼持股以降低風險。",
+      "confidence": 0.8,
+      "ticker_name": "國巨",
+      "session_type": "post_market"
+    },
+    "2492": {
+      "sentiment": "bearish",
+      "sentiment_score": -0.8,
+      "key_catalysts": [
+        "國巨股價腰斬，且華新科跌快60%，市場信心受到重創",
+        "多篇報導指出被動元件持續下跌，聯鎖影響市場情緒",
+        "外資撤出，被動元件類股包括華新科跌停"
+      ],
+      "risk_factors": [
+        "整體市場情況不佳，電子元件需求不明朗",
+        "外資持續出脫，對股價施加壓力",
+        "產業競爭加劇，價格戰可能影響獲利"
+      ],
+      "strategy_signal": "sell",
+      "strategy_reason": "目前被動元件市場情況惡化，華新科股價下跌幅度大，風險大於回報。",
+      "confidence": 0.85,
+      "ticker_name": "華新科",
+      "session_type": "post_market"
+    },
+    "3026": {
+      "sentiment": "bearish",
+      "sentiment_score": -0.9,
+      "key_catalysts": [
+        "被動元件市場整體重挫，禾伸堂當日跌停",
+        "外資持續拋售，使禾伸堂及其他被動元件股遭受賣壓",
+        "市場預期被動元件需求低迷，可能影響未來獲利"
+      ],
+      "risk_factors": [
+        "全球電子產品需求下降",
+        "競爭對手可能進一步擴大市場佔有率",
+        "成本上升導致毛利率壓縮"
+      ],
+      "strategy_signal": "sell",
+      "strategy_reason": "目前被動元件市場情況不佳，短期內有機會出現進一步下跌風險，建議賣出。",
+      "confidence": 0.85,
+      "ticker_name": "禾伸堂",
+      "session_type": "post_market"
+    },
+    "2472": {
+      "sentiment": "bearish",
+      "sentiment_score": -0.6,
+      "key_catalysts": [
+        "立隆電股價跌停，顯示市場信心不足",
+        "券商評等報告僅為中立，未能激勵股價",
+        "儘管有配發股利及營收預期上升，短期情緒仍偏向悲觀"
+      ],
+      "risk_factors": [
+        "市場情緒影響股價波動",
+        "產業供需狀況不明朗",
+        "競爭加劇可能壓縮毛利"
+      ],
+      "strategy_signal": "sell",
+      "strategy_reason": "近期股價連續走弱，市場情緒低迷，建議減碼持股以降低風險。",
+      "confidence": 0.7,
+      "ticker_name": "立隆電",
+      "session_type": "post_market"
+    },
+    "3357": {
+      "sentiment": "bearish",
+      "sentiment_score": -0.6,
+      "key_catalysts": [
+        "臺慶科大跌7.09%，顯示市場對其近期表現擔憂。",
+        "雖然通過配息且營運展望樂觀，但股價大幅波動可能影響投資者信心。",
+        "外資偏多但主力短線調節，顯示市場情緒不穩定。"
+      ],
+      "risk_factors": [
+        "股價大幅波動可能導致資金流出。",
+        "市場對AI電感營收是否實現預期仍有疑慮。",
+        "全球經濟不確定性可能影響需求。"
+      ],
+      "strategy_signal": "watch",
+      "strategy_reason": "短期內市場情緒不佳，需觀察股價走勢及基本面變化再作決策。",
+      "confidence": 0.75,
+      "ticker_name": "臺慶科",
+      "session_type": "post_market"
+    }
+  }
+}

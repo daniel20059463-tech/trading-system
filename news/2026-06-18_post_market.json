@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-18",
+  "timestamp": "2026-06-18 15:30:21",
+  "ticker_performance": {
+    "2327": {
+      "predicted": 1001.96,
+      "actual": 1080.0,
+      "prev_close": 984.0,
+      "mape": 7.23,
+      "baseline_mape": 8.89,
+      "direction_correct": true
+    },
+    "2492": {
+      "predicted": 549.85,
+      "actual": 561.0,
+      "prev_close": 542.0,
+      "mape": 1.99,
+      "baseline_mape": 3.39,
+      "direction_correct": true
+    },
+    "3026": {
+      "predicted": 916.29,
+      "actual": 902.0,
+      "prev_close": 896.0,
+      "mape": 1.58,
+      "baseline_mape": 0.67,
+      "direction_correct": true
+    },
+    "2472": {
+      "predicted": 371.08,
+      "actual": 402.0,
+      "prev_close": 365.5,
+      "mape": 7.69,
+      "baseline_mape": 9.08,
+      "direction_correct": true
+    },
+    "3357": {
+      "predicted": 320.02,
+      "actual": 348.0,
+      "prev_close": 316.5,
+      "mape": 8.04,
+      "baseline_mape": 9.05,
+      "direction_correct": true
+    },
+    "5425": {
+      "predicted": 108.34,
+      "actual": 118.5,
+      "prev_close": 108.0,
+      "mape": 8.57,
+      "baseline_mape": 8.86,
+      "direction_correct": true
+    },
+    "2481": {
+      "predicted": 146.16,
+      "actual": 160.0,
+      "prev_close": 145.5,
+      "mape": 8.65,
+      "baseline_mape": 9.06,
+      "direction_correct": true
+    },
+    "3675": {
+      "predicted": 334.69,
+      "actual": 368.5,
+      "prev_close": 335.0,
+      "mape": 9.18,
+      "baseline_mape": 9.09,
+      "direction_correct": false
+    },
+    "8255": {
+      "predicted": 176.5,
+      "actual": 195.0,
+      "prev_close": 177.5,
+      "mape": 9.49,
+      "baseline_mape": 8.97,
+      "direction_correct": false
+    },
+    "8261": {
+      "predicted": 195.76,
+      "actual": 215.0,
+      "prev_close": 195.5,
+      "mape": 8.95,
+      "baseline_mape": 9.07,
+      "direction_correct": true
+    }
+  },
+  "summary": {
+    "avg_mape": 7.14,
+    "baseline_mape": 7.61,
+    "beat_baseline": true,
+    "direction_accuracy": 0.8,
+    "sample_count": 10
+  },
+  "post_market_analysis": {
+    "2327": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [
+        "Yageo的提議價格提高可能提高國巨競爭壓力",
+        "日本政府對Shibaura的安全性認定增加並不利於收購者",
+        "相關新聞對整體被動元件市場的影響仍不明朗"
+      ],
+      "risk_factors": [
+        "市場競爭加劇",
+        "國際貿易政策的不確定性",
+        "收購案的最終結果影響市場信心"
+      ],
+      "strategy_signal": "watch",
+      "strategy_reason": "目前市場對被動元件的需求尚不穩定，需持續觀察後續變化。",
+      "confidence": 0.7,
+      "ticker_name": "國巨",
+      "session_type": "post_market"
+    },
+    "2492": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.7,
+      "key_catalysts": [
+        "華新科2025年凈利潤率大幅上升",
+        "強化了公司營運效率的樂觀論調",
+        "投資者對被動元件需求增長的信心提升"
+      ],
+      "risk_factors": [
+        "全球需求波動可能影響營收",
+        "原材料價格變動風險",
+        "市場競爭加劇"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "華新科的營運效率提升顯示出公司具備良好發展潛力，有望在被動元件市場中持續受益。",
+      "confidence": 0.8,
+      "ticker_name": "華新科",
+      "session_type": "post_market"
+    },
+    "3026": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [],
+      "risk_factors": [
+        "無法取得 AI 分析，請人工確認"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "API 分析失敗，維持觀望",
+      "confidence": 0.0,
+      "ticker_name": "禾伸堂",
+      "session_type": "post_market"
+    },
+    "2472": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [],
+      "risk_factors": [],
+      "strategy_signal": "watch",
+      "strategy_reason": "近期新聞內容以未發掘潛力股為主，缺乏具體針對立隆電的重要資訊，需持續觀察市場動態。",
+      "confidence": 0.5,
+      "ticker_name": "立隆電",
+      "session_type": "post_market"
+    },
+    "3357": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [],
+      "risk_factors": [
+        "無法取得 AI 分析，請人工確認"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "API 分析失敗，維持觀望",
+      "confidence": 0.0,
+      "ticker_name": "臺慶科",
+      "session_type": "post_market"
+    }
+  }
+}

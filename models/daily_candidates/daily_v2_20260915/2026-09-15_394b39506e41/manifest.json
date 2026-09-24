@@ -1,0 +1,72 @@
+{
+  "protocol": "daily_v2_20260915",
+  "trained_through": "2026-09-15",
+  "generated_at": "2026-09-16T08:30:15.798234+08:00",
+  "input_fingerprint": "394b39506e41",
+  "source_sha256": {
+    "2327.TW": "d422fdc711a9884a7901d134655e2baf3519c50a488e8727a02301a2740c213c",
+    "2492.TW": "40ebc55250674bd07cb09bcdb78d567475acec99ed0ddac77357c37fd7b0733c",
+    "3026.TW": "9821eb2e9ef6cf6925e1540a5e5ccf74b77d330c9a1980dfa1197965de630d44",
+    "2472.TW": "5b6e254afca44dce0c0270cfb9689df28e76fe7784f5243e51ae22d7153869e9",
+    "3357.TWO": "e2d02417d75dece83e40ff66f80525ae58df0ccfff85cedc145b71f9058d8423",
+    "5425.TWO": "87cec6777e029edd94cb759e0e2405eb930a19947c772b3c0bbb724fa244934c",
+    "2481.TW": "6d3fc6236bb6248bcad9c528a71e3674e9cb077181bd34affad6c36e43810b6a",
+    "3675.TWO": "e954458e06d55285f39bf28ce6c012b95ef60d190f073b7593f7dde7f0e52c9b",
+    "8255.TWO": "27919434a4e5c6799726ed986aff38330060be0eb0df926770bfbcbd7efe7178",
+    "8261.TW": "25744414daea6ddf1f27d0796de56aeb0111c125f92b6d2e76f359c32c3eddb9"
+  },
+  "primary_method": "ridge_full",
+  "models": {
+    "2327.TW": {
+      "sha256": "87750eb258c7cbc13fb35090e0727b824f2bc3c994128715a4b5e7e4a158e615",
+      "n": 647,
+      "calibration_n": 60
+    },
+    "2492.TW": {
+      "sha256": "f28b63fde0db3f3eaf8d0141a4df9f00696da66c55b25a4399dfefbf6acf07de",
+      "n": 647,
+      "calibration_n": 60
+    },
+    "3026.TW": {
+      "sha256": "dae2963e7880e4e6e170abc72e5fcc4703149ecd9e20386c670dcc9cf0a05c10",
+      "n": 647,
+      "calibration_n": 60
+    },
+    "2472.TW": {
+      "sha256": "683e18008cd6d147630a42aa3e871d2e2b8ce713c3c88e167055650cab9e6304",
+      "n": 647,
+      "calibration_n": 60
+    },
+    "3357.TWO": {
+      "sha256": "bc2e3243667992002b27ed3c310f2cbac1b0370fcdee171124bb47a4894efb18",
+      "n": 647,
+      "calibration_n": 60
+    },
+    "5425.TWO": {
+      "sha256": "a5d700de76f9e6f23446ec1aff48a58419d1236940a0a86122c0c015b6974c22",
+      "n": 647,
+      "calibration_n": 60
+    },
+    "2481.TW": {
+      "sha256": "5ddc9748ee7f3e39413aa73a4a05715f45913d569ad200f7c1ce8f88085eabc4",
+      "n": 647,
+      "calibration_n": 60
+    },
+    "3675.TWO": {
+      "sha256": "8229ec48a9a2fdbac6a238fa26bf980ad70fbe58d113d6280d90e818ef990792",
+      "n": 647,
+      "calibration_n": 60
+    },
+    "8255.TWO": {
+      "sha256": "f1834a2fee88400b4fdc5529640879d2a7446b6574f3210a981af0fa197362a6",
+      "n": 647,
+      "calibration_n": 60
+    },
+    "8261.TW": {
+      "sha256": "cbd4ce32325aca47e0e050c6ae4a8d7964f86b377679325ff49b9b92bdc11f8a",
+      "n": 647,
+      "calibration_n": 60
+    }
+  },
+  "calibration_provenance": "older errors reconstructed; future timestamped predictions replace same dates"
+}

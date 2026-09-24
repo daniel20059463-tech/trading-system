@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-07",
+  "timestamp": "2026-09-07 17:35:33",
+  "ticker_performance": {},
+  "summary": {},
+  "post_market_analysis": {
+    "2327": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.8,
+      "key_catalysts": [
+        "國巨股價勁揚逾7%，突破600元，受到AI高階被動元件與全面漲價題材的推動。",
+        "分析師指出被動元件市場有復甦跡象，暗示潛在成長空間。",
+        "國巨在零股市場亦有成交量增加，顯示市場對其信心提升。"
+      ],
+      "risk_factors": [
+        "全球供應鏈不穩定可能影響產能。",
+        "市場競爭加劇，會影響價格及毛利。",
+        "經濟環境變遷，需求可能波動。"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "隨著被動元件需求回升及價格上漲，國巨的股價表現強勁，顯示長期看好。",
+      "confidence": 0.85,
+      "ticker_name": "國巨",
+      "session_type": "post_market"
+    },
+    "2492": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.8,
+      "key_catalysts": [
+        "華新科將發45億元CB，資金充沛擴廠",
+        "華新科搭乘MLCC漲價潮，股價漲幅超過8%",
+        "外資對被動元件股的積極買入"
+      ],
+      "risk_factors": [
+        "市場需求回落可能影響毛利",
+        "宏觀經濟不確定性影響投資信心",
+        "競爭加劇導致價格壓力"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "華新科擴廠計劃和MLCC漲價正面影響業績，外資買盤顯示信心。",
+      "confidence": 0.85,
+      "ticker_name": "華新科",
+      "session_type": "post_market"
+    },
+    "3026": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.8,
+      "key_catalysts": [
+        "MLCC漲價題材發酵、AI需求助攻 禾伸堂強攻漲停",
+        "禾伸堂AI產品陸續出貨，Q4占比有望突破40%",
+        "禾伸堂8月營收14.40億元"
+      ],
+      "risk_factors": [
+        "全球經濟不確定性可能影響需求",
+        "競爭激烈可能抑制毛利率",
+        "原材料價格波動影響成本"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "隨著MLCC價格上漲及AI需求增加，禾伸堂業績有望持續成長。",
+      "confidence": 0.75,
+      "ticker_name": "禾伸堂",
+      "session_type": "post_market"
+    },
+    "2472": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.1,
+      "key_catalysts": [
+        "8月營收年增率51.19%，顯示業績穩定成長",
+        "AI伺服器和車用鋁電容題材帶動短期股價上漲",
+        "立隆電切入輝達供應鏈，顯示技術能力與市場需求"
+      ],
+      "risk_factors": [
+        "月增率-1.30%，顯示短期業務可能疲弱",
+        "主力與法人籌碼偏空，可能影響後市",
+        "市場對AI和車用電子的需求波動性高"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "近期業績表現良好，但技術面與法人動向偏空，不適合大幅增持。",
+      "confidence": 0.75,
+      "ticker_name": "立隆電",
+      "session_type": "post_market"
+    },
+    "3357": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.1,
+      "key_catalysts": [
+        "8月營收年增率53.07%，顯示需求仍然強勁",
+        "AI、車用需求強勁，預期Q3表現優於Q2",
+        "日商村田漲價可能影響市場供需動態"
+      ],
+      "risk_factors": [
+        "8月營收月增率下滑6.90%，需關注後續表現",
+        "近期受到市場情緒影響，股價表現不穩定",
+        "被動元件市場競爭加劇，存在價格壓力"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "儘管營收表現良好，但市場情緒與競爭壓力使得持股風險增加，建議觀望。",
+      "confidence": 0.75,
+      "ticker_name": "臺慶科",
+      "session_type": "post_market"
+    }
+  }
+}

@@ -1,0 +1,512 @@
+{
+  "schema_version": 1,
+  "policy": {
+    "validation_days": 100,
+    "test_days": 60,
+    "validation_start": "2026-01-14",
+    "test_start": "2026-06-18",
+    "test_end": "2026-09-10",
+    "candidate_names": [
+      "historical_majority",
+      "logistic_c01",
+      "logistic_c1",
+      "extra_trees",
+      "hist_gradient"
+    ],
+    "scales": [
+      0.1,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "test_used_for_selection": false
+  },
+  "rows": [
+    {
+      "ticker": "2327.TW",
+      "name": "國巨",
+      "features": [
+        "pct_change",
+        "RSI",
+        "MACD_hist",
+        "Volume_ratio",
+        "ATR",
+        "twii_pct",
+        "usdtwd_pct",
+        "murata_pct",
+        "tdk_pct"
+      ],
+      "train_end": "2026-01-13",
+      "validation_start": "2026-01-14",
+      "validation_end": "2026-06-17",
+      "test_start": "2026-06-18",
+      "test_end": "2026-09-10",
+      "test_n": 60,
+      "selected_on_validation": "logistic_c1",
+      "scale": 1.0,
+      "validation_direction_accuracy": 0.6,
+      "validation_mae_pp": 3.74289092552168,
+      "test_direction_accuracy": 0.36666666666666664,
+      "test_mae_pp": 5.176674277092167,
+      "test_zero_baseline_mae_pp": 4.930912221428869,
+      "shadow_eligible": false
+    },
+    {
+      "ticker": "2492.TW",
+      "name": "華新科",
+      "features": [
+        "pct_change",
+        "RSI",
+        "MACD_hist",
+        "Volume_ratio",
+        "ATR",
+        "twii_pct",
+        "usdtwd_pct",
+        "murata_pct",
+        "tdk_pct"
+      ],
+      "train_end": "2026-01-13",
+      "validation_start": "2026-01-14",
+      "validation_end": "2026-06-17",
+      "test_start": "2026-06-18",
+      "test_end": "2026-09-10",
+      "test_n": 60,
+      "selected_on_validation": "extra_trees",
+      "scale": 0.1,
+      "validation_direction_accuracy": 0.51,
+      "validation_mae_pp": 4.672920931434206,
+      "test_direction_accuracy": 0.4,
+      "test_mae_pp": 5.566181274031952,
+      "test_zero_baseline_mae_pp": 5.56017164843985,
+      "shadow_eligible": false
+    },
+    {
+      "ticker": "3026.TW",
+      "name": "禾伸堂",
+      "features": [
+        "pct_change",
+        "RSI",
+        "MACD_hist",
+        "Volume_ratio",
+        "ATR",
+        "twii_pct",
+        "usdtwd_pct",
+        "murata_pct",
+        "tdk_pct"
+      ],
+      "train_end": "2026-01-13",
+      "validation_start": "2026-01-14",
+      "validation_end": "2026-06-17",
+      "test_start": "2026-06-18",
+      "test_end": "2026-09-10",
+      "test_n": 60,
+      "selected_on_validation": "logistic_c1",
+      "scale": 1.0,
+      "validation_direction_accuracy": 0.57,
+      "validation_mae_pp": 4.421764402077944,
+      "test_direction_accuracy": 0.5,
+      "test_mae_pp": 6.152383132981082,
+      "test_zero_baseline_mae_pp": 6.14081057150272,
+      "shadow_eligible": false
+    },
+    {
+      "ticker": "2472.TW",
+      "name": "立隆電",
+      "features": [
+        "pct_change",
+        "RSI",
+        "MACD_hist",
+        "Volume_ratio",
+        "ATR",
+        "twii_pct",
+        "usdtwd_pct",
+        "murata_pct",
+        "tdk_pct"
+      ],
+      "train_end": "2026-01-13",
+      "validation_start": "2026-01-14",
+      "validation_end": "2026-06-17",
+      "test_start": "2026-06-18",
+      "test_end": "2026-09-10",
+      "test_n": 60,
+      "selected_on_validation": "logistic_c1",
+      "scale": 1.0,
+      "validation_direction_accuracy": 0.54,
+      "validation_mae_pp": 3.826972886735783,
+      "test_direction_accuracy": 0.43333333333333335,
+      "test_mae_pp": 4.468936302900726,
+      "test_zero_baseline_mae_pp": 4.302986655419156,
+      "shadow_eligible": false
+    },
+    {
+      "ticker": "3357.TWO",
+      "name": "臺慶科",
+      "features": [
+        "pct_change",
+        "RSI",
+        "MACD_hist",
+        "Volume_ratio",
+        "ATR",
+        "twii_pct",
+        "usdtwd_pct",
+        "murata_pct",
+        "tdk_pct"
+      ],
+      "train_end": "2026-01-13",
+      "validation_start": "2026-01-14",
+      "validation_end": "2026-06-17",
+      "test_start": "2026-06-18",
+      "test_end": "2026-09-10",
+      "test_n": 60,
+      "selected_on_validation": "historical_majority",
+      "scale": 1.0,
+      "validation_direction_accuracy": 0.52,
+      "validation_mae_pp": 3.6795232899494947,
+      "test_direction_accuracy": 0.35,
+      "test_mae_pp": 3.5695129318840912,
+      "test_zero_baseline_mae_pp": 3.5642282068685818,
+      "shadow_eligible": false
+    },
+    {
+      "ticker": "5425.TWO",
+      "name": "台半",
+      "features": [
+        "pct_change",
+        "RSI",
+        "MACD_hist",
+        "Volume_ratio",
+        "ATR",
+        "twii_pct",
+        "usdtwd_pct",
+        "onsemi_pct",
+        "vishay_pct"
+      ],
+      "train_end": "2026-01-13",
+      "validation_start": "2026-01-14",
+      "validation_end": "2026-06-17",
+      "test_start": "2026-06-18",
+      "test_end": "2026-09-10",
+      "test_n": 60,
+      "selected_on_validation": "hist_gradient",
+      "scale": 1.0,
+      "validation_direction_accuracy": 0.56,
+      "validation_mae_pp": 3.6030894758690413,
+      "test_direction_accuracy": 0.5333333333333333,
+      "test_mae_pp": 4.0528673140785525,
+      "test_zero_baseline_mae_pp": 4.121242398250003,
+      "shadow_eligible": false
+    },
+    {
+      "ticker": "2481.TW",
+      "name": "強茂",
+      "features": [
+        "pct_change",
+        "RSI",
+        "MACD_hist",
+        "Volume_ratio",
+        "ATR",
+        "twii_pct",
+        "usdtwd_pct",
+        "onsemi_pct",
+        "vishay_pct"
+      ],
+      "train_end": "2026-01-13",
+      "validation_start": "2026-01-14",
+      "validation_end": "2026-06-17",
+      "test_start": "2026-06-18",
+      "test_end": "2026-09-10",
+      "test_n": 60,
+      "selected_on_validation": "logistic_c1",
+      "scale": 1.0,
+      "validation_direction_accuracy": 0.59,
+      "validation_mae_pp": 3.7206305383963882,
+      "test_direction_accuracy": 0.6333333333333333,
+      "test_mae_pp": 4.718158762783716,
+      "test_zero_baseline_mae_pp": 4.828962904876181,
+      "shadow_eligible": true
+    },
+    {
+      "ticker": "3675.TWO",
+      "name": "德微",
+      "features": [
+        "pct_change",
+        "RSI",
+        "MACD_hist",
+        "Volume_ratio",
+        "ATR",
+        "twii_pct",
+        "usdtwd_pct",
+        "onsemi_pct",
+        "vishay_pct"
+      ],
+      "train_end": "2026-01-13",
+      "validation_start": "2026-01-14",
+      "validation_end": "2026-06-17",
+      "test_start": "2026-06-18",
+      "test_end": "2026-09-10",
+      "test_n": 60,
+      "selected_on_validation": "logistic_c01",
+      "scale": 1.0,
+      "validation_direction_accuracy": 0.56,
+      "validation_mae_pp": 3.709812565076194,
+      "test_direction_accuracy": 0.5833333333333334,
+      "test_mae_pp": 4.533068539638791,
+      "test_zero_baseline_mae_pp": 4.64946761676949,
+      "shadow_eligible": true
+    },
+    {
+      "ticker": "8255.TWO",
+      "name": "朋程",
+      "features": [
+        "pct_change",
+        "RSI",
+        "MACD_hist",
+        "Volume_ratio",
+        "ATR",
+        "twii_pct",
+        "usdtwd_pct",
+        "onsemi_pct",
+        "vishay_pct"
+      ],
+      "train_end": "2026-01-13",
+      "validation_start": "2026-01-14",
+      "validation_end": "2026-06-17",
+      "test_start": "2026-06-18",
+      "test_end": "2026-09-10",
+      "test_n": 60,
+      "selected_on_validation": "historical_majority",
+      "scale": 1.0,
+      "validation_direction_accuracy": 0.52,
+      "validation_mae_pp": 2.467432680799098,
+      "test_direction_accuracy": 0.6166666666666667,
+      "test_mae_pp": 2.927548909073634,
+      "test_zero_baseline_mae_pp": 2.9294670993293996,
+      "shadow_eligible": false
+    },
+    {
+      "ticker": "8261.TW",
+      "name": "富鼎",
+      "features": [
+        "pct_change",
+        "RSI",
+        "MACD_hist",
+        "Volume_ratio",
+        "ATR",
+        "twii_pct",
+        "usdtwd_pct",
+        "onsemi_pct",
+        "vishay_pct"
+      ],
+      "train_end": "2026-01-13",
+      "validation_start": "2026-01-14",
+      "validation_end": "2026-06-17",
+      "test_start": "2026-06-18",
+      "test_end": "2026-09-10",
+      "test_n": 60,
+      "selected_on_validation": "extra_trees",
+      "scale": 1.0,
+      "validation_direction_accuracy": 0.56,
+      "validation_mae_pp": 2.956530768494024,
+      "test_direction_accuracy": 0.6166666666666667,
+      "test_mae_pp": 4.820844639505876,
+      "test_zero_baseline_mae_pp": 4.844107296969876,
+      "shadow_eligible": false
+    }
+  ],
+  "pooled": {
+    "n": 600,
+    "direction_accuracy": 0.5033333333333333,
+    "mae_pp": 4.598617608397058,
+    "zero_baseline_mae_pp": 4.587235661985414
+  },
+  "production_post_checkpoint": {
+    "n": 90,
+    "direction_accuracy": 0.45555555555555555,
+    "mae_pp": 3.0684559226827792,
+    "zero_baseline_mae_pp": 2.9395016330006323,
+    "detail": [
+      {
+        "ticker": "2327.TW",
+        "checkpoint_file_date": "2026-08-28",
+        "start": "2026-08-31",
+        "end": "2026-09-10",
+        "n": 9,
+        "direction_accuracy": 0.4444444444444444,
+        "mae_pp": 4.879088537862653,
+        "zero_baseline_mae_pp": 4.815762902156552
+      },
+      {
+        "ticker": "2492.TW",
+        "checkpoint_file_date": "2026-08-28",
+        "start": "2026-08-31",
+        "end": "2026-09-10",
+        "n": 9,
+        "direction_accuracy": 0.5555555555555556,
+        "mae_pp": 4.803202370134222,
+        "zero_baseline_mae_pp": 4.813314162726466
+      },
+      {
+        "ticker": "3026.TW",
+        "checkpoint_file_date": "2026-08-28",
+        "start": "2026-08-31",
+        "end": "2026-09-10",
+        "n": 9,
+        "direction_accuracy": 0.4444444444444444,
+        "mae_pp": 5.221758691989738,
+        "zero_baseline_mae_pp": 5.00199230255683
+      },
+      {
+        "ticker": "2472.TW",
+        "checkpoint_file_date": "2026-08-28",
+        "start": "2026-08-31",
+        "end": "2026-09-10",
+        "n": 9,
+        "direction_accuracy": 0.3333333333333333,
+        "mae_pp": 3.8737930713746147,
+        "zero_baseline_mae_pp": 2.926397149607464
+      },
+      {
+        "ticker": "3357.TWO",
+        "checkpoint_file_date": "2026-08-28",
+        "start": "2026-08-31",
+        "end": "2026-09-10",
+        "n": 9,
+        "direction_accuracy": 0.2222222222222222,
+        "mae_pp": 2.1808733586233147,
+        "zero_baseline_mae_pp": 2.1542774971995384
+      },
+      {
+        "ticker": "5425.TWO",
+        "checkpoint_file_date": "2026-08-28",
+        "start": "2026-08-31",
+        "end": "2026-09-10",
+        "n": 9,
+        "direction_accuracy": 0.6666666666666666,
+        "mae_pp": 1.3637520728896186,
+        "zero_baseline_mae_pp": 1.4308745682692952
+      },
+      {
+        "ticker": "2481.TW",
+        "checkpoint_file_date": "2026-08-28",
+        "start": "2026-08-31",
+        "end": "2026-09-10",
+        "n": 9,
+        "direction_accuracy": 0.4444444444444444,
+        "mae_pp": 2.656802713618042,
+        "zero_baseline_mae_pp": 2.643902333167632
+      },
+      {
+        "ticker": "3675.TWO",
+        "checkpoint_file_date": "2026-08-28",
+        "start": "2026-08-31",
+        "end": "2026-09-10",
+        "n": 9,
+        "direction_accuracy": 0.6666666666666666,
+        "mae_pp": 1.3742438193955961,
+        "zero_baseline_mae_pp": 1.465497639376112
+      },
+      {
+        "ticker": "8255.TWO",
+        "checkpoint_file_date": "2026-08-28",
+        "start": "2026-08-31",
+        "end": "2026-09-10",
+        "n": 9,
+        "direction_accuracy": 0.1111111111111111,
+        "mae_pp": 1.777734214834617,
+        "zero_baseline_mae_pp": 1.5154896499815544
+      },
+      {
+        "ticker": "8261.TW",
+        "checkpoint_file_date": "2026-08-28",
+        "start": "2026-08-31",
+        "end": "2026-09-10",
+        "n": 9,
+        "direction_accuracy": 0.6666666666666666,
+        "mae_pp": 2.5533103761053764,
+        "zero_baseline_mae_pp": 2.627508124964882
+      }
+    ],
+    "limitation": "checkpoint 未記錄訓練資料截止日；僅以檔案寫入日作不可看見未來的保守界線"
+  },
+  "production_interval_post_checkpoint": {
+    "summary": {
+      "50": {
+        "n": 90,
+        "coverage": 0.6111111111111112,
+        "mean_width_pp": 7.1806854343691375,
+        "mean_interval_score": 10.44203014642943
+      },
+      "80_sigma20": {
+        "n": 90,
+        "coverage": 0.9111111111111111,
+        "mean_width_pp": 13.348146690049429,
+        "mean_interval_score": 14.30437246738458
+      },
+      "80_sigma5": {
+        "n": 90,
+        "coverage": 0.9,
+        "mean_width_pp": 13.352854965710984,
+        "mean_interval_score": 15.003846749309112
+      }
+    },
+    "limitation": "只評無新聞修正的原始區間；舊校準段曾用於選模，僅寫入日後日期未被 checkpoint 看過"
+  },
+  "input_sha256": {
+    "data\\raw\\2327.TW.csv": "5b7e25ff4586b1338b29804193c62746a5c738d4e3d358ba8ef08d1f83c3638f",
+    "data\\raw\\2472.TW.csv": "a57b494694513f1ebf8bd89e524de14eea83da18024476f28e0a876813bd21b6",
+    "data\\raw\\2481.TW.csv": "0ec884fb0230f0c2961f2e18b7ff5a6f22c218332eb997ca98b4e19cfa119ebd",
+    "data\\raw\\2492.TW.csv": "a020c2ecce520823769c3952f58772ecc6307cda1840ebb00302b59c33ec29ce",
+    "data\\raw\\3026.TW.csv": "8019236eb3e01b933e70b90d1701ab46f496b2d50e208b5e7ec6b01156a3b6fe",
+    "data\\raw\\3357.TWO.csv": "cb7cf93605759ad202621786fac9fe9f8ea5982f3cf3643cf9e6a866eea5754d",
+    "data\\raw\\3675.TWO.csv": "3169bca630c50448716233b063a7592a539c4dd004bf7a94bddb819101629f35",
+    "data\\raw\\5425.TWO.csv": "0a227b709298312b3e6af76e22873ce0525048d198f66b06c8bbfd068e0bd73d",
+    "data\\raw\\8255.TWO.csv": "f0c67b3e2edeb331d75677c490c926933c1a9845d08f0cc4a08ab99265d5c018",
+    "data\\raw\\8261.TW.csv": "7e75bbdde852bd94607f769f5eefc0a49a1a4dc750666a65667b02be69d1d562"
+  },
+  "shadow_artifact_sha256": {
+    "2481.TW": "3f3e6f617f5840b97589dba7e84f2f9cfb548d6addc96b877ef0c1c9492f0868",
+    "3675.TWO": "71e7dc760bb2c2647f72d38d8e9dec1764ee023aab01201bdebfaf7b0a2102cb"
+  },
+  "promotion_decision": "reject_global",
+  "shadow_eligible_tickers": [
+    "2481.TW",
+    "3675.TWO"
+  ],
+  "worst_test_dates_by_mae": [
+    {
+      "date": "2026-07-28",
+      "n": 10,
+      "direction_accuracy": 0.1,
+      "mae_pp": 9.70198972780371,
+      "zero_baseline_mae_pp": 9.242695461576433
+    },
+    {
+      "date": "2026-07-17",
+      "n": 10,
+      "direction_accuracy": 0.5,
+      "mae_pp": 9.686654516432274,
+      "zero_baseline_mae_pp": 9.45398734985614
+    },
+    {
+      "date": "2026-06-30",
+      "n": 10,
+      "direction_accuracy": 0.7,
+      "mae_pp": 9.07464167649206,
+      "zero_baseline_mae_pp": 9.297620233650544
+    },
+    {
+      "date": "2026-07-07",
+      "n": 10,
+      "direction_accuracy": 0.3,
+      "mae_pp": 8.625317678172788,
+      "zero_baseline_mae_pp": 8.282983875256205
+    },
+    {
+      "date": "2026-07-13",
+      "n": 10,
+      "direction_accuracy": 0.3,
+      "mae_pp": 8.572292401606385,
+      "zero_baseline_mae_pp": 8.402684649811695
+    }
+  ]
+}

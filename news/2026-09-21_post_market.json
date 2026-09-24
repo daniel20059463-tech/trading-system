@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-21",
+  "timestamp": "2026-09-21 15:30:21",
+  "ticker_performance": {},
+  "summary": {},
+  "post_market_analysis": {
+    "2327": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.7,
+      "key_catalysts": [
+        "Q3轉單發酵，獲利攀升，可能帶動股價上漲。",
+        "外資調升台達電目標價，促進被動元件股同步轉強。",
+        "對於AI供應鏈的長期商機預期，看好國巨在新興市場的表現。"
+      ],
+      "risk_factors": [
+        "被動元件市場仍有不確定因素，需關注需求變化。",
+        "全球供應鏈風險可能影響生產與交貨時效。",
+        "競爭加劇可能壓縮利潤空間，即使目前表現良好。"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "基於Q3獲利前景看好，搭配外資支持，建議進場。持有被動元件優勢有助於長期增長。",
+      "confidence": 0.8,
+      "ticker_name": "國巨",
+      "session_type": "post_market"
+    },
+    "2492": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.7,
+      "key_catalysts": [
+        "國巨、華新科衝了，被動元件族群紅一片",
+        "華新科大漲7.24%，報288元",
+        "被動元件集體補銀彈"
+      ],
+      "risk_factors": [
+        "市場波動可能導致短期回調",
+        "國際供應鏈問題影響生產",
+        "需求不確定性影響下半年度表現"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "被動元件需求上升，且華新科近期股價表現強勁，預示吸引資金流入。",
+      "confidence": 0.8,
+      "ticker_name": "華新科",
+      "session_type": "post_market"
+    },
+    "3026": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.7,
+      "key_catalysts": [
+        "禾伸堂今日股價急拉5.22%，顯示市場對其短期表現樂觀。",
+        "被動元件買氣上升，禾伸堂明年計劃擴大產能，有助於未來成長。",
+        "禾伸堂近5日股價漲幅達7.12%，顯示持續受到關注與買盤支持。"
+      ],
+      "risk_factors": [
+        "市場波動可能影響短期股價表現。",
+        "同行競爭激烈，可能壓縮利潤空間。",
+        "訊息面可能出現不確定性，影響投資者信心。"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "考量市場需求上升及公司擴產計劃，短期內增長潛力明顯。",
+      "confidence": 0.8,
+      "ticker_name": "禾伸堂",
+      "session_type": "post_market"
+    },
+    "2472": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.7,
+      "key_catalysts": [
+        "AI需求增長推動被動元件需求",
+        "市場預期漲價循環將持續",
+        "立隆電可能受益於訂單增加"
+      ],
+      "risk_factors": [
+        "供應鏈不確定性",
+        "原材料價格波動",
+        "競爭加劇可能壓縮利潤"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "AI需求強勁帶動被動元件市場，預期立隆電將受益於此波漲價循環。",
+      "confidence": 0.8,
+      "ticker_name": "立隆電",
+      "session_type": "post_market"
+    },
+    "3357": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.7,
+      "key_catalysts": [
+        "日商村田電感產品漲價，顯示被動元件市場回暖",
+        "台廠股價受此利好消息影響",
+        "整體行業有望受益於供需改善"
+      ],
+      "risk_factors": [
+        "全球經濟不確定性可能影響需求",
+        "競爭加劇可能壓低利潤率",
+        "高原材料成本影響生產"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "日商村田漲價顯示市場信心提升，有助於台慶科的業績增長，值得進一步布局。",
+      "confidence": 0.8,
+      "ticker_name": "臺慶科",
+      "session_type": "post_market"
+    }
+  }
+}

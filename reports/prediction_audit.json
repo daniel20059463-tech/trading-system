@@ -1,0 +1,211 @@
+{
+  "latest_target": "2026-09-23",
+  "recent_since": "2026-08-26",
+  "rows": 1278,
+  "recent_rows": 408,
+  "statuses": {
+    "verified": 132,
+    "base_price_mismatch": 4,
+    "data_date_mismatch;base_price_mismatch": 25,
+    "data_date_mismatch": 7,
+    "legacy_timestamp_unverified;missing_prediction": 10,
+    "legacy_timestamp_unverified;base_price_mismatch": 65,
+    "legacy_timestamp_unverified": 15,
+    "legacy_interval_target_unverified": 80,
+    "missing_pre_prediction": 70
+  },
+  "issues": [],
+  "verified": {
+    "point": {
+      "direction_correct": {
+        "n": 48,
+        "mean": 0.3333333333333333
+      },
+      "abs_error_pp": {
+        "n": 48,
+        "mean": 2.5511035976738046
+      },
+      "baseline_abs_error_pp": {
+        "n": 48,
+        "mean": 2.4090878925456
+      },
+      "width50_pp": {
+        "n": 0,
+        "mean": null
+      },
+      "covered50": {
+        "n": 0,
+        "mean": null
+      },
+      "width80_pp": {
+        "n": 0,
+        "mean": null
+      },
+      "covered80": {
+        "n": 0,
+        "mean": null
+      },
+      "width80s_pp": {
+        "n": 0,
+        "mean": null
+      },
+      "covered80s": {
+        "n": 0,
+        "mean": null
+      }
+    },
+    "interval": {
+      "direction_correct": {
+        "n": 48,
+        "mean": 0.4375
+      },
+      "abs_error_pp": {
+        "n": 48,
+        "mean": 2.644482488163718
+      },
+      "baseline_abs_error_pp": {
+        "n": 48,
+        "mean": 2.4090878925456
+      },
+      "width50_pp": {
+        "n": 48,
+        "mean": 7.2121249999999995
+      },
+      "covered50": {
+        "n": 48,
+        "mean": 0.7083333333333334
+      },
+      "width80_pp": {
+        "n": 48,
+        "mean": 13.204979166666673
+      },
+      "covered80": {
+        "n": 48,
+        "mean": 0.875
+      },
+      "width80s_pp": {
+        "n": 48,
+        "mean": 12.647749999999997
+      },
+      "covered80s": {
+        "n": 48,
+        "mean": 0.8958333333333334
+      }
+    },
+    "shadow_candidate": {
+      "direction_correct": {
+        "n": 6,
+        "mean": 0.5
+      },
+      "abs_error_pp": {
+        "n": 6,
+        "mean": 5.2298270522099015
+      },
+      "baseline_abs_error_pp": {
+        "n": 6,
+        "mean": 5.185249266480933
+      },
+      "width50_pp": {
+        "n": 0,
+        "mean": null
+      },
+      "covered50": {
+        "n": 0,
+        "mean": null
+      },
+      "width80_pp": {
+        "n": 0,
+        "mean": null
+      },
+      "covered80": {
+        "n": 0,
+        "mean": null
+      },
+      "width80s_pp": {
+        "n": 0,
+        "mean": null
+      },
+      "covered80s": {
+        "n": 0,
+        "mean": null
+      }
+    },
+    "daily_retrain": {
+      "direction_correct": {
+        "n": 30,
+        "mean": 0.23333333333333334
+      },
+      "abs_error_pp": {
+        "n": 30,
+        "mean": 4.346331845420008
+      },
+      "baseline_abs_error_pp": {
+        "n": 30,
+        "mean": 2.670718194776174
+      },
+      "width50_pp": {
+        "n": 30,
+        "mean": 5.976831591212137
+      },
+      "covered50": {
+        "n": 30,
+        "mean": 0.4
+      },
+      "width80_pp": {
+        "n": 30,
+        "mean": 10.897661593232725
+      },
+      "covered80": {
+        "n": 30,
+        "mean": 0.7
+      },
+      "width80s_pp": {
+        "n": 0,
+        "mean": null
+      },
+      "covered80s": {
+        "n": 0,
+        "mean": null
+      }
+    }
+  },
+  "legacy_aligned_diagnostic": {
+    "direction_correct": {
+      "n": 15,
+      "mean": 0.13333333333333333
+    },
+    "abs_error_pp": {
+      "n": 15,
+      "mean": 2.579672290300424
+    },
+    "baseline_abs_error_pp": {
+      "n": 15,
+      "mean": 2.1931122903004243
+    },
+    "width50_pp": {
+      "n": 0,
+      "mean": null
+    },
+    "covered50": {
+      "n": 0,
+      "mean": null
+    },
+    "width80_pp": {
+      "n": 0,
+      "mean": null
+    },
+    "covered80": {
+      "n": 0,
+      "mean": null
+    },
+    "width80s_pp": {
+      "n": 0,
+      "mean": null
+    },
+    "covered80s": {
+      "n": 0,
+      "mean": null
+    }
+  },
+  "recent_post_prediction_mismatches": 60
+}

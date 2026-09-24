@@ -1,0 +1,13 @@
+{
+  "completed_at": "2026-09-15T22:54:43.910038+08:00",
+  "runtime_seconds": 273.61934210002073,
+  "rows": 105660,
+  "aligned_rows": 6470,
+  "first": "2024-01-12",
+  "last": "2026-09-15",
+  "forecast_first": "2024-04-19",
+  "forecast_last": "2026-09-15",
+  "input_hashes": 21,
+  "no_future_training": true,
+  "source_sha256": "32183dc99eeeb74b976227805cb8c6b6d0601d68741afbaedf5bef1df2ba20a9"
+}

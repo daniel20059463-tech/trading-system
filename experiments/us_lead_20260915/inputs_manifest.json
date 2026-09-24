@@ -1,0 +1,67 @@
+{
+  "retrieval": [
+    {
+      "symbol": "^SOX",
+      "rows": 719,
+      "first": "2023-11-01",
+      "last": "2026-09-15",
+      "retrieved_at": "2026-09-15T22:48:28.807939+08:00",
+      "sha256": "ac19a99b029d33a6ab900ae8e08729110e40abf90acd7a72a878e525020bdb43"
+    },
+    {
+      "symbol": "^IXIC",
+      "rows": 719,
+      "first": "2023-11-01",
+      "last": "2026-09-15",
+      "retrieved_at": "2026-09-15T22:48:28.990294+08:00",
+      "sha256": "4f613462bb314a30dc9882f66b054e6dd5f7ea569faed216e15d17069c6f01d5"
+    },
+    {
+      "symbol": "^GSPC",
+      "rows": 719,
+      "first": "2023-11-01",
+      "last": "2026-09-15",
+      "retrieved_at": "2026-09-15T22:48:29.201667+08:00",
+      "sha256": "e81d9804ac13d41ec6716176863332b93b6fe7aa9b70337e807ff88d29977b6b"
+    },
+    {
+      "symbol": "ON",
+      "rows": 719,
+      "first": "2023-11-01",
+      "last": "2026-09-15",
+      "retrieved_at": "2026-09-15T22:48:29.531555+08:00",
+      "sha256": "afea619c279de7228ccc5265632b2d7edfa3a28d33f315ac51cb6029261ec96c"
+    },
+    {
+      "symbol": "VSH",
+      "rows": 719,
+      "first": "2023-11-01",
+      "last": "2026-09-15",
+      "retrieved_at": "2026-09-15T22:48:29.840291+08:00",
+      "sha256": "dee579bb928efa73dbd2b9f7691e4ede7e9517b57b9917710dc6e8430a780ff6"
+    }
+  ],
+  "sha256": {
+    "snapshot_history.md": "671dd7bb2f43323c062abe3a2e385363135f76d6cb887476f601aa3731a08686",
+    "us_schedule.csv": "b4bb65ac0ea2a82d1873a1ce290227e26faf448cf73621458d904e3c0cff6532",
+    "data\\raw\\2327.TW.csv": "1afbbffb58394b6abd63af5c446b3c847e01daf10e1019df45685098b238dd80",
+    "data\\raw\\2472.TW.csv": "af17425e0e419ebc02a4b576ed7d1e9026818222a71a9ef7d446f074d7e6649e",
+    "data\\raw\\2481.TW.csv": "0a564d55d1afc735286f03c5ae7beba89cfeb2711cb53aef6cffde21cfdef272",
+    "data\\raw\\2492.TW.csv": "556124648f618fbe1a84040550a36aae417e7060328b058a5b2ecf434f92ecd7",
+    "data\\raw\\3026.TW.csv": "d0d321a17021042aece5f194b6cbb704cc0e09f4047cab694f6186b2069abf05",
+    "data\\raw\\3357.TWO.csv": "b5dd38e7649652bc6fd72f5adc274dd079e3ef36d1b7f0710b5e4e8ace4908cb",
+    "data\\raw\\3675.TWO.csv": "37a6e36c6970f3e9b09044318d92ea3cfdbdaf930a47e50ee4d9645c1a543d3c",
+    "data\\raw\\5425.TWO.csv": "7d67c342300034d3b9e15aa1564cb7688577210c92d425c9f3fb9a1944017ecb",
+    "data\\raw\\8255.TWO.csv": "732a4b5ce7e04768bdff540f142ffc3b867de7a4c67c90b7d73e098873c297ec",
+    "data\\raw\\8261.TW.csv": "71a0b193f49bbdcc3210bce7832d0397a86408cfac97acdb7881457ba8bf01ce",
+    "predictions\\2026-09-08_interval.json": "f6cc53083098b9b92a0618518af40a9a35794f47f205232d922d7b1a54742db3",
+    "predictions\\2026-09-08_point.json": "960cb99d586a1eada2894a6964ba491186df1e2520fc7482698fa2bb0eb83eb4",
+    "predictions\\2026-09-09_interval.json": "eec80d49cd25be170c9d783bd728d5cc337e56ab482f9fc482a8f8d81a8fca35",
+    "predictions\\2026-09-09_point.json": "f2093af66fb49dda4b4f1e02ccd2977caf7e7b7f7ae6e0c5e6c2a55fa14f0b8d",
+    "us\\nasdaq.csv": "4f613462bb314a30dc9882f66b054e6dd5f7ea569faed216e15d17069c6f01d5",
+    "us\\on.csv": "afea619c279de7228ccc5265632b2d7edfa3a28d33f315ac51cb6029261ec96c",
+    "us\\sox.csv": "ac19a99b029d33a6ab900ae8e08729110e40abf90acd7a72a878e525020bdb43",
+    "us\\sp500.csv": "e81d9804ac13d41ec6716176863332b93b6fe7aa9b70337e807ff88d29977b6b",
+    "us\\vsh.csv": "dee579bb928efa73dbd2b9f7691e4ede7e9517b57b9917710dc6e8430a780ff6"
+  }
+}

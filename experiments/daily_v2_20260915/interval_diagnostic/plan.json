@@ -1,0 +1,32 @@
+{
+  "locked_at": "2026-09-15T21:42:17.487803+08:00",
+  "interval_levels": [
+    0.5,
+    0.8
+  ],
+  "history_window": 60,
+  "minimum_history": 30,
+  "methods": [
+    "empirical_returns_60",
+    "ridge_full",
+    "ridge_price",
+    "zero",
+    "verified_original"
+  ],
+  "tuning": false,
+  "status": "exploratory historical replay; formal forecasts unchanged",
+  "source_sha256": {
+    "quantile_forecast.py": "db20224ba4829a2414384a9e7658a013d3795a16fcb4ff3ea5ed269bdde91952",
+    "models\\checkpoints\\2327.TW_quantile_best.pt": "69a1eb326d31515d2983f52f1efb029fcdb1c893815dd2528df9e41b59f517c6",
+    "models\\checkpoints\\2472.TW_quantile_best.pt": "69902a1713abd72ee8103ef2b7ae4f394d367b5cb9e4186ea2d5ab55a291e4a5",
+    "models\\checkpoints\\2481.TW_quantile_best.pt": "71493ce1743f4ca492b6fddfc06307e1dfadec39e7e3107c1590817a25a896e3",
+    "models\\checkpoints\\2492.TW_quantile_best.pt": "dcc974f59e636cc649edbab4f509d5742c152ea5d2c21b450c51227ea4d16a1c",
+    "models\\checkpoints\\3026.TW_quantile_best.pt": "b36ec1a4daac474d233e313396e1825026aa26014c2099c6c975fd0ae74fea2b",
+    "models\\checkpoints\\3357.TWO_quantile_best.pt": "4efa6a04477bae4cb2600035860c148c6d9ab2699d72943a5ed95793ee431b4f",
+    "models\\checkpoints\\3675.TWO_quantile_best.pt": "286dc5362d0111575196635c4f2197eef40da2c6c468fdc878816eafb36a0ada",
+    "models\\checkpoints\\5425.TWO_quantile_best.pt": "329f441ba4f995a160e0cda40ce03bf1d73a44f426f3e917873a626d35322b60",
+    "models\\checkpoints\\8255.TWO_quantile_best.pt": "05939825495d3406130f036aae1c6ec2949dd3e936c3830a57525144ba4f3ac4",
+    "models\\checkpoints\\8261.TW_quantile_best.pt": "55d0b7b2b29a478cd840afb967057b870a706b30b2c0d3ee0f3cc7455a8ee2ed"
+  },
+  "replay_sha256": "4a2e597577437f7d393242b50f5b73dd28969d68c9ddfd40c01e94d32a211b0c"
+}

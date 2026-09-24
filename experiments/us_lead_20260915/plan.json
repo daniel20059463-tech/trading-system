@@ -1,0 +1,86 @@
+{
+  "locked_at": "2026-09-15T22:48:24.457913+08:00",
+  "version": "us_lead_v1",
+  "tickers": [
+    "2327.TW",
+    "2492.TW",
+    "3026.TW",
+    "2472.TW",
+    "3357.TWO",
+    "5425.TWO",
+    "2481.TW",
+    "3675.TWO",
+    "8255.TWO",
+    "8261.TW"
+  ],
+  "us_symbols": {
+    "sox": "^SOX",
+    "nasdaq": "^IXIC",
+    "sp500": "^GSPC",
+    "on": "ON",
+    "vsh": "VSH"
+  },
+  "methods": [
+    "zero",
+    "sox_copy",
+    "price",
+    "us_only",
+    "price_us",
+    "price_us_peers"
+  ],
+  "targets": [
+    "close_to_close",
+    "gap",
+    "intraday"
+  ],
+  "price_features": [
+    "ret1",
+    "ret5",
+    "ret20",
+    "vol20",
+    "range_pct",
+    "volume_ratio",
+    "twii",
+    "fx_lag",
+    "peer1_lag",
+    "peer2_lag"
+  ],
+  "us_features": [
+    "sox_last",
+    "sox_since_tw",
+    "nasdaq_last",
+    "nasdaq_since_tw",
+    "sp500_last",
+    "sp500_since_tw",
+    "new_us_sessions",
+    "us_age_hours"
+  ],
+  "peer_features": [
+    "on_last",
+    "on_since_tw",
+    "vsh_last",
+    "vsh_since_tw"
+  ],
+  "training": "expanding; min60; age half-life126; Ridge alpha100; scaler past only; target/prior_vol20",
+  "validation": "first100 forecast days designated chronological validation; no tuning; remaining dates exploratory replay",
+  "reporting_windows": [
+    "all",
+    "after_validation",
+    "last120",
+    "last60",
+    "last20"
+  ],
+  "primary": "price_us vs price on same stock/date close-to-close; others fixed secondary diagnostics",
+  "cutoff": "08:30 Asia/Taipei; US regular close +60min conservative availability; actual US holiday/early-close calendar",
+  "missing": "exclude entire stock/date if latest expected US session or its previous scheduled close missing; no zero fill",
+  "no_news": true,
+  "no_production_change": true,
+  "historical_status": "exploratory, Taiwan history through2026-09-15 already examined",
+  "sources": {
+    "hours": "https://www.nyse.com/trade/hours-calendars",
+    "labor_day": "https://www.nasdaqtrader.com/TraderNews.aspx?id=ETS2026-47",
+    "taiwan_hours": "https://www.twse.com.tw/en/products/system/trading.html",
+    "calendar_implementation": "https://pandas-market-calendars.readthedocs.io/en/latest/usage.html",
+    "price_provider": "https://finance.yahoo.com/"
+  }
+}

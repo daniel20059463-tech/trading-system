@@ -1,0 +1,117 @@
+[
+  {
+    "path": "inputs/logs/2026-06-08_pre.log",
+    "bytes": 14068,
+    "sha256": "57322271556efc372070c67afe77bc2a1b981ef7b2276bf4a33ab9032cd4c171"
+  },
+  {
+    "path": "inputs/logs/2026-06-11_pre.log",
+    "bytes": 15402,
+    "sha256": "cdef86ea52378a880340e075e96d7389426c5094cafd7b677356a8597f962876"
+  },
+  {
+    "path": "inputs/logs/2026-06-15_pre.log",
+    "bytes": 15785,
+    "sha256": "73a151f4832e45f2da27ce58663043ebfbe81a5d1ba46aa2464c0018f5e9c3fc"
+  },
+  {
+    "path": "inputs/logs/2026-06-18_pre.log",
+    "bytes": 16096,
+    "sha256": "0d5156d535ec9716af9ce491c84de86e6ea87f425c0e50a5144e9072942649ee"
+  },
+  {
+    "path": "inputs/logs/2026-07-17_pre.log",
+    "bytes": 17489,
+    "sha256": "477795b57c2843a88db211f2959d93be2aca34268222c2a0819eb055755c39fa"
+  },
+  {
+    "path": "inputs/logs/2026-07-21_pre.log",
+    "bytes": 17329,
+    "sha256": "21a980823a6d224dfb4d1beea9508a806a1414670bfda6d5c6d2483d1fb491f5"
+  },
+  {
+    "path": "inputs/logs/2026-08-25_pre.log",
+    "bytes": 17364,
+    "sha256": "525f6936dfd19401448306eb312071f7c6f82dbc3ffeb7c018e92e393d8c86be"
+  },
+  {
+    "path": "inputs/logs/2026-08-31_pre.log",
+    "bytes": 17863,
+    "sha256": "860f8a0835839f2382e072e10b93b65bac9215e1a1eba25ed80fddfd1f5fcb3b"
+  },
+  {
+    "path": "inputs/logs/2026-09-08_pre.log",
+    "bytes": 17448,
+    "sha256": "cb2caee3ff0ef2fbf74d09166b28f56e1c8506b2b4ea17030d62da1ce3557f00"
+  },
+  {
+    "path": "inputs/logs/2026-09-09_pre.log",
+    "bytes": 17586,
+    "sha256": "68ec59c7ab631c2c6d3351d64e7698e0af93a27f55516d4ea8ffbbff542827e9"
+  },
+  {
+    "path": "inputs/logs/2026-09-16_pre.log",
+    "bytes": 17423,
+    "sha256": "f1e5e6e87e579507b6cdc878944473330b008e357b2476a216e3e73bf844ea65"
+  },
+  {
+    "path": "inputs/news/2026-06-08_pre_market.json",
+    "bytes": 11722,
+    "sha256": "55847b09296c16d0869966511d11822e70d631e73db72a63ba4cf347c74138a2"
+  },
+  {
+    "path": "inputs/news/2026-06-11_pre_market.json",
+    "bytes": 12038,
+    "sha256": "23a275d5d29de3934a479d9d43b3384f554962a61f85c01b7be2760842c98f58"
+  },
+  {
+    "path": "inputs/news/2026-06-15_pre_market.json",
+    "bytes": 11468,
+    "sha256": "04c49c1cae1df939fdc9e795cfe4736717684f87f1af0232cdb2b82c33f27120"
+  },
+  {
+    "path": "inputs/news/2026-06-18_pre_market.json",
+    "bytes": 11608,
+    "sha256": "99e7185c5a8fcd4166d5dbcd823e5bd7e27ba34788105e6f29237ed61a345cb3"
+  },
+  {
+    "path": "inputs/news/2026-07-17_pre_market.json",
+    "bytes": 12199,
+    "sha256": "bd99ba4472d4c8d6d05cd2083886b705a19be0e517c2acaa4df2d0fddbfeaacf"
+  },
+  {
+    "path": "inputs/news/2026-07-21_pre_market.json",
+    "bytes": 12337,
+    "sha256": "fe3f4788a1ad58dd58a37dd3d3f5ccf8373890a179fc9832aaed5fd346ac60e8"
+  },
+  {
+    "path": "inputs/news/2026-08-25_pre_market.json",
+    "bytes": 12083,
+    "sha256": "cd5d35f34d978fcfa6f1ce25e5b41bd5eaac594606f359073004c48ce96566f1"
+  },
+  {
+    "path": "inputs/news/2026-08-31_pre_market.json",
+    "bytes": 12048,
+    "sha256": "23b640372db7b23b9340982010b2b478bed10fd050f3aa54920c1f4dc2d97bf6"
+  },
+  {
+    "path": "inputs/news/2026-09-08_pre_market.json",
+    "bytes": 12213,
+    "sha256": "e2e497aeabdf4865bb106bf16d81fabaa30d960aa4740eea57fdcfbed92373c5"
+  },
+  {
+    "path": "inputs/news/2026-09-09_pre_market.json",
+    "bytes": 12034,
+    "sha256": "88556eb59da57ed62c1e729a54050401fa5977be94b3b97be0b804f79a3d0002"
+  },
+  {
+    "path": "inputs/news/2026-09-16_pre_market.json",
+    "bytes": 12359,
+    "sha256": "564c5c68f18c5ca365e07d09563b714a453e84c9971f97817fdd0b4346aa0eb3"
+  },
+  {
+    "path": "inputs/us_lead_predictions.csv",
+    "bytes": 15346009,
+    "sha256": "1782f35af52eec6feb1b91bc254a5d8534552e0cbe7ba573c477b051d10f7d78"
+  }
+]

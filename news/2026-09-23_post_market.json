@@ -1,0 +1,97 @@
+{
+  "date": "2026-09-23",
+  "timestamp": "2026-09-23 17:38:18",
+  "ticker_performance": {},
+  "summary": {},
+  "post_market_analysis": {
+    "2327": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.7,
+      "key_catalysts": [
+        "國巨股價漲至600元，分析師建議持有，顯示市場對其未來表現的信心",
+        "官股投顧對國巨提升至千元目標價，顯示專業機構看好",
+        "車用電子需求持續看漲，帶動被動元件需求"
+      ],
+      "risk_factors": [
+        "市場整體波動可能影響股價",
+        "法人可能進行獲利了結",
+        "車用電子需求不穩定存在不確定性"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "雖雲市場情勢樂觀，但考量短期波動與可能的獲利了結風險，建議持有觀望。",
+      "confidence": 0.8,
+      "ticker_name": "國巨",
+      "session_type": "post_market"
+    },
+    "2492": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [
+        "華新科8月營收續創高，村田調整產能打開轉單空間。",
+        "官股投顧對華新科千元目標價的期待。",
+        "被動元件需求因車用電子看漲但股價表現不佳。"
+      ],
+      "risk_factors": [
+        "被動元件市場漲跌各半，市場情緒不穩。",
+        "國巨重返600元大漲，可能影響華新科市場關注度。",
+        "近期股市波動增加，整體市場風險上升。"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "華新科現階段營收表現不錯，但市場需求與股價波動需持續觀察。",
+      "confidence": 0.7,
+      "ticker_name": "華新科",
+      "session_type": "post_market"
+    },
+    "3026": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [
+        "禾伸堂狂賺翻倍，利基型MLCC市場前景看好",
+        "官股投顧認為禾伸堂具千元股潛力，市占逾50%",
+        "AI 占比逐季向上，明年Q3新增產能將放量"
+      ],
+      "risk_factors": [
+        "整體被動元件市場需求不穩定",
+        "禾伸堂股價近期小幅下跌，承壓來自競爭對手",
+        "短期內車用電子需求波動"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "禾伸堂受益於MLCC需求，但市場環境仍存在不確定性，短期需密切觀察競爭狀況。",
+      "confidence": 0.7,
+      "ticker_name": "禾伸堂",
+      "session_type": "post_market"
+    },
+    "2472": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "key_catalysts": [],
+      "risk_factors": [
+        "無法取得 AI 分析，請人工確認"
+      ],
+      "strategy_signal": "hold",
+      "strategy_reason": "API 分析失敗，維持觀望",
+      "confidence": 0.0,
+      "ticker_name": "立隆電",
+      "session_type": "post_market"
+    },
+    "3357": {
+      "sentiment": "bullish",
+      "sentiment_score": 0.7,
+      "key_catalysts": [
+        "日商村田4月電感產品漲價",
+        "被動元件需求回升",
+        "市場對台廠股價表示樂觀"
+      ],
+      "risk_factors": [
+        "全球經濟不確定性",
+        "供應鏈中斷風險",
+        "競爭增加"
+      ],
+      "strategy_signal": "buy",
+      "strategy_reason": "被動元件市場需求回升，且漲價消息提振市場信心，有利臺慶科未來營收表現。",
+      "confidence": 0.8,
+      "ticker_name": "臺慶科",
+      "session_type": "post_market"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "locked_at": "2026-09-16T07:49:57.485526+08:00",
+  "reason": "Original us_only features were US-only but output scale used prior Taiwan volatility; add literal US-only raw-target control.",
+  "primary_comparison_unchanged": true,
+  "after_viewing_primary_results": true,
+  "raw_control": "same eight US/calendar features, alpha100, expanding min60, half-life126; raw three targets; no Taiwan volatility input/scale",
+  "uncertainty": "paired daily mean across all ten stocks; circular blocks5 trading days;3000resamples;seed20260916;approximate95percent descriptive interval",
+  "historical_status": "supplementary exploratory diagnostic, not model selection or independent evidence"
+}
